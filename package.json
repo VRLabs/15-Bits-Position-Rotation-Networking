@@ -1,0 +1,19 @@
+{
+  "name" : "com.vrlabs.synced-object",
+  "displayName" : "Synced Object",
+  "version" : "master",
+  "unity" : "2019.4",
+  "description" : "A prefab that syncs transforms over the network.",
+  "author" : {
+    "name" : "VRLabs",
+    "email" : "mail@vrlabs.dev",
+    "url" : "https://github.vrlabs.dev"
+  },
+  "vpmDependencies" : {
+    "com.vrchat.avatars" : "3.1.0"
+  },
+  "url" : "https://github.com/VRLabs/Synced-Object-Private/releases/download/master/Synced_Object_master.zip",
+  "legacyFolders" : {
+    "Assets\\VRLabs\\Synced Object" : "31c817c0a8c084d8fbb13bbcab2789fb"
+  }
+}

@@ -42,7 +42,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: Synced Object/World Constraint/Root Z/Mid Root Z/Mid End Z/End Z
+    path: Synced Object/World Root/Root Z/Mid Root Z/Mid End Z/End Z
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -70,7 +70,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[1].weight
-    path: Synced Object/World Constraint/Root Z/Mid Root Z/Mid End Z/End Z
+    path: Synced Object/World Root/Root Z/Mid Root Z/Mid End Z/End Z
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -98,7 +98,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Weight
-    path: Synced Object/World Constraint/Root Z/Mid Root Z/Mid End Z/End Z
+    path: Synced Object/World Root/Root Z/Mid Root Z/Mid End Z/End Z
     classID: 1818360608
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -177,7 +177,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: Synced Object/World Constraint/Root Z/Mid Root Z/Mid End Z/End Z
+    path: Synced Object/World Root/Root Z/Mid Root Z/Mid End Z/End Z
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -205,7 +205,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[1].weight
-    path: Synced Object/World Constraint/Root Z/Mid Root Z/Mid End Z/End Z
+    path: Synced Object/World Root/Root Z/Mid Root Z/Mid End Z/End Z
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -233,7 +233,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Weight
-    path: Synced Object/World Constraint/Root Z/Mid Root Z/Mid End Z/End Z
+    path: Synced Object/World Root/Root Z/Mid Root Z/Mid End Z/End Z
     classID: 1818360608
     script: {fileID: 0}
   m_EulerEditorCurves: []
