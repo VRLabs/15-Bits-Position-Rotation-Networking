@@ -7840,7 +7840,7 @@ MonoBehaviour:
   - type: 0
     name: SyncedObject/Target
     source: 
-    value: 0.01
+    value: 0.1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -14767,7 +14767,7 @@ MonoBehaviour:
   - type: 0
     name: SyncedObject/Target
     source: 
-    value: 0.01
+    value: 0.1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -15172,7 +15172,7 @@ MonoBehaviour:
   - type: 0
     name: SyncedObject/Target
     source: 
-    value: 0.01
+    value: 0.1
     valueMin: 0
     valueMax: 0
     chance: 0
