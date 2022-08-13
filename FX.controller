@@ -282,7 +282,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 1
-  m_HasExitTime: 0
+  m_HasExitTime: 1
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -2475,8 +2475,8 @@ AnimatorStateTransition:
   m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 1
+  m_OrderedInterruption: 0
+  m_CanTransitionToSelf: 0
 --- !u!114 &-6706140385817797538
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4823,8 +4823,8 @@ AnimatorStateTransition:
   m_HasExitTime: 1
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 1
+  m_OrderedInterruption: 0
+  m_CanTransitionToSelf: 0
 --- !u!1107 &-4534531050792513640
 AnimatorStateMachine:
   serializedVersion: 6
@@ -7452,8 +7452,8 @@ AnimatorStateTransition:
   m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 1
+  m_OrderedInterruption: 0
+  m_CanTransitionToSelf: 0
 --- !u!1102 &-2279500999406120807
 AnimatorState:
   serializedVersion: 6
@@ -9269,8 +9269,8 @@ AnimatorStateTransition:
   m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 1
+  m_OrderedInterruption: 0
+  m_CanTransitionToSelf: 0
 --- !u!114 &-426120977871534941
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -9971,7 +9971,7 @@ MonoBehaviour:
   - type: 0
     name: SyncedObject/Target
     source: 
-    value: 0.1
+    value: 0.01
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -18377,7 +18377,7 @@ MonoBehaviour:
   - type: 0
     name: SyncedObject/Target
     source: 
-    value: 0.1
+    value: 0.01
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -18778,7 +18778,7 @@ MonoBehaviour:
   - type: 0
     name: SyncedObject/Target
     source: 
-    value: 0.1
+    value: 0.01
     valueMin: 0
     valueMax: 0
     chance: 0
