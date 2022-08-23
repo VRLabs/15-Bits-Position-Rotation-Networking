@@ -301,9 +301,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rootTransform: {fileID: 517417902642433578}
   shapeType: 0
-  radius: 0.03
+  radius: 0.03333
   height: 2
-  position: {x: 0, y: 0, z: 0.03}
+  position: {x: 0, y: 0, z: 0.03333}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   collisionTags:
   - SyncedObject
@@ -327,9 +327,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rootTransform: {fileID: 517417902642433578}
   shapeType: 0
-  radius: 0.03
+  radius: 0.03333
   height: 2
-  position: {x: 0, y: 0, z: -0.03}
+  position: {x: 0, y: 0, z: -0.03333}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   collisionTags:
   - SyncedObject
