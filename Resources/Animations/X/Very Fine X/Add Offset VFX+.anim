@@ -38,7 +38,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Synced Object/Root
+    path: Synced Object/Position
   m_PositionCurves: []
   m_ScaleCurves: []
   m_FloatCurves:
@@ -47,7 +47,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.1
+        value: 0.03
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -56,7 +56,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.016666668
-        value: 0.1
+        value: 0.03
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -67,7 +67,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.x
-    path: Synced Object/Root/Start/End
+    path: Synced Object/Position/Start/End
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -75,7 +75,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.1
+        value: 0.03
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -84,7 +84,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.016666668
-        value: 0.1
+        value: 0.03
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -95,7 +95,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.y
-    path: Synced Object/Root/Start/End
+    path: Synced Object/Position/Start/End
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -103,7 +103,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.1
+        value: 0.03
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -112,7 +112,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.016666668
-        value: 0.1
+        value: 0.03
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -123,7 +123,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.z
-    path: Synced Object/Root/Start/End
+    path: Synced Object/Position/Start/End
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -151,7 +151,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Weight
-    path: Synced Object/Root/Start/End
+    path: Synced Object/Position/Start/End
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -179,7 +179,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationZ
-    path: Synced Object/Root/Start/End
+    path: Synced Object/Position/Start/End
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -291,7 +291,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationX
-    path: Synced Object/Root/Start/End
+    path: Synced Object/Position/Start/End
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -319,7 +319,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationY
-    path: Synced Object/Root/Start/End
+    path: Synced Object/Position/Start/End
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -347,7 +347,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationX
-    path: Synced Object/Root/Dynamics
+    path: Synced Object/Position/Dynamics
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -375,7 +375,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationY
-    path: Synced Object/Root/Dynamics
+    path: Synced Object/Position/Dynamics
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -403,7 +403,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationZ
-    path: Synced Object/Root/Dynamics
+    path: Synced Object/Position/Dynamics
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -431,7 +431,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: Synced Object/Root/Dynamics
+    path: Synced Object/Position/Dynamics
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -459,7 +459,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Synced Object/Root/Start/End
+    path: Synced Object/Position/Start/End
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -487,7 +487,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Synced Object/Root/Start
+    path: Synced Object/Position/Start
     classID: 1818360608
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -499,42 +499,42 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 3073253049
+      path: 1290868104
       attribute: 4
       script: {fileID: 0}
       typeID: 4
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2030982167
+      path: 3308136799
       attribute: 4294967284
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2030982167
+      path: 3308136799
       attribute: 4294967285
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2030982167
+      path: 3308136799
       attribute: 4294967286
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2030982167
+      path: 3308136799
       attribute: 4294967283
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2030982167
+      path: 3308136799
       attribute: 4294967289
       script: {fileID: 0}
       typeID: 1818360608
@@ -562,56 +562,56 @@ AnimationClip:
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2030982167
+      path: 3308136799
       attribute: 4294967287
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2030982167
+      path: 3308136799
       attribute: 4294967288
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3857171364
+      path: 2736361749
       attribute: 4294967287
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3857171364
+      path: 2736361749
       attribute: 4294967288
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3857171364
+      path: 2736361749
       attribute: 4294967289
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3857171364
+      path: 2736361749
       attribute: 12
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2030982167
+      path: 3308136799
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3175858192
+      path: 3256553719
       attribute: 3305885265
       script: {fileID: 0}
       typeID: 1818360608
@@ -644,7 +644,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.1
+        value: 0.03
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -653,7 +653,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.016666668
-        value: 0.1
+        value: 0.03
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -664,7 +664,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.x
-    path: Synced Object/Root/Start/End
+    path: Synced Object/Position/Start/End
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -672,7 +672,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.1
+        value: 0.03
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -681,7 +681,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.016666668
-        value: 0.1
+        value: 0.03
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -692,7 +692,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.y
-    path: Synced Object/Root/Start/End
+    path: Synced Object/Position/Start/End
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -700,7 +700,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.1
+        value: 0.03
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -709,7 +709,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.016666668
-        value: 0.1
+        value: 0.03
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -720,7 +720,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.z
-    path: Synced Object/Root/Start/End
+    path: Synced Object/Position/Start/End
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -748,7 +748,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Weight
-    path: Synced Object/Root/Start/End
+    path: Synced Object/Position/Start/End
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -776,7 +776,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationZ
-    path: Synced Object/Root/Start/End
+    path: Synced Object/Position/Start/End
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -888,7 +888,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationX
-    path: Synced Object/Root/Start/End
+    path: Synced Object/Position/Start/End
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -916,7 +916,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationY
-    path: Synced Object/Root/Start/End
+    path: Synced Object/Position/Start/End
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -944,7 +944,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationX
-    path: Synced Object/Root/Dynamics
+    path: Synced Object/Position/Dynamics
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -972,7 +972,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationY
-    path: Synced Object/Root/Dynamics
+    path: Synced Object/Position/Dynamics
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -1000,7 +1000,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationZ
-    path: Synced Object/Root/Dynamics
+    path: Synced Object/Position/Dynamics
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -1028,7 +1028,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: Synced Object/Root/Dynamics
+    path: Synced Object/Position/Dynamics
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -1056,7 +1056,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Synced Object/Root/Start/End
+    path: Synced Object/Position/Start/End
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -1084,7 +1084,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Synced Object/Root
+    path: Synced Object/Position
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1112,7 +1112,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Synced Object/Root
+    path: Synced Object/Position
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1140,7 +1140,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Synced Object/Root
+    path: Synced Object/Position
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1168,7 +1168,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Synced Object/Root/Start
+    path: Synced Object/Position/Start
     classID: 1818360608
     script: {fileID: 0}
   m_EulerEditorCurves:
@@ -1179,7 +1179,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Synced Object/Root
+    path: Synced Object/Position
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1189,7 +1189,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Synced Object/Root
+    path: Synced Object/Position
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1199,7 +1199,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Synced Object/Root
+    path: Synced Object/Position
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0

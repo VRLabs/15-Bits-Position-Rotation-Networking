@@ -38,7 +38,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Synced Object/Root
+    path: Synced Object/Position
   m_PositionCurves: []
   m_ScaleCurves: []
   m_FloatCurves:
@@ -67,7 +67,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationX
-    path: Synced Object/Solve/Rotation Copy
+    path: Synced Object/Rotation/Copy
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -95,7 +95,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationY
-    path: Synced Object/Solve/Rotation Copy
+    path: Synced Object/Rotation/Copy
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -123,7 +123,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationZ
-    path: Synced Object/Solve/Rotation Copy
+    path: Synced Object/Rotation/Copy
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -151,7 +151,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: Synced Object/Solve/Rotation Copy
+    path: Synced Object/Rotation/Copy
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -179,7 +179,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[1].weight
-    path: Synced Object/Solve/Rotation Copy
+    path: Synced Object/Rotation/Copy
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -207,7 +207,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Weight
-    path: Synced Object/Root/Dynamics/Target Position
+    path: Synced Object/Position/Dynamics/Target Position
     classID: 1818360608
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -314,7 +314,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationX
-    path: Synced Object/Solve/Rotation Copy
+    path: Synced Object/Rotation/Copy
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -342,7 +342,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationY
-    path: Synced Object/Solve/Rotation Copy
+    path: Synced Object/Rotation/Copy
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -370,7 +370,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationZ
-    path: Synced Object/Solve/Rotation Copy
+    path: Synced Object/Rotation/Copy
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -398,7 +398,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: Synced Object/Solve/Rotation Copy
+    path: Synced Object/Rotation/Copy
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -426,7 +426,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[1].weight
-    path: Synced Object/Solve/Rotation Copy
+    path: Synced Object/Rotation/Copy
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -454,7 +454,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Synced Object/Root
+    path: Synced Object/Position
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -482,7 +482,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Synced Object/Root
+    path: Synced Object/Position
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -510,7 +510,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Synced Object/Root
+    path: Synced Object/Position
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -538,7 +538,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Weight
-    path: Synced Object/Root/Dynamics/Target Position
+    path: Synced Object/Position/Dynamics/Target Position
     classID: 1818360608
     script: {fileID: 0}
   m_EulerEditorCurves:
@@ -549,7 +549,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Synced Object/Root
+    path: Synced Object/Position
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -559,7 +559,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Synced Object/Root
+    path: Synced Object/Position
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -569,7 +569,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Synced Object/Root
+    path: Synced Object/Position
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0
