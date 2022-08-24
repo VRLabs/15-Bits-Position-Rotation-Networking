@@ -142,7 +142,7 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 3
-    m_ConditionEvent: SyncedObject/Quit
+    m_ConditionEvent: SyncedObject/Steps
     m_EventTreshold: 8
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5867269237723781831}
@@ -7757,7 +7757,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parameters:
   - type: 1
-    name: SyncedObject/Quit
+    name: SyncedObject/Steps
     source: 
     value: 1
     valueMin: 0
@@ -8943,7 +8943,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parameters:
   - type: 1
-    name: SyncedObject/Quit
+    name: SyncedObject/Steps
     source: 
     value: 1
     valueMin: 0
@@ -9826,7 +9826,7 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 3
-    m_ConditionEvent: SyncedObject/Quit
+    m_ConditionEvent: SyncedObject/Steps
     m_EventTreshold: 8
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5867269237723781831}
@@ -10671,7 +10671,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: SyncedObject/Quit
+  - m_Name: SyncedObject/Steps
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -11142,7 +11142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parameters:
   - type: 1
-    name: SyncedObject/Quit
+    name: SyncedObject/Steps
     source: 
     value: 1
     valueMin: 0
@@ -15234,7 +15234,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parameters:
   - type: 1
-    name: SyncedObject/Quit
+    name: SyncedObject/Steps
     source: 
     value: 1
     valueMin: 0
@@ -15271,7 +15271,7 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 3
-    m_ConditionEvent: SyncedObject/Quit
+    m_ConditionEvent: SyncedObject/Steps
     m_EventTreshold: 8
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5867269237723781831}
@@ -16798,7 +16798,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parameters:
   - type: 0
-    name: SyncedObject/Quit
+    name: SyncedObject/Steps
     source: 
     value: 0
     valueMin: 0
@@ -19604,7 +19604,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parameters:
   - type: 1
-    name: SyncedObject/Quit
+    name: SyncedObject/Steps
     source: 
     value: 1
     valueMin: 0
@@ -21336,7 +21336,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parameters:
   - type: 0
-    name: SyncedObject/Quit
+    name: SyncedObject/Steps
     source: 
     value: 0
     valueMin: 0
