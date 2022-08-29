@@ -14441,8 +14441,8 @@ AnimatorStateTransition:
   m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 1
+  m_OrderedInterruption: 0
+  m_CanTransitionToSelf: 0
 --- !u!1101 &156765986926507279
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -25069,7 +25069,7 @@ AnimatorStateTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
-  - m_ConditionMode: 1
+  - m_ConditionMode: 2
     m_ConditionEvent: SyncedObject/Control
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
