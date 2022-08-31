@@ -171,7 +171,7 @@ Transform:
   m_Children:
   - {fileID: 6600433872843294957}
   m_Father: {fileID: 7428683993154435029}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &517417902125233556
 GameObject:
@@ -410,7 +410,7 @@ Transform:
   m_Children:
   - {fileID: 4294546786527074394}
   m_Father: {fileID: 7428683993154435029}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1818360608 &517417902327828819
 PositionConstraint:
@@ -429,7 +429,7 @@ PositionConstraint:
   m_IsContraintActive: 1
   m_IsLocked: 1
   m_Sources:
-  - sourceTransform: {fileID: 517417901313515337}
+  - sourceTransform: {fileID: 4294546787914825133}
     weight: 1
 --- !u!1818360609 &517417902327828816
 RotationConstraint:
@@ -448,7 +448,7 @@ RotationConstraint:
   m_IsContraintActive: 1
   m_IsLocked: 1
   m_Sources:
-  - sourceTransform: {fileID: 517417901313515337}
+  - sourceTransform: {fileID: 4294546787914825133}
     weight: 1
 --- !u!1 &517417902642433581
 GameObject:
@@ -525,7 +525,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 517417902842891378}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -747,8 +747,10 @@ GameObject:
   - component: {fileID: 4294546787914825131}
   - component: {fileID: 4294546787914825130}
   - component: {fileID: 4294546787914825128}
+  - component: {fileID: 695663010}
+  - component: {fileID: 695663009}
   m_Layer: 0
-  m_Name: Cull
+  m_Name: Copy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -765,8 +767,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 7649799161657019805}
-  m_RootOrder: 3
+  m_Father: {fileID: 7428683993154435029}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4294546787914825131
 MeshFilter:
@@ -834,6 +836,44 @@ ScaleConstraint:
   m_Sources:
   - sourceTransform: {fileID: 6081129921729490045, guid: b71942aa3315ab048812e9a8acf23be6,
       type: 3}
+    weight: 1
+--- !u!1818360608 &695663010
+PositionConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4294546787914825132}
+  m_Enabled: 1
+  m_Weight: 1
+  m_TranslationAtRest: {x: 0, y: 0, z: 0}
+  m_TranslationOffset: {x: 0, y: 0, z: 0}
+  m_AffectTranslationX: 0
+  m_AffectTranslationY: 0
+  m_AffectTranslationZ: 0
+  m_IsContraintActive: 1
+  m_IsLocked: 1
+  m_Sources:
+  - sourceTransform: {fileID: 517417901313515337}
+    weight: 1
+--- !u!1818360609 &695663009
+RotationConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4294546787914825132}
+  m_Enabled: 1
+  m_Weight: 1
+  m_RotationAtRest: {x: 0, y: 0, z: 0}
+  m_RotationOffset: {x: 0, y: 0, z: 0}
+  m_AffectRotationX: 0
+  m_AffectRotationY: 0
+  m_AffectRotationZ: 0
+  m_IsContraintActive: 1
+  m_IsLocked: 1
+  m_Sources:
+  - sourceTransform: {fileID: 517417901313515337}
     weight: 1
 --- !u!1 &5434964059789633391
 GameObject:
@@ -1316,6 +1356,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7649799161657019805}
+  - {fileID: 4294546787914825133}
   - {fileID: 517417902327828818}
   - {fileID: 517417901752123746}
   m_Father: {fileID: 517417902842891379}
@@ -1378,7 +1419,6 @@ Transform:
   - {fileID: 517417902642433578}
   - {fileID: 6911970805163828301}
   - {fileID: 5434964059789633390}
-  - {fileID: 4294546787914825133}
   m_Father: {fileID: 7428683993154435029}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -263,7 +263,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationX
-    path: Synced Object/World/Container
+    path: Synced Object/World/Copy
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -291,7 +291,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationY
-    path: Synced Object/World/Container
+    path: Synced Object/World/Copy
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -319,7 +319,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationZ
-    path: Synced Object/World/Container
+    path: Synced Object/World/Copy
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -825,7 +825,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationX
-    path: Synced Object/World/Container
+    path: Synced Object/World/Copy
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -853,7 +853,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationY
-    path: Synced Object/World/Container
+    path: Synced Object/World/Copy
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -881,7 +881,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationZ
-    path: Synced Object/World/Container
+    path: Synced Object/World/Copy
     classID: 1818360608
     script: {fileID: 0}
   - curve:
