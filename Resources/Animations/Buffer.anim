@@ -70,7 +70,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Synced Object/Root/Cull
+    path: Synced Object/World/Root/Cull
     classID: 1818360610
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -170,7 +170,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Synced Object/Root/Cull
+    path: Synced Object/World/Root/Cull
     classID: 1818360610
     script: {fileID: 0}
   m_EulerEditorCurves: []

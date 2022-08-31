@@ -42,7 +42,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationZ
-    path: Synced Object/Container
+    path: Synced Object/World/Container
     classID: 1818360609
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -107,7 +107,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationZ
-    path: Synced Object/Container
+    path: Synced Object/World/Container
     classID: 1818360609
     script: {fileID: 0}
   m_EulerEditorCurves: []

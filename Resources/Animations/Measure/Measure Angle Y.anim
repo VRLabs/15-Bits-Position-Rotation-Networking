@@ -38,7 +38,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Synced Object/Root
+    path: Synced Object/World/Root
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -63,7 +63,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Synced Object/Root/Start/End/Axis
+    path: Synced Object/World/Root/Start/End/Axis
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -88,7 +88,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Synced Object/Root/Force Angle/Plane
+    path: Synced Object/World/Root/Force Angle/Plane
   m_PositionCurves: []
   m_ScaleCurves: []
   m_FloatCurves:
@@ -117,7 +117,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationX
-    path: Synced Object/Root/Force Angle
+    path: Synced Object/World/Root/Force Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -145,7 +145,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationY
-    path: Synced Object/Root/Force Angle
+    path: Synced Object/World/Root/Force Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -173,7 +173,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationZ
-    path: Synced Object/Root/Force Angle
+    path: Synced Object/World/Root/Force Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -201,7 +201,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: Synced Object/Root/Force Angle
+    path: Synced Object/World/Root/Force Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -229,7 +229,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[1].weight
-    path: Synced Object/Root/Force Angle
+    path: Synced Object/World/Root/Force Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -257,7 +257,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Synced Object/Root/Start
+    path: Synced Object/World/Root/Start
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -285,7 +285,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Synced Object/Root/Start/End
+    path: Synced Object/World/Root/Start/End
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -313,7 +313,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationX
-    path: Synced Object/Container
+    path: Synced Object/World/Container
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -341,7 +341,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationY
-    path: Synced Object/Container
+    path: Synced Object/World/Container
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -369,7 +369,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationZ
-    path: Synced Object/Container
+    path: Synced Object/World/Container
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -397,7 +397,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: Synced Object/Root/Start
+    path: Synced Object/World/Root/Start
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -425,7 +425,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: Synced Object/Root/Start/End
+    path: Synced Object/World/Root/Start/End
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -453,7 +453,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationX
-    path: Synced Object/Container
+    path: Synced Object/World/Container
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -481,7 +481,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationY
-    path: Synced Object/Container
+    path: Synced Object/World/Container
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -509,7 +509,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationZ
-    path: Synced Object/Container
+    path: Synced Object/World/Container
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -537,7 +537,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: Synced Object/Root/Start
+    path: Synced Object/World/Root/Start
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -565,7 +565,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: Synced Object/Root/Start/End
+    path: Synced Object/World/Root/Start/End
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -593,7 +593,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Synced Object/Root/Start
+    path: Synced Object/World/Root/Start
     classID: 1818360608
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -798,7 +798,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationX
-    path: Synced Object/Root/Force Angle
+    path: Synced Object/World/Root/Force Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -826,7 +826,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationY
-    path: Synced Object/Root/Force Angle
+    path: Synced Object/World/Root/Force Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -854,7 +854,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationZ
-    path: Synced Object/Root/Force Angle
+    path: Synced Object/World/Root/Force Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -882,7 +882,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: Synced Object/Root/Force Angle
+    path: Synced Object/World/Root/Force Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -910,7 +910,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[1].weight
-    path: Synced Object/Root/Force Angle
+    path: Synced Object/World/Root/Force Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -938,7 +938,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Synced Object/Root
+    path: Synced Object/World/Root
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -966,7 +966,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Synced Object/Root
+    path: Synced Object/World/Root
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -994,7 +994,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Synced Object/Root
+    path: Synced Object/World/Root
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1022,7 +1022,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Synced Object/Root/Start
+    path: Synced Object/World/Root/Start
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -1050,7 +1050,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Synced Object/Root/Start/End
+    path: Synced Object/World/Root/Start/End
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -1078,7 +1078,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationX
-    path: Synced Object/Container
+    path: Synced Object/World/Container
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -1106,7 +1106,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationY
-    path: Synced Object/Container
+    path: Synced Object/World/Container
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -1134,7 +1134,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationZ
-    path: Synced Object/Container
+    path: Synced Object/World/Container
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -1162,7 +1162,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Synced Object/Root/Start/End/Axis
+    path: Synced Object/World/Root/Start/End/Axis
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1190,7 +1190,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Synced Object/Root/Start/End/Axis
+    path: Synced Object/World/Root/Start/End/Axis
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1218,7 +1218,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Synced Object/Root/Start/End/Axis
+    path: Synced Object/World/Root/Start/End/Axis
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1246,7 +1246,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: Synced Object/Root/Start
+    path: Synced Object/World/Root/Start
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -1274,7 +1274,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: Synced Object/Root/Start/End
+    path: Synced Object/World/Root/Start/End
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -1302,7 +1302,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Synced Object/Root/Force Angle/Plane
+    path: Synced Object/World/Root/Force Angle/Plane
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1330,7 +1330,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Synced Object/Root/Force Angle/Plane
+    path: Synced Object/World/Root/Force Angle/Plane
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1358,7 +1358,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Synced Object/Root/Force Angle/Plane
+    path: Synced Object/World/Root/Force Angle/Plane
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1386,7 +1386,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationX
-    path: Synced Object/Container
+    path: Synced Object/World/Container
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -1414,7 +1414,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationY
-    path: Synced Object/Container
+    path: Synced Object/World/Container
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -1442,7 +1442,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationZ
-    path: Synced Object/Container
+    path: Synced Object/World/Container
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -1470,7 +1470,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: Synced Object/Root/Start
+    path: Synced Object/World/Root/Start
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -1498,7 +1498,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: Synced Object/Root/Start/End
+    path: Synced Object/World/Root/Start/End
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -1526,7 +1526,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Synced Object/Root/Start
+    path: Synced Object/World/Root/Start
     classID: 1818360608
     script: {fileID: 0}
   m_EulerEditorCurves:
@@ -1537,7 +1537,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Synced Object/Root
+    path: Synced Object/World/Root
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1547,7 +1547,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Synced Object/Root
+    path: Synced Object/World/Root
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1557,7 +1557,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Synced Object/Root
+    path: Synced Object/World/Root
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1567,7 +1567,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Synced Object/Root/Force Angle/Plane
+    path: Synced Object/World/Root/Force Angle/Plane
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1577,7 +1577,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Synced Object/Root/Force Angle/Plane
+    path: Synced Object/World/Root/Force Angle/Plane
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1587,7 +1587,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Synced Object/Root/Force Angle/Plane
+    path: Synced Object/World/Root/Force Angle/Plane
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1597,7 +1597,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Synced Object/Root/Start/End/Axis
+    path: Synced Object/World/Root/Start/End/Axis
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1607,7 +1607,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Synced Object/Root/Start/End/Axis
+    path: Synced Object/World/Root/Start/End/Axis
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1617,7 +1617,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Synced Object/Root/Start/End/Axis
+    path: Synced Object/World/Root/Start/End/Axis
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0
