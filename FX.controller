@@ -46497,6 +46497,21 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: SyncedObject/Send/Init
     m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Send/Coarse
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Send/Fine
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Send/XY
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Send/Z
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Send/Angle
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 8244004619335551179}
   m_DstState: {fileID: 0}
   m_Solo: 0
