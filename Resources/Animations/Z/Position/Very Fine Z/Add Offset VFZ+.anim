@@ -1347,8 +1347,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Synced Object/World/Root
+    attribute: m_LocalEulerAngles.z
+    path: Synced Object/World/Root/Start/End/Axis
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1358,7 +1358,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Synced Object/World/Root
+    path: Synced Object/World/Root/Start/End/Axis
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1367,8 +1367,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Synced Object/World/Root
+    attribute: m_LocalEulerAngles.x
+    path: Synced Object/World/Root/Start/End/Axis
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1408,7 +1408,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Synced Object/World/Root/Start/End/Axis
+    path: Synced Object/World/Root
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1418,7 +1418,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Synced Object/World/Root/Start/End/Axis
+    path: Synced Object/World/Root
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1428,7 +1428,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Synced Object/World/Root/Start/End/Axis
+    path: Synced Object/World/Root
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0
