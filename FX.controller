@@ -37,6 +37,18 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 1
     destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: -1
+    sourceMax: 0
+    destMin: 1
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &-9187687892080818270
@@ -187,6 +199,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!114 &-9137605069025497590
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1101 &-9127817665756223748
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -433,6 +472,18 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 1
     destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: -1
+    sourceMax: 0
+    destMin: 1
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &-9026366527608702658
@@ -587,6 +638,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!114 &-8978206689441387466
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!114 &-8974301239662993230
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -753,7 +831,8 @@ AnimatorState:
   - {fileID: -6019623646037991436}
   - {fileID: 9056435384850717309}
   - {fileID: -9086640491518246702}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 4886998659033727223}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -938,6 +1017,18 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 1
     destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: -1
+    sourceMax: 0
+    destMin: 1
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &-8877817766036592877
@@ -949,7 +1040,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6700338662297614859}
@@ -1075,6 +1166,18 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 1
     destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: -1
+    sourceMax: 0
+    destMin: 1
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &-8809019768490980189
@@ -1117,6 +1220,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!114 &-8802533460287047337
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1101 &-8796095419353095018
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -1339,6 +1469,18 @@ MonoBehaviour:
     name: SyncedObject/Receive-
     source: SyncedObject/Send/Data
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -1911,7 +2053,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5542734425458141977}
@@ -1939,7 +2081,10 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 569579754241772127}
-  m_StateMachineBehaviours: []
+  - {fileID: 4177691859991388551}
+  - {fileID: 8786104013157139902}
+  m_StateMachineBehaviours:
+  - {fileID: -6909509980035712235}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -1963,7 +2108,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5620986433369350453}
@@ -2151,6 +2296,33 @@ AnimatorTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 1
+--- !u!114 &-8392973745593916620
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1101 &-8387765211013771736
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -2160,7 +2332,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4217355518130776599}
@@ -2190,7 +2362,8 @@ AnimatorState:
   - {fileID: -123175058185207429}
   - {fileID: 8283524259635672292}
   - {fileID: 4571372400316664579}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 2931761906396947260}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -3773,7 +3946,8 @@ AnimatorState:
   - {fileID: 6589860117114908828}
   - {fileID: 4077093671515437048}
   - {fileID: -6425681660178088386}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -6601608238595360703}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -3819,7 +3993,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2871692967367777153}
@@ -4175,6 +4349,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!114 &-7776744166485937241
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1101 &-7774596210105051910
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -4263,6 +4464,31 @@ MonoBehaviour:
     destMax: 0
   localOnly: 1
   debugString: 
+--- !u!1101 &-7735593216165756445
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Set Data
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: IsLocal
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: -488193132161150631}
+  m_DstState: {fileID: 0}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 1
+  m_HasExitTime: 0
+  m_HasFixedDuration: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 0
+  m_CanTransitionToSelf: 0
 --- !u!1101 &-7720302639990703155
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -4360,6 +4586,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!114 &-7682723190308965000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1101 &-7676087472182973700
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -4572,7 +4825,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3130135879430433854}
@@ -4670,6 +4923,31 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6008986795475520508}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 1
+  m_HasExitTime: 0
+  m_HasFixedDuration: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 0
+  m_CanTransitionToSelf: 0
+--- !u!1101 &-7568752084106105012
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Set Data
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: IsLocal
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: -488193132161150631}
+  m_DstState: {fileID: 0}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -4837,6 +5115,18 @@ MonoBehaviour:
     name: SyncedObject/Receive-
     source: SyncedObject/Send/Data
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -5727,6 +6017,33 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!114 &-7215966879393220259
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1101 &-7212159549865607691
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -5826,6 +6143,18 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 1
     destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: -1
+    sourceMax: 0
+    destMin: 1
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &-7198015034605233424
@@ -5837,7 +6166,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -18993107643401679}
@@ -6276,7 +6605,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5198308546048090879}
@@ -6429,6 +6758,34 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!1102 &-6986918827975703069
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Apply For Host
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions:
+  - {fileID: 8870676061687942703}
+  - {fileID: -1541910245031464738}
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 0
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: e68cb955ed656a84e9df9e26a507ffdb, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1109 &-6983356236287370106
 AnimatorTransition:
   m_ObjectHideFlags: 1
@@ -6539,6 +6896,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!114 &-6909509980035712235
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1101 &-6894228700261900759
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -7096,7 +7480,8 @@ AnimatorState:
   - {fileID: -5693742768550562163}
   - {fileID: 4745963443303151557}
   - {fileID: 8336905363778994322}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -8802533460287047337}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -7371,6 +7756,33 @@ MonoBehaviour:
     destMax: -1
   localOnly: 1
   debugString: 
+--- !u!114 &-6625225261127139550
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1101 &-6621601002948998708
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -7443,6 +7855,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!114 &-6601608238595360703
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1101 &-6601338740477370835
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -7565,6 +8004,18 @@ MonoBehaviour:
     name: SyncedObject/Receive-
     source: SyncedObject/Send/Data
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -8129,7 +8580,8 @@ AnimatorState:
   - {fileID: -3353737026070214323}
   - {fileID: 962272138430611923}
   - {fileID: 2090310240149472774}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 1209225354650316158}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -8153,7 +8605,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5663236903461969383}
@@ -8425,6 +8877,40 @@ AnimatorStateTransition:
   m_TransitionOffset: 0
   m_ExitTime: 1
   m_HasExitTime: 1
+  m_HasFixedDuration: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 0
+  m_CanTransitionToSelf: 0
+--- !u!1101 &-6236260166979220320
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: IsLocal
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Debug
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Control
+    m_EventTreshold: 0
+  - m_ConditionMode: 6
+    m_ConditionEvent: SyncedObject/Step
+    m_EventTreshold: 17
+  m_DstStateMachine: {fileID: -488193132161150631}
+  m_DstState: {fileID: 0}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -8751,6 +9237,18 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &-6110359812798530303
@@ -8799,6 +9297,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!114 &-6103963382529572867
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1101 &-6095581445845710702
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -9234,7 +9759,8 @@ AnimatorState:
   - {fileID: 7142446814937797723}
   - {fileID: 5032838208490283571}
   - {fileID: -6378597039111041340}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 3977633956610481694}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -9278,6 +9804,18 @@ MonoBehaviour:
     name: SyncedObject/Receive+
     source: SyncedObject/Send/Data
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: -1
+    sourceMax: 0
+    destMin: 1
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -9482,7 +10020,8 @@ AnimatorState:
   - {fileID: -2365153088882568449}
   - {fileID: 7975234587831450971}
   - {fileID: -6259092100948467905}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 4999669699956512341}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -9795,7 +10334,8 @@ AnimatorState:
   - {fileID: -7034452906985305378}
   - {fileID: 1454872717212075282}
   - {fileID: -455221071526776476}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -7682723190308965000}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -10595,7 +11135,8 @@ AnimatorState:
   m_Transitions:
   - {fileID: -8809019768490980189}
   - {fileID: 1231024003004942720}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 8404934896166021332}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -10876,7 +11417,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2523993220364385525}
@@ -10921,6 +11462,18 @@ MonoBehaviour:
     name: SyncedObject/Receive-
     source: SyncedObject/Send/Data
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -11358,6 +11911,33 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!114 &-4874470733898502207
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 1
+    name: SyncedObject/Cycles
+    source: 
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1102 &-4867706530132059989
 AnimatorState:
   serializedVersion: 6
@@ -12023,6 +12603,18 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 1
     destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: -1
+    sourceMax: 0
+    destMin: 1
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &-4551427863054058873
@@ -12300,7 +12892,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4879051064126973350}
@@ -12466,7 +13058,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 871290011608084326}
@@ -12482,6 +13074,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!114 &-4330386942487947435
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!114 &-4322952268549706559
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -12511,6 +13130,18 @@ MonoBehaviour:
     name: SyncedObject/Receive+
     source: SyncedObject/Send/Data
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: -1
+    sourceMax: 0
+    destMin: 1
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -12931,6 +13562,40 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!1101 &-4159307951494962464
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: IsLocal
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Debug
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Control
+    m_EventTreshold: 0
+  - m_ConditionMode: 6
+    m_ConditionEvent: SyncedObject/Step
+    m_EventTreshold: 17
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -6986918827975703069}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 1
+  m_HasExitTime: 0
+  m_HasFixedDuration: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 0
+  m_CanTransitionToSelf: 0
 --- !u!1101 &-4158972489284714583
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -13059,7 +13724,8 @@ AnimatorState:
   m_Transitions:
   - {fileID: -2537836241639676601}
   - {fileID: 6211126367041950818}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -6103963382529572867}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -13715,6 +14381,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!114 &-3880600833657208639
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1101 &-3855420386256253190
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -14020,6 +14713,18 @@ MonoBehaviour:
     name: SyncedObject/Receive+
     source: SyncedObject/Send/Data
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: -1
+    sourceMax: 0
+    destMin: 1
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -14404,6 +15109,46 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!1101 &-3505081510161248958
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Very Coarse X
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsLocal
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Send/Coarse
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Send/Fine
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Send/XY
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Send/Z
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Send/Angle
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 8244004619335551179}
+  m_DstState: {fileID: 0}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 1
+  m_HasExitTime: 0
+  m_HasFixedDuration: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 0
+  m_CanTransitionToSelf: 0
 --- !u!1101 &-3498348862351090583
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -14496,7 +15241,8 @@ AnimatorState:
   - {fileID: 6727310753517347337}
   - {fileID: 976755303799728387}
   - {fileID: 5320938379198327301}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 973876540358592434}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -14522,6 +15268,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: SyncedObject/Control
     m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsLocal
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2196101301909692073}
   m_Solo: 0
@@ -14545,7 +15294,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4390851313186319904}
@@ -15169,6 +15918,45 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
+--- !u!114 &-3233371223828512915
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1102 &-3219217468744668452
@@ -15259,7 +16047,8 @@ AnimatorState:
   - {fileID: -157087282864180704}
   - {fileID: 4087066296787626448}
   - {fileID: -6190871863802309043}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 1693734173698698607}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -15680,7 +16469,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6238193422825834862}
@@ -15771,6 +16560,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!114 &-2909578388134002742
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1107 &-2886754014745935987
 AnimatorStateMachine:
   serializedVersion: 6
@@ -15903,7 +16719,8 @@ AnimatorState:
   - {fileID: -6463364530195387447}
   - {fileID: -4215490269160934618}
   - {fileID: -7893134600684274698}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -8978206689441387466}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -16318,7 +17135,8 @@ AnimatorState:
   - {fileID: -8437863515396564901}
   - {fileID: 3922920220937680890}
   - {fileID: 2018319451757835865}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -7215966879393220259}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -16720,6 +17538,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!114 &-2584845277576366936
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!114 &-2562845622572816258
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16959,7 +17804,8 @@ AnimatorState:
   - {fileID: 1450886779510528629}
   - {fileID: 7742978540799768041}
   - {fileID: 2144111265543455037}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 8718428327164861094}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -17053,7 +17899,8 @@ AnimatorState:
   - {fileID: -8347632533081381990}
   - {fileID: -2087467458650768052}
   - {fileID: 2591115035886915596}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -899368557911996945}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -17276,7 +18123,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5862306604138933807}
@@ -17321,6 +18168,18 @@ MonoBehaviour:
     name: SyncedObject/Receive+
     source: SyncedObject/Send/Data
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: -1
+    sourceMax: 0
+    destMin: 1
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -17655,7 +18514,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3492987964717682971}
@@ -17854,7 +18713,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Apply
+  m_Name: Apply For Remote
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -17864,7 +18723,7 @@ AnimatorState:
   - {fileID: -855300262304233537}
   - {fileID: -5506099346177490866}
   - {fileID: 4222581800770543820}
-  - {fileID: 5028147338402665139}
+  - {fileID: -7735593216165756445}
   m_StateMachineBehaviours:
   - {fileID: -1702375123390583984}
   m_Position: {x: 50, y: 50, z: 0}
@@ -17875,7 +18734,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: e68cb955ed656a84e9df9e26a507ffdb, type: 2}
+  m_Motion: {fileID: 7400000, guid: 61269efee7b2d6244a04bc9a308315f8, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -19292,7 +20151,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2666248526085811734}
@@ -19573,6 +20432,18 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!114 &-1643412833755925750
@@ -19604,6 +20475,18 @@ MonoBehaviour:
     name: SyncedObject/Receive+
     source: SyncedObject/Send/Data
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: -1
+    sourceMax: 0
+    destMin: 1
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -19696,6 +20579,18 @@ MonoBehaviour:
     name: SyncedObject/Receive+
     source: SyncedObject/Send/Data
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: -1
+    sourceMax: 0
+    destMin: 1
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -19844,6 +20739,31 @@ AnimatorTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 1
+--- !u!1101 &-1541910245031464738
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Inside
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -1178944616894334787}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 1
+  m_HasExitTime: 0
+  m_HasFixedDuration: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 0
+  m_CanTransitionToSelf: 0
 --- !u!114 &-1517349007805163779
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -19899,7 +20819,8 @@ AnimatorState:
   - {fileID: -5341064025512287285}
   - {fileID: -1656968944404055839}
   - {fileID: 9072067271184765858}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 7600018920125272032}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -19943,6 +20864,18 @@ MonoBehaviour:
     name: SyncedObject/Receive-
     source: SyncedObject/Send/Data
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -20009,6 +20942,18 @@ MonoBehaviour:
     name: SyncedObject/Receive-
     source: SyncedObject/Send/Data
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -20457,8 +21402,9 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: 4911976653833112093}
   - {fileID: 8604085873551924437}
+  - {fileID: -4159307951494962464}
+  - {fileID: -6236260166979220320}
   m_StateMachineBehaviours:
   - {fileID: 4662892474776062522}
   - {fileID: 516331477898114001}
@@ -20470,7 +21416,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: e423fd295c6b8ba48879e30e65accc20, type: 2}
+  m_Motion: {fileID: 7400000, guid: 22ae98b16d2aa2346989ec6d535229cb, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -20894,6 +21840,18 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &-1040638190164397129
@@ -20905,6 +21863,46 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions: []
   m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 0}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 1
+  m_HasExitTime: 0
+  m_HasFixedDuration: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 0
+  m_CanTransitionToSelf: 0
+--- !u!1101 &-1019249148074099768
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Fine X
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsLocal
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Send/Coarse
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Send/Fine
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Send/XY
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Send/Z
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Send/Angle
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 8244004619335551179}
   m_DstState: {fileID: 0}
   m_Solo: 0
   m_Mute: 0
@@ -20982,14 +21980,17 @@ AnimatorStateMachine:
     m_Position: {x: 30, y: -10, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6976044059388788606}
-    m_Position: {x: 240, y: 50, z: 0}
+    m_Position: {x: 240, y: -60, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -6986918827975703069}
+    m_Position: {x: 30, y: 60, z: 0}
   m_ChildStateMachines:
   - serializedVersion: 1
     m_StateMachine: {fileID: 8244004619335551179}
-    m_Position: {x: 30, y: 110, z: 0}
+    m_Position: {x: 240, y: 120, z: 0}
   - serializedVersion: 1
     m_StateMachine: {fileID: -488193132161150631}
-    m_Position: {x: 30, y: 50, z: 0}
+    m_Position: {x: 240, y: 60, z: 0}
   m_AnyStateTransitions:
   - {fileID: 7039390804187425767}
   - {fileID: -3699820866077469837}
@@ -21198,7 +22199,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -8376744328978764080}
@@ -21214,6 +22215,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!114 &-899368557911996945
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1101 &-890820543718873253
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -21431,6 +22459,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!114 &-808185268817854015
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1102 &-796662770281984609
 AnimatorState:
   serializedVersion: 6
@@ -21444,7 +22499,8 @@ AnimatorState:
   m_Transitions:
   - {fileID: 422210549665687290}
   - {fileID: 6726467942459716509}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -612924212875322590}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -21972,6 +23028,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!114 &-612924212875322590
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1101 &-597351303584806992
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -22003,7 +23086,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4117461235427010429}
@@ -22293,7 +23376,8 @@ AnimatorStateMachine:
   - {fileID: -922910335598056352}
   - {fileID: 4699772076697943058}
   m_StateMachineTransitions: {}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 1719186364152776558}
   m_AnyStatePosition: {x: -440, y: -400, z: 0}
   m_EntryPosition: {x: -440, y: -360, z: 0}
   m_ExitPosition: {x: -440, y: -440, z: 0}
@@ -22557,6 +23641,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!114 &-341781847110213746
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1101 &-339848048316921571
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -22566,7 +23677,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -8529788711146549268}
@@ -22952,7 +24063,8 @@ AnimatorState:
   - {fileID: 1706100626188749400}
   - {fileID: -1270439801478502795}
   - {fileID: 420746449234108671}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 1730310575687678816}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -23044,7 +24156,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2554235783363754434}
@@ -23467,7 +24579,8 @@ AnimatorState:
   m_Transitions:
   - {fileID: 5101585554038442898}
   - {fileID: -2713800949999060384}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 8937956680279563715}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -23515,6 +24628,12 @@ AnimatorController:
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
   - m_Name: SyncedObject/Control
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: SyncedObject/Debug
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -24141,6 +25260,18 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 1
     destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: -1
+    sourceMax: 0
+    destMin: 1
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1102 &321190075063905161
@@ -24526,7 +25657,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -796662770281984609}
@@ -24767,7 +25898,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2785794132446245977}
@@ -24857,7 +25988,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3753712552737712820}
@@ -24956,7 +26087,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 8961459743555436452}
@@ -25063,6 +26194,9 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: SyncedObject/Control
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2196101301909692073}
@@ -25531,6 +26665,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!1102 &735048170887119677
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Apply For Remote 0
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours:
+  - {fileID: -4874470733898502207}
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 0
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 61269efee7b2d6244a04bc9a308315f8, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1101 &742817077251582556
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -25713,7 +26874,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6352597385578413272}
@@ -25846,7 +27007,10 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -3488954215013943132}
-  m_StateMachineBehaviours: []
+  - {fileID: 2968152899233755232}
+  - {fileID: 9149098923634957074}
+  m_StateMachineBehaviours:
+  - {fileID: -4330386942487947435}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -26020,6 +27184,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!114 &973876540358592434
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1101 &976755303799728387
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -26385,6 +27576,18 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1102 &1149974861456296486
@@ -26534,6 +27737,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!114 &1209225354650316158
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1101 &1231024003004942720
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -27805,6 +29035,33 @@ MonoBehaviour:
     destMax: 0
   localOnly: 1
   debugString: 
+--- !u!114 &1693734173698698607
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1101 &1706100626188749400
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -27845,6 +29102,60 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!114 &1719186364152776558
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
+--- !u!114 &1730310575687678816
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1101 &1757644576515094068
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -29769,6 +31080,46 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!1101 &2642729792256851820
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Coarse Angle X
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsLocal
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Send/Coarse
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Send/Fine
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Send/XY
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Send/Z
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Send/Angle
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 8244004619335551179}
+  m_DstState: {fileID: 0}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 1
+  m_HasExitTime: 0
+  m_HasFixedDuration: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 0
+  m_CanTransitionToSelf: 0
 --- !u!1101 &2662226977157392017
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -29807,7 +31158,8 @@ AnimatorState:
   - {fileID: -6469424317471733567}
   - {fileID: 1657849080163923990}
   - {fileID: -105819761034747796}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -2909578388134002742}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -30331,7 +31683,8 @@ AnimatorState:
   - {fileID: 5274470517920301747}
   - {fileID: 5793592778021630088}
   - {fileID: 6568986718501880562}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -3880600833657208639}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -30522,7 +31875,8 @@ AnimatorState:
   - {fileID: -427396595479780402}
   - {fileID: 8321841052684417184}
   - {fileID: -7111397838723835846}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 4441650811146406104}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -30564,6 +31918,61 @@ MonoBehaviour:
     destMax: 127
   localOnly: 1
   debugString: 
+--- !u!114 &2931761906396947260
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
+--- !u!1101 &2968152899233755232
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Set Data
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: IsLocal
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Debug
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: -488193132161150631}
+  m_DstState: {fileID: 0}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 1
+  m_HasExitTime: 0
+  m_HasFixedDuration: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 0
+  m_CanTransitionToSelf: 0
 --- !u!1101 &2996256173798404839
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -30694,6 +32103,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!114 &3059934117726895383
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1101 &3063479720201692676
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -30996,6 +32432,18 @@ MonoBehaviour:
     name: SyncedObject/Receive-
     source: SyncedObject/Send/Data
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -31333,7 +32781,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2912023613427059595}
@@ -32281,7 +33729,8 @@ AnimatorState:
   - {fileID: 4485923721608793220}
   - {fileID: -2120953927516397679}
   - {fileID: -3498348862351090583}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -7776744166485937241}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -32325,6 +33774,18 @@ MonoBehaviour:
     name: SyncedObject/Receive-
     source: SyncedObject/Send/Data
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -32715,6 +34176,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!114 &3977633956610481694
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1101 &3987395426893129692
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -32958,7 +34446,8 @@ AnimatorState:
   - {fileID: 7021327996223539452}
   - {fileID: -4091787537922192362}
   - {fileID: -7720302639990703155}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 5383017221333535935}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -33193,6 +34682,34 @@ MonoBehaviour:
     destMax: 1
   localOnly: 1
   debugString: 
+--- !u!1101 &4177691859991388551
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Set Data
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: IsLocal
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Debug
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: -488193132161150631}
+  m_DstState: {fileID: 0}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 1
+  m_HasExitTime: 0
+  m_HasFixedDuration: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 0
+  m_CanTransitionToSelf: 0
 --- !u!1102 &4188246250823082116
 AnimatorState:
   serializedVersion: 6
@@ -33316,7 +34833,8 @@ AnimatorState:
   - {fileID: 470489416180532101}
   - {fileID: 4201539199208885460}
   - {fileID: -6894228700261900759}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -8392973745593916620}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -33448,7 +34966,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 8916442546636630960}
@@ -33602,7 +35120,8 @@ AnimatorState:
   - {fileID: -2367382748773794975}
   - {fileID: -3907611029324784687}
   - {fileID: -3030895137743935696}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 3059934117726895383}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -33823,6 +35342,33 @@ MonoBehaviour:
     destMax: -1
   localOnly: 1
   debugString: 
+--- !u!114 &4441650811146406104
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!114 &4455124391026677092
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -33852,6 +35398,18 @@ MonoBehaviour:
     name: SyncedObject/Receive+
     source: SyncedObject/Send/Data
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: -1
+    sourceMax: 0
+    destMin: 1
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -34204,7 +35762,8 @@ AnimatorState:
   m_Transitions:
   - {fileID: 8293835989834868937}
   - {fileID: -6789786073309813713}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -3233371223828512915}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -34298,6 +35857,18 @@ MonoBehaviour:
     destMax: 0
   - type: 0
     name: SyncedObject/Send/Init
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Debug
     source: 
     value: 0
     valueMin: 0
@@ -34431,6 +36002,18 @@ MonoBehaviour:
     name: SyncedObject/Receive+
     source: SyncedObject/Send/Data
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: -1
+    sourceMax: 0
+    destMin: 1
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -34689,6 +36272,18 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &4837729225750467926
@@ -34783,6 +36378,18 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 1
     destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: -1
+    sourceMax: 0
+    destMin: 1
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &4852001879684050107
@@ -34860,7 +36467,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2802849011549374348}
@@ -34940,7 +36547,8 @@ AnimatorState:
   - {fileID: -571107140003755032}
   - {fileID: -1830279998018182829}
   - {fileID: -7374023027634711783}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -808185268817854015}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -34983,6 +36591,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!114 &4886998659033727223
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1101 &4890948353451286711
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -35045,41 +36680,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6275886232913785498}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0
-  m_TransitionOffset: 0
-  m_ExitTime: 1
-  m_HasExitTime: 0
-  m_HasFixedDuration: 0
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 0
-  m_CanTransitionToSelf: 0
---- !u!1101 &4911976653833112093
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: IsLocal
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
-    m_EventTreshold: 0
-  - m_ConditionMode: 6
-    m_ConditionEvent: SyncedObject/Step
-    m_EventTreshold: 17
-  m_DstStateMachine: {fileID: -488193132161150631}
-  m_DstState: {fileID: 0}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -35342,6 +36946,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!114 &4999669699956512341
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1101 &5001552769802175497
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -35369,31 +37000,6 @@ AnimatorStateTransition:
     m_ConditionEvent: SyncedObject/Send/Angle
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 8244004619335551179}
-  m_DstState: {fileID: 0}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0
-  m_TransitionOffset: 0
-  m_ExitTime: 1
-  m_HasExitTime: 0
-  m_HasFixedDuration: 0
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 0
-  m_CanTransitionToSelf: 0
---- !u!1101 &5028147338402665139
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Set Data
-  m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: IsLocal
-    m_EventTreshold: 0
-  m_DstStateMachine: {fileID: -488193132161150631}
   m_DstState: {fileID: 0}
   m_Solo: 0
   m_Mute: 0
@@ -35914,6 +37520,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!114 &5169690632050993600
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1101 &5175531307827076760
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -36276,7 +37909,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7943713921469043611}
@@ -36524,6 +38157,33 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!114 &5383017221333535935
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1101 &5414730737684614280
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -37091,7 +38751,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1501175372632580489}
@@ -37124,7 +38784,8 @@ AnimatorState:
   - {fileID: 8851255492386295167}
   - {fileID: -3606829546605916633}
   - {fileID: 7346547664815176733}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 5169690632050993600}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -37818,7 +39479,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -8927995122789752803}
@@ -38112,7 +39773,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -168227422662548733}
@@ -38641,7 +40302,8 @@ AnimatorState:
   m_Transitions:
   - {fileID: -8083138618519820251}
   - {fileID: -1636333432414208405}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -9137605069025497590}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -38824,7 +40486,8 @@ AnimatorState:
   - {fileID: -2974704505695199070}
   - {fileID: 8149432669321689975}
   - {fileID: 8284858926763333024}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -341781847110213746}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -39444,6 +41107,18 @@ MonoBehaviour:
     name: SyncedObject/Receive-
     source: SyncedObject/Send/Data
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -40348,7 +42023,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4104235132998181504}
@@ -40769,6 +42444,46 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!1101 &7064365662302097479
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Fine Angle X
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsLocal
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Send/Coarse
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Send/Fine
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Send/XY
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Send/Z
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Send/Angle
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 8244004619335551179}
+  m_DstState: {fileID: 0}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 1
+  m_HasExitTime: 0
+  m_HasFixedDuration: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 0
+  m_CanTransitionToSelf: 0
 --- !u!1109 &7073483381032641306
 AnimatorTransition:
   m_ObjectHideFlags: 1
@@ -40815,6 +42530,18 @@ MonoBehaviour:
     name: SyncedObject/Receive+
     source: SyncedObject/Send/Data
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: -1
+    sourceMax: 0
+    destMin: 1
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -41257,6 +42984,18 @@ MonoBehaviour:
     name: SyncedObject/Receive-
     source: SyncedObject/Send/Data
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -42272,6 +44011,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!114 &7600018920125272032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!114 &7638021044394078684
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -42710,6 +44476,46 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!1101 &7763502467039497833
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Coarse X
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsLocal
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Send/Coarse
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Send/Fine
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Send/XY
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Send/Z
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Send/Angle
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 8244004619335551179}
+  m_DstState: {fileID: 0}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 1
+  m_HasExitTime: 0
+  m_HasFixedDuration: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 0
+  m_CanTransitionToSelf: 0
 --- !u!1102 &7764075721284935322
 AnimatorState:
   serializedVersion: 6
@@ -43956,6 +45762,18 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 1
     destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: -1
+    sourceMax: 0
+    destMin: 1
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &8283524259635672292
@@ -44159,6 +45977,18 @@ MonoBehaviour:
     name: SyncedObject/Receive-
     source: SyncedObject/Send/Data
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -44540,6 +46370,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!114 &8404934896166021332
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1101 &8425174834349511519
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -44944,6 +46801,18 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
+  - type: 0
+    name: SyncedObject/Sent
+    source: SyncedObject/Send/Data
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &8604085873551924437
@@ -45186,6 +47055,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!114 &8718428327164861094
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1109 &8727646719515655513
 AnimatorTransition:
   m_ObjectHideFlags: 1
@@ -45353,6 +47249,37 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!1101 &8786104013157139902
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Control
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: IsLocal
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Debug
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -2196101301909692073}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 1
+  m_HasExitTime: 0
+  m_HasFixedDuration: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 0
+  m_CanTransitionToSelf: 0
 --- !u!1102 &8787764523880677305
 AnimatorState:
   serializedVersion: 6
@@ -45429,6 +47356,46 @@ AnimatorStateTransition:
   m_TransitionOffset: 0
   m_ExitTime: 1
   m_HasExitTime: 1
+  m_HasFixedDuration: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 0
+  m_CanTransitionToSelf: 0
+--- !u!1101 &8818549834401129403
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Very Fine X
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: IsLocal
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Send/Coarse
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Send/Fine
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Send/XY
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Send/Z
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Send/Angle
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 8244004619335551179}
+  m_DstState: {fileID: 0}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -45519,6 +47486,28 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!1101 &8870676061687942703
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions: []
+  m_DstStateMachine: {fileID: -488193132161150631}
+  m_DstState: {fileID: 0}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 0
+  m_HasExitTime: 1
+  m_HasFixedDuration: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
 --- !u!114 &8884758073151212794
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -45699,7 +47688,8 @@ AnimatorState:
   - {fileID: -7676087472182973700}
   - {fileID: 1454387959653734516}
   - {fileID: -141483575192646025}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -6625225261127139550}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -45759,6 +47749,33 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
+--- !u!114 &8937956680279563715
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parameters:
+  - type: 0
+    name: SyncedObject/Sent
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  localOnly: 0
+  debugString: 
 --- !u!1101 &8947047978025545444
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -45793,7 +47810,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: SyncedObject/Control
+    m_ConditionEvent: SyncedObject/Sent
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4645896527187268321}
@@ -45825,7 +47842,8 @@ AnimatorState:
   - {fileID: -5421791008872520265}
   - {fileID: 1427041511774416203}
   - {fileID: -4785050248673425288}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: -2584845277576366936}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 0
@@ -46251,6 +48269,37 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!1101 &9149098923634957074
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Control
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: IsLocal
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Debug
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -2196101301909692073}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0
+  m_TransitionOffset: 0
+  m_ExitTime: 1
+  m_HasExitTime: 0
+  m_HasFixedDuration: 0
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 0
+  m_CanTransitionToSelf: 0
 --- !u!1101 &9151080960705534627
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
