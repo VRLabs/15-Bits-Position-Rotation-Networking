@@ -1422,7 +1422,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
+        value: 1
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -1431,7 +1431,7 @@ AnimationClip:
         outWeight: 0
       - serializedVersion: 3
         time: 0.016666668
-        value: 0
+        value: 1
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -1478,7 +1478,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -1487,7 +1487,7 @@ AnimationClip:
         outWeight: 0
       - serializedVersion: 3
         time: 0.016666668
-        value: 1
+        value: 0
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -1902,77 +1902,77 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 2613307422
+      path: 1259287749
       attribute: 4294967287
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2613307422
+      path: 1259287749
       attribute: 4294967288
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2613307422
+      path: 1259287749
       attribute: 4294967289
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2613307422
+      path: 1259287749
       attribute: 4294967284
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2613307422
+      path: 1259287749
       attribute: 4294967285
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2613307422
+      path: 1259287749
       attribute: 4294967286
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2613307422
+      path: 1259287749
       attribute: 4294967283
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2613307422
+      path: 1259287749
       attribute: 3305885265
       script: {fileID: 0}
       typeID: 1818360609
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2613307422
+      path: 1259287749
       attribute: 4294967284
       script: {fileID: 0}
       typeID: 1818360609
       customType: 32
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2613307422
+      path: 1259287749
       attribute: 4294967285
       script: {fileID: 0}
       typeID: 1818360609
       customType: 32
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2613307422
+      path: 1259287749
       attribute: 4294967286
       script: {fileID: 0}
       typeID: 1818360609
@@ -2028,77 +2028,77 @@ AnimationClip:
       customType: 32
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 527676272
+      path: 1772492379
       attribute: 4294967287
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 527676272
+      path: 1772492379
       attribute: 4294967288
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 527676272
+      path: 1772492379
       attribute: 4294967289
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 527676272
+      path: 1772492379
       attribute: 4294967284
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 527676272
+      path: 1772492379
       attribute: 4294967285
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 527676272
+      path: 1772492379
       attribute: 4294967286
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 527676272
+      path: 1772492379
       attribute: 4294967283
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 527676272
+      path: 1772492379
       attribute: 3305885265
       script: {fileID: 0}
       typeID: 1818360609
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 527676272
+      path: 1772492379
       attribute: 4294967284
       script: {fileID: 0}
       typeID: 1818360609
       customType: 32
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 527676272
+      path: 1772492379
       attribute: 4294967285
       script: {fileID: 0}
       typeID: 1818360609
       customType: 32
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 527676272
+      path: 1772492379
       attribute: 4294967286
       script: {fileID: 0}
       typeID: 1818360609
@@ -2154,147 +2154,147 @@ AnimationClip:
       customType: 32
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1045311588
+      path: 3043283510
       attribute: 4294967287
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1045311588
+      path: 3043283510
       attribute: 4294967288
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1045311588
+      path: 3043283510
       attribute: 4294967289
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1045311588
+      path: 3043283510
       attribute: 4294967284
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1045311588
+      path: 3043283510
       attribute: 4294967285
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1045311588
+      path: 3043283510
       attribute: 4294967286
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1045311588
+      path: 3043283510
       attribute: 4294967283
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2059486945
+      path: 1145215080
       attribute: 4294967287
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2059486945
+      path: 1145215080
       attribute: 4294967288
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2059486945
+      path: 1145215080
       attribute: 4294967289
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2059486945
+      path: 1145215080
       attribute: 4294967284
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2059486945
+      path: 1145215080
       attribute: 4294967285
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2059486945
+      path: 1145215080
       attribute: 4294967286
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2059486945
+      path: 1145215080
       attribute: 4294967283
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 4003244883
+      path: 911673790
       attribute: 4294967287
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 4003244883
+      path: 911673790
       attribute: 4294967288
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 4003244883
+      path: 911673790
       attribute: 4294967289
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 4003244883
+      path: 911673790
       attribute: 4294967283
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2821340985
+      path: 1259854703
       attribute: 4294967284
       script: {fileID: 0}
       typeID: 1818360609
       customType: 32
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2821340985
+      path: 1259854703
       attribute: 4294967285
       script: {fileID: 0}
       typeID: 1818360609
       customType: 32
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2821340985
+      path: 1259854703
       attribute: 4294967286
       script: {fileID: 0}
       typeID: 1818360609
@@ -3797,7 +3797,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
+        value: 1
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -3806,7 +3806,7 @@ AnimationClip:
         outWeight: 0
       - serializedVersion: 3
         time: 0.016666668
-        value: 0
+        value: 1
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -3853,7 +3853,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -3862,7 +3862,7 @@ AnimationClip:
         outWeight: 0
       - serializedVersion: 3
         time: 0.016666668
-        value: 1
+        value: 0
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
