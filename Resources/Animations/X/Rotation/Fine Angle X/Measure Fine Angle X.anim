@@ -42,7 +42,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationX
-    path: Synced Object/World/Coarse
+    path: Synced Object/Solving/World/Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -70,7 +70,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationY
-    path: Synced Object/World/Coarse
+    path: Synced Object/Solving/World/Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -98,7 +98,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationZ
-    path: Synced Object/World/Coarse
+    path: Synced Object/Solving/World/Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -126,7 +126,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.x
-    path: Synced Object/World/Coarse
+    path: Synced Object/Solving/World/Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -154,7 +154,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Weight
-    path: Synced Object/World/Coarse
+    path: Synced Object/Solving/World/Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -182,7 +182,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.x
-    path: Synced Object/World/Coarse
+    path: Synced Object/Solving/World/Coarse
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -210,7 +210,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationX
-    path: Synced Object/Copy Angle
+    path: Synced Object/Solving/Copy Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -238,7 +238,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: Synced Object/Copy Angle
+    path: Synced Object/Solving/Copy Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -266,7 +266,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.x
-    path: Synced Object/Copy Angle/Plane
+    path: Synced Object/Solving/Copy Angle/Plane
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -294,7 +294,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.y
-    path: Synced Object/Copy Angle/Plane
+    path: Synced Object/Solving/Copy Angle/Plane
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -322,7 +322,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.z
-    path: Synced Object/Copy Angle/Plane
+    path: Synced Object/Solving/Copy Angle/Plane
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -350,7 +350,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationX
-    path: Synced Object/World/Fine
+    path: Synced Object/Solving/World/Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -378,7 +378,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationY
-    path: Synced Object/World/Fine
+    path: Synced Object/Solving/World/Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -406,7 +406,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationZ
-    path: Synced Object/World/Fine
+    path: Synced Object/Solving/World/Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -434,7 +434,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.x
-    path: Synced Object/World/Fine
+    path: Synced Object/Solving/World/Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -462,7 +462,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Weight
-    path: Synced Object/World/Fine
+    path: Synced Object/Solving/World/Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -490,7 +490,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Synced Object/World/Fine
+    path: Synced Object/Solving/World/Fine
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -518,7 +518,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.x
-    path: Synced Object/Measure Angle
+    path: Synced Object/Solving/Measure Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -546,7 +546,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.y
-    path: Synced Object/Measure Angle
+    path: Synced Object/Solving/Measure Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -574,7 +574,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.z
-    path: Synced Object/Measure Angle
+    path: Synced Object/Solving/Measure Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -602,7 +602,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationX
-    path: Synced Object/World/Very Coarse
+    path: Synced Object/Solving/World/Very Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -630,7 +630,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationY
-    path: Synced Object/World/Very Coarse
+    path: Synced Object/Solving/World/Very Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -658,7 +658,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationZ
-    path: Synced Object/World/Very Coarse
+    path: Synced Object/Solving/World/Very Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -686,7 +686,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.x
-    path: Synced Object/World/Very Coarse
+    path: Synced Object/Solving/World/Very Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -714,7 +714,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Weight
-    path: Synced Object/World/Very Coarse
+    path: Synced Object/Solving/World/Very Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -742,7 +742,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationX
-    path: Synced Object/World/Very Fine
+    path: Synced Object/Solving/World/Very Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -770,7 +770,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationY
-    path: Synced Object/World/Very Fine
+    path: Synced Object/Solving/World/Very Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -798,7 +798,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationZ
-    path: Synced Object/World/Very Fine
+    path: Synced Object/Solving/World/Very Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -826,7 +826,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.x
-    path: Synced Object/World/Very Fine
+    path: Synced Object/Solving/World/Very Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -854,7 +854,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Weight
-    path: Synced Object/World/Very Fine
+    path: Synced Object/Solving/World/Very Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -882,7 +882,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationX
-    path: Synced Object/World/Very Fine/Next
+    path: Synced Object/Solving/World/Very Fine/Next
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -910,7 +910,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationY
-    path: Synced Object/World/Very Fine/Next
+    path: Synced Object/Solving/World/Very Fine/Next
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -938,7 +938,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationZ
-    path: Synced Object/World/Very Fine/Next
+    path: Synced Object/Solving/World/Very Fine/Next
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -966,7 +966,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Weight
-    path: Synced Object/World/Very Fine/Next
+    path: Synced Object/Solving/World/Very Fine/Next
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -994,7 +994,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.x
-    path: Synced Object/World/Very Fine/Proximity
+    path: Synced Object/Solving/World/Very Fine/Proximity
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -1022,7 +1022,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.y
-    path: Synced Object/World/Very Fine/Proximity
+    path: Synced Object/Solving/World/Very Fine/Proximity
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -1050,7 +1050,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.z
-    path: Synced Object/World/Very Fine/Proximity
+    path: Synced Object/Solving/World/Very Fine/Proximity
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -1078,7 +1078,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationX
-    path: Synced Object/World/Position
+    path: Synced Object/Solving/World/Position
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -1106,7 +1106,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationY
-    path: Synced Object/World/Position
+    path: Synced Object/Solving/World/Position
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -1134,7 +1134,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationZ
-    path: Synced Object/World/Position
+    path: Synced Object/Solving/World/Position
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -1162,7 +1162,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationX
-    path: Synced Object/World/Rotation
+    path: Synced Object/Solving/World/Rotation
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -1190,7 +1190,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationY
-    path: Synced Object/World/Rotation
+    path: Synced Object/Solving/World/Rotation
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -1218,7 +1218,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationZ
-    path: Synced Object/World/Rotation
+    path: Synced Object/Solving/World/Rotation
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -1246,7 +1246,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Synced Object/Measure Angle
+    path: Synced Object/Solving/Measure Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -1274,7 +1274,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Synced Object/World/Coarse
+    path: Synced Object/Solving/World/Coarse
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -1302,7 +1302,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.x
-    path: Synced Object/World/Fine
+    path: Synced Object/Solving/World/Fine
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -1330,7 +1330,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.y
-    path: Synced Object/World/Coarse
+    path: Synced Object/Solving/World/Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -1358,7 +1358,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.z
-    path: Synced Object/World/Coarse
+    path: Synced Object/Solving/World/Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -1386,7 +1386,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.y
-    path: Synced Object/World/Coarse
+    path: Synced Object/Solving/World/Coarse
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -1414,7 +1414,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.z
-    path: Synced Object/World/Coarse
+    path: Synced Object/Solving/World/Coarse
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -1442,7 +1442,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.y
-    path: Synced Object/World/Fine
+    path: Synced Object/Solving/World/Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -1470,7 +1470,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.z
-    path: Synced Object/World/Fine
+    path: Synced Object/Solving/World/Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -1498,7 +1498,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.y
-    path: Synced Object/World/Fine
+    path: Synced Object/Solving/World/Fine
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -1526,7 +1526,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.z
-    path: Synced Object/World/Fine
+    path: Synced Object/Solving/World/Fine
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -1554,7 +1554,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.y
-    path: Synced Object/World/Very Coarse
+    path: Synced Object/Solving/World/Very Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -1582,7 +1582,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.z
-    path: Synced Object/World/Very Coarse
+    path: Synced Object/Solving/World/Very Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -1610,7 +1610,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.y
-    path: Synced Object/World/Very Fine
+    path: Synced Object/Solving/World/Very Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -1638,7 +1638,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.z
-    path: Synced Object/World/Very Fine
+    path: Synced Object/Solving/World/Very Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -1666,7 +1666,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationY
-    path: Synced Object/Copy Angle
+    path: Synced Object/Solving/Copy Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -1694,7 +1694,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationZ
-    path: Synced Object/Copy Angle
+    path: Synced Object/Solving/Copy Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -1722,7 +1722,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationX
-    path: Synced Object/Measure Angle
+    path: Synced Object/Solving/Measure Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -1750,7 +1750,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationY
-    path: Synced Object/Measure Angle
+    path: Synced Object/Solving/Measure Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -1778,7 +1778,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationZ
-    path: Synced Object/Measure Angle
+    path: Synced Object/Solving/Measure Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -1806,7 +1806,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Synced Object/World/Container
+    path: Synced Object/Solving/World/Result
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -1834,7 +1834,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Synced Object/World/Container
+    path: Synced Object/Solving/World/Result
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -1862,7 +1862,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: Synced Object/World/Position
+    path: Synced Object/Solving/World/Position
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -1890,7 +1890,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: Synced Object/World/Rotation
+    path: Synced Object/Solving/World/Rotation
     classID: 1818360609
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -2417,7 +2417,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationX
-    path: Synced Object/World/Coarse
+    path: Synced Object/Solving/World/Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -2445,7 +2445,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationY
-    path: Synced Object/World/Coarse
+    path: Synced Object/Solving/World/Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -2473,7 +2473,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationZ
-    path: Synced Object/World/Coarse
+    path: Synced Object/Solving/World/Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -2501,7 +2501,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.x
-    path: Synced Object/World/Coarse
+    path: Synced Object/Solving/World/Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -2529,7 +2529,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Weight
-    path: Synced Object/World/Coarse
+    path: Synced Object/Solving/World/Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -2557,7 +2557,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.x
-    path: Synced Object/World/Coarse
+    path: Synced Object/Solving/World/Coarse
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -2585,7 +2585,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationX
-    path: Synced Object/Copy Angle
+    path: Synced Object/Solving/Copy Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -2613,7 +2613,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: Synced Object/Copy Angle
+    path: Synced Object/Solving/Copy Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -2641,7 +2641,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.x
-    path: Synced Object/Copy Angle/Plane
+    path: Synced Object/Solving/Copy Angle/Plane
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -2669,7 +2669,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.y
-    path: Synced Object/Copy Angle/Plane
+    path: Synced Object/Solving/Copy Angle/Plane
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -2697,7 +2697,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.z
-    path: Synced Object/Copy Angle/Plane
+    path: Synced Object/Solving/Copy Angle/Plane
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -2725,7 +2725,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationX
-    path: Synced Object/World/Fine
+    path: Synced Object/Solving/World/Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -2753,7 +2753,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationY
-    path: Synced Object/World/Fine
+    path: Synced Object/Solving/World/Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -2781,7 +2781,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationZ
-    path: Synced Object/World/Fine
+    path: Synced Object/Solving/World/Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -2809,7 +2809,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.x
-    path: Synced Object/World/Fine
+    path: Synced Object/Solving/World/Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -2837,7 +2837,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Weight
-    path: Synced Object/World/Fine
+    path: Synced Object/Solving/World/Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -2865,7 +2865,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Synced Object/World/Fine
+    path: Synced Object/Solving/World/Fine
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -2893,7 +2893,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.x
-    path: Synced Object/Measure Angle
+    path: Synced Object/Solving/Measure Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -2921,7 +2921,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.y
-    path: Synced Object/Measure Angle
+    path: Synced Object/Solving/Measure Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -2949,7 +2949,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.z
-    path: Synced Object/Measure Angle
+    path: Synced Object/Solving/Measure Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -2977,7 +2977,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationX
-    path: Synced Object/World/Very Coarse
+    path: Synced Object/Solving/World/Very Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -3005,7 +3005,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationY
-    path: Synced Object/World/Very Coarse
+    path: Synced Object/Solving/World/Very Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -3033,7 +3033,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationZ
-    path: Synced Object/World/Very Coarse
+    path: Synced Object/Solving/World/Very Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -3061,7 +3061,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.x
-    path: Synced Object/World/Very Coarse
+    path: Synced Object/Solving/World/Very Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -3089,7 +3089,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Weight
-    path: Synced Object/World/Very Coarse
+    path: Synced Object/Solving/World/Very Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -3117,7 +3117,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationX
-    path: Synced Object/World/Very Fine
+    path: Synced Object/Solving/World/Very Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -3145,7 +3145,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationY
-    path: Synced Object/World/Very Fine
+    path: Synced Object/Solving/World/Very Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -3173,7 +3173,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationZ
-    path: Synced Object/World/Very Fine
+    path: Synced Object/Solving/World/Very Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -3201,7 +3201,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.x
-    path: Synced Object/World/Very Fine
+    path: Synced Object/Solving/World/Very Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -3229,7 +3229,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Weight
-    path: Synced Object/World/Very Fine
+    path: Synced Object/Solving/World/Very Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -3257,7 +3257,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationX
-    path: Synced Object/World/Very Fine/Next
+    path: Synced Object/Solving/World/Very Fine/Next
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -3285,7 +3285,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationY
-    path: Synced Object/World/Very Fine/Next
+    path: Synced Object/Solving/World/Very Fine/Next
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -3313,7 +3313,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationZ
-    path: Synced Object/World/Very Fine/Next
+    path: Synced Object/Solving/World/Very Fine/Next
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -3341,7 +3341,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Weight
-    path: Synced Object/World/Very Fine/Next
+    path: Synced Object/Solving/World/Very Fine/Next
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -3369,7 +3369,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.x
-    path: Synced Object/World/Very Fine/Proximity
+    path: Synced Object/Solving/World/Very Fine/Proximity
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -3397,7 +3397,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.y
-    path: Synced Object/World/Very Fine/Proximity
+    path: Synced Object/Solving/World/Very Fine/Proximity
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -3425,7 +3425,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.z
-    path: Synced Object/World/Very Fine/Proximity
+    path: Synced Object/Solving/World/Very Fine/Proximity
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -3453,7 +3453,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationX
-    path: Synced Object/World/Position
+    path: Synced Object/Solving/World/Position
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -3481,7 +3481,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationY
-    path: Synced Object/World/Position
+    path: Synced Object/Solving/World/Position
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -3509,7 +3509,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationZ
-    path: Synced Object/World/Position
+    path: Synced Object/Solving/World/Position
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -3537,7 +3537,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationX
-    path: Synced Object/World/Rotation
+    path: Synced Object/Solving/World/Rotation
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -3565,7 +3565,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationY
-    path: Synced Object/World/Rotation
+    path: Synced Object/Solving/World/Rotation
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -3593,7 +3593,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationZ
-    path: Synced Object/World/Rotation
+    path: Synced Object/Solving/World/Rotation
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -3621,7 +3621,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Synced Object/Measure Angle
+    path: Synced Object/Solving/Measure Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -3649,7 +3649,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Synced Object/World/Coarse
+    path: Synced Object/Solving/World/Coarse
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -3677,7 +3677,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.x
-    path: Synced Object/World/Fine
+    path: Synced Object/Solving/World/Fine
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -3705,7 +3705,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.y
-    path: Synced Object/World/Coarse
+    path: Synced Object/Solving/World/Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -3733,7 +3733,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.z
-    path: Synced Object/World/Coarse
+    path: Synced Object/Solving/World/Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -3761,7 +3761,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.y
-    path: Synced Object/World/Coarse
+    path: Synced Object/Solving/World/Coarse
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -3789,7 +3789,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.z
-    path: Synced Object/World/Coarse
+    path: Synced Object/Solving/World/Coarse
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -3817,7 +3817,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.y
-    path: Synced Object/World/Fine
+    path: Synced Object/Solving/World/Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -3845,7 +3845,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.z
-    path: Synced Object/World/Fine
+    path: Synced Object/Solving/World/Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -3873,7 +3873,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.y
-    path: Synced Object/World/Fine
+    path: Synced Object/Solving/World/Fine
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -3901,7 +3901,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_RotationOffset.z
-    path: Synced Object/World/Fine
+    path: Synced Object/Solving/World/Fine
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -3929,7 +3929,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.y
-    path: Synced Object/World/Very Coarse
+    path: Synced Object/Solving/World/Very Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -3957,7 +3957,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.z
-    path: Synced Object/World/Very Coarse
+    path: Synced Object/Solving/World/Very Coarse
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -3985,7 +3985,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.y
-    path: Synced Object/World/Very Fine
+    path: Synced Object/Solving/World/Very Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -4013,7 +4013,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TranslationOffset.z
-    path: Synced Object/World/Very Fine
+    path: Synced Object/Solving/World/Very Fine
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -4041,7 +4041,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationY
-    path: Synced Object/Copy Angle
+    path: Synced Object/Solving/Copy Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -4069,7 +4069,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationZ
-    path: Synced Object/Copy Angle
+    path: Synced Object/Solving/Copy Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -4097,7 +4097,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationX
-    path: Synced Object/Measure Angle
+    path: Synced Object/Solving/Measure Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -4125,7 +4125,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationY
-    path: Synced Object/Measure Angle
+    path: Synced Object/Solving/Measure Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -4153,7 +4153,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectRotationZ
-    path: Synced Object/Measure Angle
+    path: Synced Object/Solving/Measure Angle
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -4181,7 +4181,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Synced Object/World/Container
+    path: Synced Object/Solving/World/Result
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -4209,7 +4209,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Synced Object/World/Container
+    path: Synced Object/Solving/World/Result
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -4237,7 +4237,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: Synced Object/World/Position
+    path: Synced Object/Solving/World/Position
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -4265,7 +4265,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: Synced Object/World/Rotation
+    path: Synced Object/Solving/World/Rotation
     classID: 1818360609
     script: {fileID: 0}
   m_EulerEditorCurves: []
