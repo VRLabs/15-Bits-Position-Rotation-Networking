@@ -165,7 +165,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Converted
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5607074469392139116}
   m_Solo: 0
@@ -175,7 +178,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 1
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -341,6 +344,18 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0
     destMax: 127
+  - type: 0
+    name: SyncedObject/Converted
+    source: SyncedObject/Measure-
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: 0
+    sourceMax: 1
+    destMin: 0
+    destMax: 127
   localOnly: 1
   debugString: 
 --- !u!1101 &-8944312644911042178
@@ -350,7 +365,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Converted
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5038550654205468236}
   m_Solo: 0
@@ -360,7 +378,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 1
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -715,8 +733,8 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: 576853226210287773}
   - {fileID: -2727898896215705884}
+  - {fileID: 576853226210287773}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -959,6 +977,18 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0
     destMax: 127
+  - type: 0
+    name: SyncedObject/Converted
+    source: SyncedObject/Measure_Angle
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: 0
+    sourceMax: 1
+    destMin: 0
+    destMax: 127
   localOnly: 1
   debugString: 
 --- !u!114 &-8606321193296748407
@@ -1129,6 +1159,18 @@ MonoBehaviour:
     name: SyncedObject/Convert
     source: SyncedObject/Measure-
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: 0
+    sourceMax: 1
+    destMin: 0
+    destMax: 127
+  - type: 0
+    name: SyncedObject/Converted
+    source: SyncedObject/Measure-
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -1933,7 +1975,7 @@ AnimatorStateMachine:
   m_AnyStatePosition: {x: 220, y: -90, z: 0}
   m_EntryPosition: {x: 220, y: -50, z: 0}
   m_ExitPosition: {x: 220, y: -130, z: 0}
-  m_ParentStateMachinePosition: {x: 900, y: 260, z: 0}
+  m_ParentStateMachinePosition: {x: 650, y: 170, z: 0}
   m_DefaultState: {fileID: 5290023920707319701}
 --- !u!114 &-7977672476542764423
 MonoBehaviour:
@@ -2549,7 +2591,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Converted
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6008986795475520508}
   m_Solo: 0
@@ -2559,7 +2604,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 1
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -2581,6 +2626,18 @@ MonoBehaviour:
     name: SyncedObject/Convert
     source: SyncedObject/Measure+
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: 0
+    sourceMax: 1
+    destMin: 0
+    destMax: 127
+  - type: 0
+    name: SyncedObject/Converted
+    source: SyncedObject/Measure+
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -2731,8 +2788,8 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: 3028874101387263090}
   - {fileID: 8616801287499483186}
+  - {fileID: 3028874101387263090}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -2765,6 +2822,18 @@ MonoBehaviour:
     name: SyncedObject/Step
     source: 
     value: 13
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Converted
+    source: 
+    value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -2811,8 +2880,8 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: -7099812004942684428}
   - {fileID: -4482083935727308715}
+  - {fileID: -7099812004942684428}
   m_StateMachineBehaviours:
   - {fileID: 6196821496632786115}
   m_Position: {x: 50, y: 50, z: 0}
@@ -3293,6 +3362,18 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0
     destMax: 127
+  - type: 0
+    name: SyncedObject/Converted
+    source: SyncedObject/Measure_Angle
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: 0
+    sourceMax: 1
+    destMin: 0
+    destMax: 127
   localOnly: 1
   debugString: 
 --- !u!1101 &-7111397838723835846
@@ -3442,10 +3523,7 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 3
-    m_ConditionEvent: SyncedObject/Measure-
-    m_EventTreshold: 0
+  m_Conditions: []
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7298385639484914200}
   m_Solo: 0
@@ -3696,7 +3774,7 @@ AnimatorStateMachine:
   m_AnyStatePosition: {x: 220, y: -90, z: 0}
   m_EntryPosition: {x: 220, y: -50, z: 0}
   m_ExitPosition: {x: 220, y: -130, z: 0}
-  m_ParentStateMachinePosition: {x: 670, y: 240, z: 0}
+  m_ParentStateMachinePosition: {x: 650, y: 170, z: 0}
   m_DefaultState: {fileID: -7222210138271184275}
 --- !u!114 &-6803315188117388928
 MonoBehaviour:
@@ -3715,6 +3793,18 @@ MonoBehaviour:
     name: SyncedObject/Step
     source: 
     value: 17
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Converted
+    source: 
+    value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -3820,6 +3910,18 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
+  - type: 0
+    name: SyncedObject/Converted
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 1
   debugString: 
 --- !u!1102 &-6700338662297614859
@@ -3912,34 +4014,6 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: SyncedObject/Measure+
---- !u!1101 &-6634977210466738135
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 4
-    m_ConditionEvent: SyncedObject/Measure+
-    m_EventTreshold: 0.00001
-  - m_ConditionMode: 4
-    m_ConditionEvent: SyncedObject/Measure-
-    m_EventTreshold: 0.00001
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 3861997943726421108}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0
-  m_TransitionOffset: 0
-  m_ExitTime: 1
-  m_HasExitTime: 1
-  m_HasFixedDuration: 0
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 0
-  m_CanTransitionToSelf: 0
 --- !u!114 &-6629786989844986804
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4078,34 +4152,6 @@ MonoBehaviour:
     destMax: 0
   localOnly: 0
   debugString: 
---- !u!1101 &-6618420108356458349
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 4
-    m_ConditionEvent: SyncedObject/Measure+
-    m_EventTreshold: 0.007874016
-  - m_ConditionMode: 4
-    m_ConditionEvent: SyncedObject/Measure-
-    m_EventTreshold: 0.007874016
-  m_DstStateMachine: {fileID: -488193132161150631}
-  m_DstState: {fileID: 0}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0
-  m_TransitionOffset: 0
-  m_ExitTime: 1
-  m_HasExitTime: 1
-  m_HasFixedDuration: 0
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 0
-  m_CanTransitionToSelf: 0
 --- !u!114 &-6601608238595360703
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4670,7 +4716,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Converted
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4810714112980164776}
   m_Solo: 0
@@ -4680,7 +4729,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 1
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -4768,7 +4817,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Converted
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -4867706530132059989}
   m_Solo: 0
@@ -4778,7 +4830,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 1
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -4855,7 +4907,7 @@ AnimatorStateMachine:
   m_AnyStatePosition: {x: 220, y: -90, z: 0}
   m_EntryPosition: {x: 220, y: -50, z: 0}
   m_ExitPosition: {x: 220, y: -130, z: 0}
-  m_ParentStateMachinePosition: {x: 900, y: 260, z: 0}
+  m_ParentStateMachinePosition: {x: 650, y: 170, z: 0}
   m_DefaultState: {fileID: -296500557257658557}
 --- !u!1109 &-6139693581575028752
 AnimatorTransition:
@@ -4894,6 +4946,18 @@ MonoBehaviour:
     name: SyncedObject/Step
     source: 
     value: 8
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Converted
+    source: 
+    value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -4989,10 +5053,7 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 3
-    m_ConditionEvent: SyncedObject/Measure-
-    m_EventTreshold: 0
+  m_Conditions: []
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3234069038187048260}
   m_Solo: 0
@@ -5083,9 +5144,8 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: -99317793234396022}
   - {fileID: 5362380099246057335}
-  - {fileID: -5623798275843442769}
+  - {fileID: -99317793234396022}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -5328,7 +5388,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Converted
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5439240724622236476}
   m_Solo: 0
@@ -5338,7 +5401,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 1
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -5397,34 +5460,6 @@ AnimatorTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 1
---- !u!1101 &-5623798275843442769
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 4
-    m_ConditionEvent: SyncedObject/Measure+
-    m_EventTreshold: 0.007874016
-  - m_ConditionMode: 4
-    m_ConditionEvent: SyncedObject/Measure-
-    m_EventTreshold: 0.007874016
-  m_DstStateMachine: {fileID: -488193132161150631}
-  m_DstState: {fileID: 0}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0
-  m_TransitionOffset: 0
-  m_ExitTime: 1
-  m_HasExitTime: 1
-  m_HasFixedDuration: 0
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 0
-  m_CanTransitionToSelf: 0
 --- !u!1102 &-5607074469392139116
 AnimatorState:
   serializedVersion: 6
@@ -5818,9 +5853,8 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: -6055185634042144059}
   - {fileID: 1979863798208498740}
-  - {fileID: -6618420108356458349}
+  - {fileID: -6055185634042144059}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -6200,7 +6234,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Converted
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1747757224590480147}
   m_Solo: 0
@@ -6210,7 +6247,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 1
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -6232,6 +6269,18 @@ MonoBehaviour:
     name: SyncedObject/Convert
     source: SyncedObject/Measure+
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: 0
+    sourceMax: 1
+    destMin: 0
+    destMax: 127
+  - type: 0
+    name: SyncedObject/Converted
+    source: SyncedObject/Measure+
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -6533,6 +6582,18 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
+  - type: 0
+    name: SyncedObject/Converted
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 1
   debugString: 
 --- !u!1101 &-4723831278689695340
@@ -6587,10 +6648,7 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 3
-    m_ConditionEvent: SyncedObject/Measure-
-    m_EventTreshold: 0
+  m_Conditions: []
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7222210138271184275}
   m_Solo: 0
@@ -7839,7 +7897,7 @@ AnimatorStateMachine:
   m_AnyStatePosition: {x: 220, y: -90, z: 0}
   m_EntryPosition: {x: 220, y: -50, z: 0}
   m_ExitPosition: {x: 220, y: -130, z: 0}
-  m_ParentStateMachinePosition: {x: 900, y: 260, z: 0}
+  m_ParentStateMachinePosition: {x: 650, y: 170, z: 0}
   m_DefaultState: {fileID: 8037712566182448814}
 --- !u!1109 &-3521183530707853545
 AnimatorTransition:
@@ -7930,7 +7988,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Converted
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7632830867656122184}
   m_Solo: 0
@@ -7940,7 +8001,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 1
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -8039,9 +8100,8 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: 4395393115569224801}
   - {fileID: 1963736554534201331}
-  - {fileID: 6647748432116368102}
+  - {fileID: 4395393115569224801}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -8064,7 +8124,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Converted
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 7483336624403460238}
   m_Solo: 0
@@ -8074,7 +8137,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 1
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -8449,9 +8512,8 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: -4590155041129200331}
   - {fileID: 2301461753665717611}
-  - {fileID: -1726651035508879934}
+  - {fileID: -4590155041129200331}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -8713,7 +8775,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Converted
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -995271425851911407}
   m_Solo: 0
@@ -8723,7 +8788,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 1
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -8855,6 +8920,18 @@ MonoBehaviour:
     name: SyncedObject/Convert
     source: SyncedObject/Measure-
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: 0
+    sourceMax: 1
+    destMin: 0
+    destMax: 127
+  - type: 0
+    name: SyncedObject/Converted
+    source: SyncedObject/Measure-
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -9157,6 +9234,18 @@ MonoBehaviour:
     name: SyncedObject/Step
     source: 
     value: 3
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Converted
+    source: 
+    value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -9559,6 +9648,18 @@ MonoBehaviour:
     name: SyncedObject/Step
     source: 
     value: 15
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Converted
+    source: 
+    value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -10059,8 +10160,8 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: -3094962814882190362}
   - {fileID: -6025084869734114513}
+  - {fileID: -3094962814882190362}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -10200,36 +10301,20 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0
     destMax: 127
+  - type: 0
+    name: SyncedObject/Converted
+    source: SyncedObject/Measure-
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: 0
+    sourceMax: 1
+    destMin: 0
+    destMax: 127
   localOnly: 1
   debugString: 
---- !u!1101 &-2092117056359846863
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 4
-    m_ConditionEvent: SyncedObject/Measure+
-    m_EventTreshold: 0.007874016
-  - m_ConditionMode: 4
-    m_ConditionEvent: SyncedObject/Measure-
-    m_EventTreshold: 0.007874016
-  m_DstStateMachine: {fileID: -488193132161150631}
-  m_DstState: {fileID: 0}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0
-  m_TransitionOffset: 0
-  m_ExitTime: 1
-  m_HasExitTime: 1
-  m_HasFixedDuration: 0
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 0
-  m_CanTransitionToSelf: 0
 --- !u!1101 &-2087467458650768052
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -10317,10 +10402,7 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 3
-    m_ConditionEvent: SyncedObject/Measure-
-    m_EventTreshold: 0
+  m_Conditions: []
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3729010373736239343}
   m_Solo: 0
@@ -10575,34 +10657,6 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1101 &-1726651035508879934
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 4
-    m_ConditionEvent: SyncedObject/Measure+
-    m_EventTreshold: 0.007874016
-  - m_ConditionMode: 4
-    m_ConditionEvent: SyncedObject/Measure-
-    m_EventTreshold: 0.007874016
-  m_DstStateMachine: {fileID: -488193132161150631}
-  m_DstState: {fileID: 0}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0
-  m_TransitionOffset: 0
-  m_ExitTime: 1
-  m_HasExitTime: 1
-  m_HasFixedDuration: 0
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 0
-  m_CanTransitionToSelf: 0
 --- !u!1101 &-1723955190980487495
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -11510,10 +11564,7 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 3
-    m_ConditionEvent: SyncedObject/Measure-
-    m_EventTreshold: 0
+  m_Conditions: []
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5587269771894867653}
   m_Solo: 0
@@ -12019,6 +12070,18 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
+  - type: 0
+    name: SyncedObject/Converted
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 1
   debugString: 
 --- !u!1101 &-826668291360840016
@@ -12476,8 +12539,7 @@ AnimatorStateMachine:
   - {fileID: -922910335598056352}
   - {fileID: 4699772076697943058}
   m_StateMachineTransitions: {}
-  m_StateMachineBehaviours:
-  - {fileID: 1719186364152776558}
+  m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: -440, y: -400, z: 0}
   m_EntryPosition: {x: -440, y: -360, z: 0}
   m_ExitPosition: {x: -440, y: -440, z: 0}
@@ -12862,6 +12924,18 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
+  - type: 0
+    name: SyncedObject/Converted
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 1
   debugString: 
 --- !u!1101 &-214831467874474024
@@ -13083,10 +13157,7 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 3
-    m_ConditionEvent: SyncedObject/Measure-
-    m_EventTreshold: 0
+  m_Conditions: []
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2778215429221456540}
   m_Solo: 0
@@ -13144,127 +13215,133 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: SyncedObject/Control
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: SyncedObject/Debug
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: SyncedObject/Inside
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: SyncedObject/Measure-
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: SyncedObject/Measure+
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: SyncedObject/Polar_Angle
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: SyncedObject/Measure_Angle
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: SyncedObject/Convert
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
+  - m_Name: SyncedObject/Converted
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
   - m_Name: SyncedObject/Cycles
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: SyncedObject/Step
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: SyncedObject/Sent
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: SyncedObject/Receive-
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: SyncedObject/Receive+
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: SyncedObject/Send/Init
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: SyncedObject/Send/Coarse
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: SyncedObject/Send/Fine
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: SyncedObject/Send/XY
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: SyncedObject/Send/Z
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: SyncedObject/Send/Angle
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: SyncedObject/Send/Data
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Sync XYZ
@@ -13334,34 +13411,6 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
---- !u!1101 &80999779901674193
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 4
-    m_ConditionEvent: SyncedObject/Measure+
-    m_EventTreshold: 0.00001
-  - m_ConditionMode: 4
-    m_ConditionEvent: SyncedObject/Measure-
-    m_EventTreshold: 0.00001
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 2242572759331110937}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0
-  m_TransitionOffset: 0
-  m_ExitTime: 1
-  m_HasExitTime: 1
-  m_HasFixedDuration: 0
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 0
-  m_CanTransitionToSelf: 0
 --- !u!1107 &82808076845223125
 AnimatorStateMachine:
   serializedVersion: 6
@@ -13442,7 +13491,7 @@ AnimatorStateMachine:
   m_AnyStatePosition: {x: 220, y: -90, z: 0}
   m_EntryPosition: {x: 220, y: -50, z: 0}
   m_ExitPosition: {x: 220, y: -130, z: 0}
-  m_ParentStateMachinePosition: {x: 620, y: 230, z: 0}
+  m_ParentStateMachinePosition: {x: 650, y: 170, z: 0}
   m_DefaultState: {fileID: -3729010373736239343}
 --- !u!1101 &179518766738631148
 AnimatorStateTransition:
@@ -13495,9 +13544,8 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: 9164869168356813193}
   - {fileID: 8900381103115507954}
-  - {fileID: 7016425427042515812}
+  - {fileID: 9164869168356813193}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -13701,6 +13749,18 @@ MonoBehaviour:
     name: SyncedObject/Convert
     source: SyncedObject/Measure_Angle
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: 0
+    sourceMax: 1
+    destMin: 0
+    destMax: 127
+  - type: 0
+    name: SyncedObject/Converted
+    source: SyncedObject/Measure_Angle
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -14014,7 +14074,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Converted
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1151107734698890470}
   m_Solo: 0
@@ -14024,7 +14087,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 1
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -14443,7 +14506,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Converted
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -8239284613127809415}
   m_Solo: 0
@@ -14453,7 +14519,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 1
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -14611,6 +14677,18 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0
     destMax: 127
+  - type: 0
+    name: SyncedObject/Converted
+    source: SyncedObject/Measure_Angle
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: 0
+    sourceMax: 1
+    destMin: 0
+    destMax: 127
   localOnly: 1
   debugString: 
 --- !u!1101 &962272138430611923
@@ -14660,10 +14738,7 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 3
-    m_ConditionEvent: SyncedObject/Measure-
-    m_EventTreshold: 0
+  m_Conditions: []
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3861997943726421108}
   m_Solo: 0
@@ -14809,9 +14884,8 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: -7036208052182436950}
   - {fileID: 8381673076651410268}
-  - {fileID: 8164245461376496857}
+  - {fileID: -7036208052182436950}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -14889,9 +14963,8 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: -1997184584266352545}
   - {fileID: 1757644576515094068}
-  - {fileID: 3389623951837596913}
+  - {fileID: -1997184584266352545}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -15054,9 +15127,8 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: 4775252461081861324}
   - {fileID: 1380120210067106838}
-  - {fileID: 1487202238327389753}
+  - {fileID: 4775252461081861324}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -15232,7 +15304,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Converted
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1860219762754181856}
   m_Solo: 0
@@ -15242,7 +15317,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 1
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -15489,34 +15564,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
---- !u!1101 &1487202238327389753
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 4
-    m_ConditionEvent: SyncedObject/Measure+
-    m_EventTreshold: 0.007874016
-  - m_ConditionMode: 4
-    m_ConditionEvent: SyncedObject/Measure-
-    m_EventTreshold: 0.007874016
-  m_DstStateMachine: {fileID: -488193132161150631}
-  m_DstState: {fileID: 0}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0
-  m_TransitionOffset: 0
-  m_ExitTime: 1
-  m_HasExitTime: 1
-  m_HasFixedDuration: 0
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 0
-  m_CanTransitionToSelf: 0
 --- !u!114 &1505590980140251129
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -15691,7 +15738,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Converted
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6436500931520163200}
   m_Solo: 0
@@ -15701,7 +15751,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 1
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -15830,33 +15880,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
---- !u!114 &1719186364152776558
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parameters:
-  - type: 0
-    name: SyncedObject/Sent
-    source: 
-    value: 0
-    valueMin: 0
-    valueMax: 0
-    chance: 0
-    convertRange: 0
-    sourceMin: 0
-    sourceMax: 0
-    destMin: 0
-    destMax: 0
-  localOnly: 0
-  debugString: 
 --- !u!114 &1730310575687678816
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -15916,7 +15939,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Converted
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 20815355321745363}
   m_Solo: 0
@@ -15926,7 +15952,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 1
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -15956,6 +15982,18 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0
     destMax: 127
+  - type: 0
+    name: SyncedObject/Converted
+    source: SyncedObject/Measure-
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: 0
+    sourceMax: 1
+    destMin: 0
+    destMax: 127
   localOnly: 1
   debugString: 
 --- !u!1101 &1811775272042432302
@@ -15965,7 +16003,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Converted
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1258093493353816088}
   m_Solo: 0
@@ -15975,7 +16016,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 1
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -16100,6 +16141,18 @@ MonoBehaviour:
     name: SyncedObject/Step
     source: 
     value: 9
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Converted
+    source: 
+    value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -16478,9 +16531,8 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: 2824874781376711283}
   - {fileID: 7182575541549307136}
-  - {fileID: 80999779901674193}
+  - {fileID: 2824874781376711283}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -16513,6 +16565,18 @@ MonoBehaviour:
     name: SyncedObject/Step
     source: 
     value: 7
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Converted
+    source: 
+    value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -16774,6 +16838,18 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0
     destMax: 127
+  - type: 0
+    name: SyncedObject/Converted
+    source: SyncedObject/Measure-
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: 0
+    sourceMax: 1
+    destMin: 0
+    destMax: 127
   localOnly: 1
   debugString: 
 --- !u!1109 &2735912887848714639
@@ -16810,6 +16886,18 @@ MonoBehaviour:
     name: SyncedObject/Step
     source: 
     value: 5
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Converted
+    source: 
+    value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -17040,10 +17128,7 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 3
-    m_ConditionEvent: SyncedObject/Measure-
-    m_EventTreshold: 0
+  m_Conditions: []
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2242572759331110937}
   m_Solo: 0
@@ -17108,6 +17193,18 @@ MonoBehaviour:
     name: SyncedObject/Convert
     source: SyncedObject/Measure+
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: 0
+    sourceMax: 1
+    destMin: 0
+    destMax: 127
+  - type: 0
+    name: SyncedObject/Converted
+    source: SyncedObject/Measure+
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -17525,6 +17622,18 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0
     destMax: 127
+  - type: 0
+    name: SyncedObject/Converted
+    source: SyncedObject/Measure-
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: 0
+    sourceMax: 1
+    destMin: 0
+    destMax: 127
   localOnly: 1
   debugString: 
 --- !u!114 &3230298792014490253
@@ -17715,7 +17824,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Converted
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 565962418264669721}
   m_Solo: 0
@@ -17725,7 +17837,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 1
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -17755,36 +17867,20 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0
     destMax: 127
+  - type: 0
+    name: SyncedObject/Converted
+    source: SyncedObject/Measure+
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: 0
+    sourceMax: 1
+    destMin: 0
+    destMax: 127
   localOnly: 1
   debugString: 
---- !u!1101 &3389623951837596913
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 4
-    m_ConditionEvent: SyncedObject/Measure+
-    m_EventTreshold: 0.007874016
-  - m_ConditionMode: 4
-    m_ConditionEvent: SyncedObject/Measure-
-    m_EventTreshold: 0.007874016
-  m_DstStateMachine: {fileID: -488193132161150631}
-  m_DstState: {fileID: 0}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0
-  m_TransitionOffset: 0
-  m_ExitTime: 1
-  m_HasExitTime: 1
-  m_HasFixedDuration: 0
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 0
-  m_CanTransitionToSelf: 0
 --- !u!1102 &3401784805135850860
 AnimatorState:
   serializedVersion: 6
@@ -17921,7 +18017,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Converted
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5957875906331181550}
   m_Solo: 0
@@ -17931,7 +18030,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 1
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -18060,7 +18159,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Converted
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3661529425454528797}
   m_Solo: 0
@@ -18070,7 +18172,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 1
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -18388,10 +18490,10 @@ AnimatorStateMachine:
   m_ChildStateMachines:
   - serializedVersion: 1
     m_StateMachine: {fileID: -6189102587470009374}
-    m_Position: {x: -420, y: -140, z: 0}
+    m_Position: {x: -420, y: -40, z: 0}
   - serializedVersion: 1
     m_StateMachine: {fileID: 7356912002848790961}
-    m_Position: {x: -420, y: -260, z: 0}
+    m_Position: {x: -420, y: -340, z: 0}
   m_AnyStateTransitions: []
   m_EntryTransitions:
   - {fileID: 4043770278916747173}
@@ -18405,7 +18507,7 @@ AnimatorStateMachine:
   m_AnyStatePosition: {x: -1080, y: -300, z: 0}
   m_EntryPosition: {x: -1080, y: -260, z: 0}
   m_ExitPosition: {x: -1080, y: -340, z: 0}
-  m_ParentStateMachinePosition: {x: -420, y: -200, z: 0}
+  m_ParentStateMachinePosition: {x: -420, y: -190, z: 0}
   m_DefaultState: {fileID: -7243564626183134213}
 --- !u!114 &3977633956610481694
 MonoBehaviour:
@@ -18715,8 +18817,8 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: -214831467874474024}
   - {fileID: -3315934919791296349}
+  - {fileID: -214831467874474024}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -18976,6 +19078,18 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0
     destMax: 127
+  - type: 0
+    name: SyncedObject/Converted
+    source: SyncedObject/Measure+
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: 0
+    sourceMax: 1
+    destMin: 0
+    destMax: 127
   localOnly: 1
   debugString: 
 --- !u!1102 &4390851313186319904
@@ -19015,10 +19129,7 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 3
-    m_ConditionEvent: SyncedObject/Measure-
-    m_EventTreshold: 0
+  m_Conditions: []
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5080332532814405176}
   m_Solo: 0
@@ -19335,6 +19446,18 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0
     destMax: 127
+  - type: 0
+    name: SyncedObject/Converted
+    source: SyncedObject/Measure+
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: 0
+    sourceMax: 1
+    destMin: 0
+    destMax: 127
   localOnly: 1
   debugString: 
 --- !u!1101 &4571372400316664579
@@ -19396,6 +19519,18 @@ MonoBehaviour:
     name: SyncedObject/Convert
     source: SyncedObject/Measure_Angle
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: 0
+    sourceMax: 1
+    destMin: 0
+    destMax: 127
+  - type: 0
+    name: SyncedObject/Converted
+    source: SyncedObject/Measure_Angle
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -19740,10 +19875,7 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 3
-    m_ConditionEvent: SyncedObject/Measure-
-    m_EventTreshold: 0
+  m_Conditions: []
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 606491066087181754}
   m_Solo: 0
@@ -20685,33 +20817,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
---- !u!114 &5347405406877158857
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -706344726, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parameters:
-  - type: 0
-    name: SyncedObject/Sent
-    source: 
-    value: 0
-    valueMin: 0
-    valueMax: 0
-    chance: 0
-    convertRange: 0
-    sourceMin: 0
-    sourceMax: 0
-    destMin: 0
-    destMax: 0
-  localOnly: 0
-  debugString: 
 --- !u!1101 &5348394318180562779
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -20962,6 +21067,18 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
+  - type: 0
+    name: SyncedObject/Converted
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 1
   debugString: 
 --- !u!1101 &5501073775485628529
@@ -21029,6 +21146,18 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
+  - type: 0
+    name: SyncedObject/Converted
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 1
   debugString: 
 --- !u!1102 &5557210988599553033
@@ -21042,9 +21171,8 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: 6815754834063625109}
   - {fileID: 6775481609160663100}
-  - {fileID: 6063004086592663667}
+  - {fileID: 6815754834063625109}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -21653,34 +21781,6 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: SyncedObject/Measure+
---- !u!1101 &6063004086592663667
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 4
-    m_ConditionEvent: SyncedObject/Measure+
-    m_EventTreshold: 0.007874016
-  - m_ConditionMode: 4
-    m_ConditionEvent: SyncedObject/Measure-
-    m_EventTreshold: 0.007874016
-  m_DstStateMachine: {fileID: -488193132161150631}
-  m_DstState: {fileID: 0}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0
-  m_TransitionOffset: 0
-  m_ExitTime: 1
-  m_HasExitTime: 1
-  m_HasFixedDuration: 0
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 0
-  m_CanTransitionToSelf: 0
 --- !u!1101 &6074402225473405987
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -22111,6 +22211,18 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0
     destMax: 127
+  - type: 0
+    name: SyncedObject/Converted
+    source: SyncedObject/Measure+
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: 0
+    sourceMax: 1
+    destMin: 0
+    destMax: 127
   localOnly: 1
   debugString: 
 --- !u!1101 &6252091762305128093
@@ -22217,10 +22329,10 @@ AnimatorStateMachine:
   m_ChildStateMachines:
   - serializedVersion: 1
     m_StateMachine: {fileID: -8013228235565184987}
-    m_Position: {x: -420, y: -140, z: 0}
+    m_Position: {x: -420, y: -40, z: 0}
   - serializedVersion: 1
     m_StateMachine: {fileID: 170636303062804372}
-    m_Position: {x: -420, y: -260, z: 0}
+    m_Position: {x: -420, y: -340, z: 0}
   m_AnyStateTransitions: []
   m_EntryTransitions:
   - {fileID: 1638200766260500086}
@@ -22234,7 +22346,7 @@ AnimatorStateMachine:
   m_AnyStatePosition: {x: -1100, y: -300, z: 0}
   m_EntryPosition: {x: -1100, y: -260, z: 0}
   m_ExitPosition: {x: -1100, y: -340, z: 0}
-  m_ParentStateMachinePosition: {x: -420, y: -200, z: 0}
+  m_ParentStateMachinePosition: {x: -420, y: -190, z: 0}
   m_DefaultState: {fileID: 8073114304798548912}
 --- !u!114 &6339270157145462742
 MonoBehaviour:
@@ -22253,6 +22365,18 @@ MonoBehaviour:
     name: SyncedObject/Step
     source: 
     value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Converted
+    source: 
+    value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -22401,7 +22525,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Converted
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4640091842496644845}
   m_Solo: 0
@@ -22411,7 +22538,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 1
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -22458,6 +22585,18 @@ MonoBehaviour:
     name: SyncedObject/Step
     source: 
     value: 16
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: SyncedObject/Converted
+    source: 
+    value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -22543,7 +22682,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Converted
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5640837069427160896}
   m_Solo: 0
@@ -22553,35 +22695,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 1
-  m_HasExitTime: 1
-  m_HasFixedDuration: 0
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 0
-  m_CanTransitionToSelf: 0
---- !u!1101 &6647748432116368102
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 4
-    m_ConditionEvent: SyncedObject/Measure+
-    m_EventTreshold: 0.007874016
-  - m_ConditionMode: 4
-    m_ConditionEvent: SyncedObject/Measure-
-    m_EventTreshold: 0.007874016
-  m_DstStateMachine: {fileID: -488193132161150631}
-  m_DstState: {fileID: 0}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0
-  m_TransitionOffset: 0
-  m_ExitTime: 1
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -22779,10 +22893,7 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 3
-    m_ConditionEvent: SyncedObject/Measure-
-    m_EventTreshold: 0
+  m_Conditions: []
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 6131855771374704981}
   m_Solo: 0
@@ -22904,6 +23015,18 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0
     destMax: 127
+  - type: 0
+    name: SyncedObject/Converted
+    source: SyncedObject/Measure_Angle
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: 0
+    sourceMax: 1
+    destMin: 0
+    destMax: 127
   localOnly: 1
   debugString: 
 --- !u!1109 &6863350851989064093
@@ -22930,7 +23053,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Converted
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 7287732502022699415}
   m_Solo: 0
@@ -22940,7 +23066,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 1
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -22973,34 +23099,6 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 8244004619335551179}
   m_DstState: {fileID: 0}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0
-  m_TransitionOffset: 0
-  m_ExitTime: 1
-  m_HasExitTime: 1
-  m_HasFixedDuration: 0
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 0
-  m_CanTransitionToSelf: 0
---- !u!1101 &7016425427042515812
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 4
-    m_ConditionEvent: SyncedObject/Measure+
-    m_EventTreshold: 0.00001
-  - m_ConditionMode: 4
-    m_ConditionEvent: SyncedObject/Measure-
-    m_EventTreshold: 0.00001
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 1520343880706291801}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -23194,6 +23292,18 @@ MonoBehaviour:
     name: SyncedObject/Convert
     source: SyncedObject/Measure+
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: 0
+    sourceMax: 1
+    destMin: 0
+    destMax: 127
+  - type: 0
+    name: SyncedObject/Converted
+    source: SyncedObject/Measure+
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -23638,7 +23748,7 @@ AnimatorStateMachine:
   m_AnyStatePosition: {x: 220, y: -90, z: 0}
   m_EntryPosition: {x: 220, y: -50, z: 0}
   m_ExitPosition: {x: 220, y: -130, z: 0}
-  m_ParentStateMachinePosition: {x: 670, y: 240, z: 0}
+  m_ParentStateMachinePosition: {x: 650, y: 170, z: 0}
   m_DefaultState: {fileID: 3234069038187048260}
 --- !u!1109 &7376019543313506831
 AnimatorTransition:
@@ -23915,9 +24025,8 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: -1137882874298540695}
   - {fileID: 5348394318180562779}
-  - {fileID: -2092117056359846863}
+  - {fileID: -1137882874298540695}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -24038,6 +24147,18 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
+  - type: 0
+    name: SyncedObject/Converted
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 1
   debugString: 
 --- !u!114 &7600018920125272032
@@ -24112,6 +24233,18 @@ MonoBehaviour:
     name: SyncedObject/Convert
     source: SyncedObject/Measure-
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: 0
+    sourceMax: 1
+    destMin: 0
+    destMax: 127
+  - type: 0
+    name: SyncedObject/Converted
+    source: SyncedObject/Measure-
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -24439,10 +24572,10 @@ AnimatorStateMachine:
   m_ChildStateMachines:
   - serializedVersion: 1
     m_StateMachine: {fileID: -3524726548034296659}
-    m_Position: {x: -420, y: -120, z: 0}
+    m_Position: {x: -420, y: -40, z: 0}
   - serializedVersion: 1
     m_StateMachine: {fileID: -6893765813811952346}
-    m_Position: {x: -420, y: -240, z: 0}
+    m_Position: {x: -420, y: -340, z: 0}
   m_AnyStateTransitions: []
   m_EntryTransitions:
   - {fileID: -983204547062371459}
@@ -24635,6 +24768,18 @@ MonoBehaviour:
     sourceMax: 1
     destMin: 0
     destMax: 127
+  - type: 0
+    name: SyncedObject/Converted
+    source: SyncedObject/Measure+
+    value: 1
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: 0
+    sourceMax: 1
+    destMin: 0
+    destMax: 127
   localOnly: 1
   debugString: 
 --- !u!1101 &8149432669321689975
@@ -24677,34 +24822,6 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
   m_CanTransitionToSelf: 0
---- !u!1101 &8164245461376496857
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 4
-    m_ConditionEvent: SyncedObject/Measure+
-    m_EventTreshold: 0.007874016
-  - m_ConditionMode: 4
-    m_ConditionEvent: SyncedObject/Measure-
-    m_EventTreshold: 0.007874016
-  m_DstStateMachine: {fileID: -488193132161150631}
-  m_DstState: {fileID: 0}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0
-  m_TransitionOffset: 0
-  m_ExitTime: 1
-  m_HasExitTime: 1
-  m_HasFixedDuration: 0
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 0
-  m_CanTransitionToSelf: 0
 --- !u!1102 &8201280166706948264
 AnimatorState:
   serializedVersion: 6
@@ -24716,8 +24833,8 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: 329998057848339945}
   - {fileID: 7805101159298052055}
+  - {fileID: 329998057848339945}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -24760,8 +24877,7 @@ AnimatorStateMachine:
   m_StateMachineTransitions:
   - first: {fileID: -634580437716106588}
     second: []
-  m_StateMachineBehaviours:
-  - {fileID: 5347405406877158857}
+  m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: -840, y: -310, z: 0}
   m_EntryPosition: {x: -840, y: -270, z: 0}
   m_ExitPosition: {x: -840, y: -350, z: 0}
@@ -24900,6 +25016,18 @@ MonoBehaviour:
     name: SyncedObject/Convert
     source: SyncedObject/Measure-
     value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 1
+    sourceMin: 0
+    sourceMax: 1
+    destMin: 0
+    destMax: 127
+  - type: 0
+    name: SyncedObject/Converted
+    source: SyncedObject/Measure-
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
@@ -25116,6 +25244,18 @@ MonoBehaviour:
     sourceMax: 0
     destMin: 0
     destMax: 0
+  - type: 0
+    name: SyncedObject/Converted
+    source: 
+    value: 0
+    valueMin: 0
+    valueMax: 0
+    chance: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 1
   debugString: 
 --- !u!1101 &8381673076651410268
@@ -25181,9 +25321,8 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-  - {fileID: 968138997264367446}
   - {fileID: -269074832429133221}
-  - {fileID: -6634977210466738135}
+  - {fileID: 968138997264367446}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -25651,7 +25790,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Converted
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 8626737694804957759}
   m_Solo: 0
@@ -25661,7 +25803,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 1
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -25940,7 +26082,10 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Converted
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5844496126818449179}
   m_Solo: 0
@@ -25950,7 +26095,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0
   m_TransitionOffset: 0
   m_ExitTime: 1
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
   m_OrderedInterruption: 0
@@ -26188,10 +26333,7 @@ AnimatorStateTransition:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 3
-    m_ConditionEvent: SyncedObject/Measure-
-    m_EventTreshold: 0
+  m_Conditions: []
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1520343880706291801}
   m_Solo: 0
