@@ -10,16 +10,16 @@ This prefab will allow you to network sync a world-fixed object for late joiners
 
 Proximity receivers find on each axis what constraint adjustments need to be made to reach a target position, and physbone angle parameters are used to reach a target rotation. Data is sent over the network in steps.
 
-1 Material (For anti-culling)
-19 Objects
-20 Constraints
-2 Contact Receivers
-1 Contact Sender
-2 Physbones
-1 Physbone colliders
-1 Animator Layer
-1 Float, 7 Booleans
-15 Bits
+- 1 Material (For anti-culling)
+- 19 Objects
+- 20 Constraints
+- 2 Contact Receivers
+- 1 Contact Sender
+- 2 Physbones
+- 1 Physbone colliders
+- 1 Animator Layer
+- 1 Float, 7 Booleans
+- 15 Bits
  
 ## Install guide
 
