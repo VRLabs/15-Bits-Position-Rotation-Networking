@@ -31,4 +31,4 @@ Unpack the prefab by right-clicking it and move the prefab to base of your avata
 
 ## Credits
 
-Thanks to Razgriz for her ideas on syncing rotation. Thanks to Juzo and ThatFatKidsMom for testing and encouragement.
+Thanks to [Razgriz](https://github.com/rrazgriz) for her ideas on syncing rotation. Thanks to [Juzo](https://github.com/JuzoVR) and [ThatFatKidsMom](https://github.com/ThatFatKidsMom) for testing and encouragement.
