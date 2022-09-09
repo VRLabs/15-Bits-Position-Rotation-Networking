@@ -8,7 +8,7 @@ This prefab will allow you to network sync a world-fixed object for late joiners
 
 ## How it works
 
-Proximity receivers find what constraint adjustments need to be made to reach a target position, and physbone angle parameters are used to reach a target rotation. Data is sent over the network in 18 steps.
+Proximity receivers find what constraint adjustments need to be made to reach a target position, and physbone angle parameters are used to reach a target rotation. Data is sent over the network in 18 steps. Sync time depends on the FPS of the host and when a remote viewer is joined. Average times are 6 seconds to 13 seconds.
 
 - 1 Material (For anti-culling)
 - 20 Objects
