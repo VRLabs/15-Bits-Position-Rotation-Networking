@@ -63,23 +63,10 @@ Hide prop
 
 IsLocal = True
 SyncedObject/Control = True
-SyncedObject/Debug = False
--->
-Show prop
-
-IsLocal = True
-SyncedObject/Control = True
 SyncedObject/Debug = True
 SyncedObject/Cycles < 1
 -->
 Hide prop
-
-IsLocal = True
-SyncedObject/Control = True
-SyncedObject/Debug = True
-SyncedObject/Cycles > 0
--->
-Show prop
 
 IsLocal = False
 SyncedObject/Control = True
@@ -87,6 +74,19 @@ SyncedObject/Fast = False
 SyncedObject/Cycles < 1
 -->
 Hide prop
+
+IsLocal = True
+SyncedObject/Control = True
+SyncedObject/Debug = False
+-->
+Show prop
+
+IsLocal = True
+SyncedObject/Control = True
+SyncedObject/Debug = True
+SyncedObject/Cycles > 0
+-->
+Show prop
 
 IsLocal = False
 SyncedObject/Control = True
