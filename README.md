@@ -57,49 +57,31 @@ There is a "SyncedObject/Cycles" int parameter that counts the number of network
 
 With this information, this is how you should make your prop visible:
 
-SyncedObject/Control = False
--->
-Hide prop
+`
+SyncedObject/Control = False: Hide
+`
 
-IsLocal = True
-SyncedObject/Control = True
-SyncedObject/Debug = True
-SyncedObject/Cycles < 1
--->
-Hide prop
+`
+If SyncedObject/Control = True:
+`
 
-IsLocal = False
-SyncedObject/Control = True
-SyncedObject/Fast = False
-SyncedObject/Cycles < 1
--->
-Hide prop
+`
+If IsLocal = True:
+`
+`
+SyncedObject/Debug = False: Show
+SyncedObject/Debug = True, SyncedObject/Cycles < 1: Hide
+SyncedObject/Debug = True, SyncedObject/Cycles > 0: Show
+`
 
-IsLocal = True
-SyncedObject/Control = True
-SyncedObject/Debug = False
--->
-Show prop
-
-IsLocal = True
-SyncedObject/Control = True
-SyncedObject/Debug = True
-SyncedObject/Cycles > 0
--->
-Show prop
-
-IsLocal = False
-SyncedObject/Control = True
-SyncedObject/Fast = False
-SyncedObject/Cycles > 0
--->
-Show prop
-
-IsLocal = False
-SyncedObject/Control = True
-SyncedObject/Fast = True
--->
-Show prop
+`
+If IsLocal = False:
+`
+`
+SyncedObject/Fast = True: Show
+SyncedObject/Fast = False, SyncedObject/Cycles < 1: Hide
+SyncedObject/Fast = False, SyncedObject/Cycles > 0: Show
+`
 
 ## Credits
 
