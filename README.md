@@ -62,8 +62,9 @@ IsLocal = True:
 `
 ```
 SyncedObject/Control = False: Hide
-SyncedObject/Control = True, SyncedObject/Debug = False: Show
-SyncedObject/Control = True, SyncedObject/Debug = True, SyncedObject/Cycles > 0: Show
+SyncedObject/Control = True, SyncedObject/Fast = True: Show
+SyncedObject/Control = True, SyncedObject/Fast = False, SyncedObject/Cycles < 1: Hide
+SyncedObject/Control = True, SyncedObject/Fast = False, SyncedObject/Cycles > 0: Show
 ```
 `
 IsLocal = False:
@@ -71,6 +72,7 @@ IsLocal = False:
 ```
 SyncedObject/Control = False: Hide
 SyncedObject/Control = True, SyncedObject/Fast = True: Show
+SyncedObject/Control = True, SyncedObject/Fast = False, SyncedObject/Cycles < 1: Hide
 SyncedObject/Control = True, SyncedObject/Fast = False, SyncedObject/Cycles > 0: Show
 ```
 
