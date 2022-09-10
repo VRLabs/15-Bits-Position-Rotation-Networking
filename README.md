@@ -51,9 +51,9 @@ Late appearance occurs for viewers that do not have your avatar loaded, or are c
 
 For the host, network sync is disabled by default, and you will always see a fast start. For debugging purposes, you can view the late start by inspecting the "Start" state in your merged "Sync XYZ" layer and using the parameter driver on that state to set the "SyncedObject/Debug" parameter as True.
 
-There is a "SyncedObject/Fast" boolean parameter that will be True when a remote view is the Fast Start state.
+There is a "SyncedObject/Fast" boolean parameter that will be True when a remote view is in the Fast Start state.
 
-There is a "SyncedObject/Cycles" int parameter that counts the number of networking cycles a remote viewer has reached.
+There is a "SyncedObject/Cycles" int parameter that counts the number of networking cycles a remote viewer has completed.
 
 With this information, this is how you should make your prop visible:
 
