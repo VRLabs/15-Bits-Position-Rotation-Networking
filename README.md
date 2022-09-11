@@ -56,7 +56,7 @@ There is an object called "SyncedObject/Solving/World/Culling". For situations w
 
 ## Notes
 
-If a remote user has _**both**_ self-interaction *and* avatar interaction permission with your avatar blocked, the world prop will never be shown to them. This is because recovering from the Avatar Distance Hiding feature requires a self interaction. Without the ability to recover properly from distance hiding, it's more likely that a user will see incorrect results. Mitigations for this seem make the system worse for everyone else. Since it's exceedingly rare to have both of these options disabled, and users that do have both of these options disabled are probably very deliberate with what they are shown, I've opted to require these users to enable at least interaction permission for your avatar.
+If a remote user has _**both**_ self-interaction *and* avatar interaction permission with your avatar blocked, the world prop will never be shown to them. This is because recovering from the Avatar Distance Hiding feature requires a self interaction. Without the ability to recover properly from distance hiding, it's more likely that a user will see incorrect results. Mitigations for this seem make the system worse for everyone else. Since it's exceedingly rare to have both of these options disabled, and users that do have both of these options disabled are probably very deliberate with what they allow to be shown, I've opted to require these users to enable at least interaction permission for your avatar.
 
 ## Credits
 
