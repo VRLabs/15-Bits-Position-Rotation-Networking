@@ -44,7 +44,7 @@ The "SyncedObject/Control" parameter must be true to start syncing. The "SyncedO
 ## Option details
 There are two ways the world prop can start for viewers, fast and late.
 
-Fast appearance can occur when a viewer has your avatar loaded and not culled before you enable the SyncedObject/Control parameter. The object will appear quickly without any network sync and behave like a regular world drop. Later, remote viewers will switch to the synced transform after the state machine networking has cycled one time. This may become a noticeable movement if your world drop is signficantly desynced by quick movement. Slow and deliberate drops will likely be unnoticeable when the switch happens.
+Fast appearance can occur when a viewer has your avatar loaded and not culled before you enable the SyncedObject/Control parameter. The object will appear quickly without any network sync and behave like a regular world drop. Later, remote viewers will switch to the synced transform after the state machine networking has cycled one time. This switch may become noticeable if your world drop is signficantly desynced by quick movement. Slow and deliberate drops will likely be unnoticeable when the switch happens.
 
 Because it can be visually imperfect, fast starting is disabled for remote viewers by default. To enable fast starting remotely, unmute the transition to "Fast Start" in your merged "Sync XYZ" layer. 
 
