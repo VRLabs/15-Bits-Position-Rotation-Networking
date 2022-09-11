@@ -41,7 +41,9 @@ Place your world object props into the "SyncedObject/Container" hierarchy.
 
 The "SyncedObject/Control" parameter must be true to start syncing.
 
-You have to split your effects using the provided parameters to get the best result. There are two ways the world prop can start for viewers, fast and late, so you must know when you make your prop visible.
+The "SyncedObject/Show" parameter will indicate when you can unhide your world prop.
+
+There are two ways the world prop can start for viewers, fast and late.
 
 Fast appearance can occur when a viewer has your avatar loaded and not culled before you enable the SyncedObject/Control parameter. The object will appear quickly without any network sync and behave like a regular world drop. Later, remote viewers will switch to the synced transform after the state machine networking has cycled one time. This may become a noticeable movement if your world drop is signficantly desynced by quick movement. Slow and deliberate drops will likely be unnoticeable when the switch happens.
 
@@ -50,31 +52,6 @@ Because it can be visually imperfect, fast starting is disabled for remote viewe
 Late appearance occurs for viewers that do not have your avatar loaded, or are culling your avatar when the SyncedObject/Control parameter is enabled. They will only see the synced transform after the networking has cycled once.
 
 For the host, network sync is disabled by default, and you will always see a fast start. For debugging purposes, you can view the late start by inspecting the "Start" state in your merged "Sync XYZ" layer and using the parameter driver on that state to set the "SyncedObject/Debug" parameter as True.
-
-There is a "SyncedObject/Fast" boolean parameter that will be True when a remote view is in the Fast Start state.
-
-There is a "SyncedObject/Cycles" int parameter that counts the number of networking cycles a remote viewer has completed.
-
-With this information, this is how you should make your prop visible:
-
-`
-IsLocal = True:
-`
-```
-SyncedObject/Control = False: Hide
-SyncedObject/Control = True, SyncedObject/Fast = True: Show
-SyncedObject/Control = True, SyncedObject/Fast = False, SyncedObject/Cycles < 1: Hide
-SyncedObject/Control = True, SyncedObject/Fast = False, SyncedObject/Cycles > 0: Show
-```
-`
-IsLocal = False:
-`
-```
-SyncedObject/Control = False: Hide
-SyncedObject/Control = True, SyncedObject/Fast = True: Show
-SyncedObject/Control = True, SyncedObject/Fast = False, SyncedObject/Cycles < 1: Hide
-SyncedObject/Control = True, SyncedObject/Fast = False, SyncedObject/Cycles > 0: Show
-```
 
 ## Credits
 
