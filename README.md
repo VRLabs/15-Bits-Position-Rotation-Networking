@@ -43,6 +43,7 @@ The "SyncedObject/Control" parameter must be true to start syncing.
 
 The "SyncedObject/Show" parameter will indicate when you can unhide your world prop.
 
+## Option details
 There are two ways the world prop can start for viewers, fast and late.
 
 Fast appearance can occur when a viewer has your avatar loaded and not culled before you enable the SyncedObject/Control parameter. The object will appear quickly without any network sync and behave like a regular world drop. Later, remote viewers will switch to the synced transform after the state machine networking has cycled one time. This may become a noticeable movement if your world drop is signficantly desynced by quick movement. Slow and deliberate drops will likely be unnoticeable when the switch happens.
@@ -52,6 +53,8 @@ Because it can be visually imperfect, fast starting is disabled for remote viewe
 Late appearance occurs for viewers that do not have your avatar loaded, or are culling your avatar when the SyncedObject/Control parameter is enabled. They will only see the synced transform after the networking has cycled once.
 
 For the host, network sync is disabled by default, and you will always see a fast start. For debugging purposes, you can view the late start by inspecting the "Start" state in your merged "Sync XYZ" layer and using the parameter driver on that state to set the "SyncedObject/Debug" parameter as True.
+
+There is an object called "SyncedObject/Solving/World/Culling". For performances where avatar performance rank does not matter, you may want to enable the scale constraint on this object by default, so that you will be unculled as soon as your avatar loads. Ideally you would only do this on a private avatar. This will not circumvent avatar distance hiding.
 
 ## Credits
 
