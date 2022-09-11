@@ -41,7 +41,7 @@ Place your world object props into the "SyncedObject/Container" hierarchy.
 
 The "SyncedObject/Control" parameter must be true to start syncing.
 
-The "SyncedObject/Show" parameter will indicate when you can unhide your world prop.
+The "SyncedObject/Show" parameter will indicate when you can unhide your world prop. Check for both parameters for the best visual result.
 
 ## Option details
 There are two ways the world prop can start for viewers, fast and late.
