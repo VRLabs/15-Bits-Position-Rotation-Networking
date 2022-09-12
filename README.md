@@ -42,6 +42,7 @@ Place your world object props into the "Synced Object/Container" hierarchy.
 The "SyncedObject/Control" parameter must be true to start syncing. The "SyncedObject/Show" parameter will indicate when you can show your world prop. Always hide when SyncedObject/Control is False.
 
 ## Option details
+
 There are two ways the world prop can start for viewers, fast and late.
 
 Fast appearance can occur when a viewer has your avatar loaded and not culled before you enable the SyncedObject/Control parameter. The object will appear quickly without any network sync and behave like a regular world drop. Later, remote viewers will switch to the synced transform after the state machine networking has cycled one time. This switch may become noticeable if your world drop is signficantly desynced by quick movement. Slow and deliberate drops will likely be unnoticeable when the switch happens.
