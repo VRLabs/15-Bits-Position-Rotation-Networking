@@ -52,7 +52,7 @@ Late appearance occurs for viewers that do not have your avatar loaded, or are c
 
 For the host, network sync is disabled by default, and you will always see a fast start. For debugging purposes, you can view the late start by inspecting the "Start" state in your merged "Sync XYZ" layer and using the parameter driver on that state to set the "SyncedObject/Debug" parameter as True.
 
-There is an object called "SyncedObject/Solving/World/Culling". For situations where avatar performance rank does not matter, you may want to enable the scale constraint on this object by default, so that you will be unculled as soon as your avatar loads. Ideally you would only do this on a private avatar. This will not circumvent Avatar Distance Hiding.
+There is an object at "Synced Object/Solving/World/Culling". For situations where avatar performance rank does not matter, you may want to enable the scale constraint on this object by default, so that you will be unculled as soon as your avatar loads. Ideally you would only do this on a private avatar. This will not circumvent Avatar Distance Hiding.
 
 ## Notes
 
