@@ -13,8 +13,8 @@ Proximity receivers find what constraint adjustments need to be made to reach a 
 - 1 Material (For anti-culling)
 - 20 Objects
 - 20 Constraints
-- 3 Contact Receivers
-- 1 Contact Sender
+- 4 Contact Receivers
+- 2 Contact Sender
 - 2 Physbones
 - 1 Physbone colliders
 - 1 Animator Layer
@@ -37,7 +37,7 @@ Unpack the prefab by right-clicking it and move the prefab to base of your avata
 
 Locate "Synced Object/Sync Target" and take it out of the prefab hierarchy. Place it somewhere in a world space hierarchy, as you should be trying to sync a world object. I recommend putting the Sync Target inside of a [World Constraint]([https://github.com/VRLabs/Avatars-3.0-Manager](https://github.com/VRLabs/World-Constraint)) and using the "SyncedObject/Control" parameter for transitions.
 
-Place your world object props into the "SyncedObject/Container" hierarchy.
+Place your world object props into the "Synced Object/Container" hierarchy.
 
 The "SyncedObject/Control" parameter must be true to start syncing. The "SyncedObject/Show" parameter will indicate when you can show your world prop. Always hide when SyncedObject/Control is False.
 
