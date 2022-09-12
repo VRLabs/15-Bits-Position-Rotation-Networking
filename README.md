@@ -39,7 +39,7 @@ Locate "Synced Object/Sync Target" and take it out of the prefab hierarchy. Plac
 
 Place your world object props into the "Synced Object/Container" hierarchy.
 
-The "SyncedObject/Control" parameter must be true to start syncing. The "SyncedObject/Show" parameter will indicate when you can show your world prop. Hide your world prop when SyncedObject/Show is False, unhide when it is True.
+The "SyncedObject/Control" parameter must be true to start syncing. The "SyncedObject/Show" parameter will indicate when you can show your world prop if it is hidden by default.
 
 ## Option details
 
