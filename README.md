@@ -14,9 +14,9 @@ Proximity receivers find what constraint adjustments need to be made to reach a 
 - 20 Objects
 - 20 Constraints
 - 4 Contact Receivers
-- 2 Contact Sender
-- 2 Physbones
-- 1 Physbone colliders
+- 2 Contact Senders
+- 2 PhysBones
+- 1 PhysBone Colliders
 - 1 Animator Layer
 - 1 Float, 7 Booleans
 - 15 Bits
