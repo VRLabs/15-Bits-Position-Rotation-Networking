@@ -11,12 +11,12 @@ This prefab will allow you to network sync a world-fixed object for late joiners
 Proximity receivers find what constraint adjustments need to be made to reach a target position, and physbone angle parameters are used to reach a target rotation. Data is sent over the network in 18 steps. Sync time depends on the FPS of the host and when a remote viewer has joined the instance, relative to the state machine networking cycle. Average times are 6 to 13 seconds.
 
 - 1 Material (For anti-culling)
-- 20 Objects
-- 20 Constraints
+- 19 Objects
+- 19 Constraints
 - 4 Contact Receivers
 - 2 Contact Senders
 - 2 PhysBones
-- 1 PhysBone Colliders
+- 1 PhysBone Collider
 - 1 Animator Layer
 - 1 Float, 7 Booleans
 - 15 Bits
@@ -33,29 +33,27 @@ Everything under "SyncedObject/Send/" is also a synced parameter. There are 7 Bo
 
 Unpack the prefab by right-clicking it and move the prefab to base of your avatar.
 
-## How to use
-
-Locate "Synced Object/Sync Target" and take it out of the prefab hierarchy. Place it somewhere in a world space hierarchy, as you should be trying to sync a world object. I recommend putting the Sync Target inside of a [World Constraint](https://github.com/VRLabs/World-Constraint)/Container and using the "SyncedObject/Control" parameter for transitions.
-
-Place your world object props into the "Synced Object/Container" hierarchy, or constrain your props to this Container.
-
-The "SyncedObject/Control" parameter must be true to start syncing. Changing it to False will stop syncing. 
-
-If your prop is hidden by default, the "SyncedObject/Show" parameter will indicate when you can show your world prop. Use both SyncedObject/Control and SyncedObject/Show parameters to check for when to hide your prop again. Generally, if either one is False, hide your prop.
-
 ## Option details
 
 There are two ways the world prop can start for viewers, fast and late.
 
 Fast appearance can occur when a viewer has your avatar loaded and not culled before you enable the SyncedObject/Control parameter. The object will appear quickly without any network sync and behave like a regular world drop. Later, remote viewers will switch to the synced transform after the state machine networking has cycled one time. This switch may become noticeable if your world drop is signficantly desynced by quick movement. Slow and deliberate drops will likely be unnoticeable when the switch happens.
 
-Because it can be visually imperfect, fast starting is disabled for remote viewers by default. To enable fast starting remotely, unmute the transition to "Fast Start" in your merged "Sync XYZ" layer. 
+Because it can be visually imperfect, fast starting is disabled for remote viewers by default. To enable fast starting remotely, unmute the transition to "Fast Start" in your merged "Sync XYZ" layer. It will be in the "Start" sub state.
 
-Late appearance occurs for viewers that do not have your avatar loaded, or are culling your avatar when the SyncedObject/Control parameter is enabled. They will only see the synced transform after the networking has cycled once.
-
-For the host, network sync is disabled by default, and you will always see a fast start. For debugging purposes, you can view the late start by inspecting the "Start" state in your merged "Sync XYZ" layer and using the parameter driver on that state to set the "SyncedObject/Debug" parameter as True.
+Late appearance occurs for viewers that do not have your avatar loaded, or are culling your avatar when the SyncedObject/Control parameter is enabled. They will only see the synced transform after the networking has cycled once. Remote viewers will always see a late start if Fast Start transition is muted.
 
 There is an object at "Synced Object/Solving/World/Culling". For situations where avatar performance rank does not matter, you may want to enable the scale constraint on this object by default, so that you will be unculled as soon as your avatar loads. Ideally you would only do this on a private avatar. This will not circumvent Avatar Distance Hiding.
+
+## How to use
+
+Locate "Synced Object/Sync Target" and take it out of the prefab hierarchy. Place it somewhere in a world space hierarchy, as you should be trying to sync a world object. I recommend putting the Sync Target inside of a [World Constraint](https://github.com/VRLabs/World-Constraint)/Container and using the "SyncedObject/Control" parameter to transition the drop.
+
+The "SyncedObject/Control" parameter must be true to start syncing. Changing it to False will stop syncing.
+
+The "SyncedObject/Show" parameter will indicate when you can show your prop.
+
+Show your world prop and constrain it to the "Synced Object/Solving/World/Result" transform when SyncedObject/Show is True. When SyncedObject/Show is False, switch your world prop's constraint source to something else, or hide the world prop, depending on your intended effect.
 
 ## Notes
 
