@@ -11,7 +11,7 @@ This prefab will allow you to network sync a world-fixed object for late joiners
 Proximity receivers find what constraint adjustments need to be made to reach a target position, and physbone angle parameters are used to reach a target rotation. Data is sent over the network in 18 steps. Sync time depends on the FPS of the host and when a remote viewer has joined the instance, relative to the state machine networking cycle. Average times are 6 to 13 seconds.
 
 - 1 Material (For anti-culling)
-- 19 Objects
+- 18 Objects
 - 19 Constraints
 - 4 Contact Receivers
 - 2 Contact Senders
@@ -43,7 +43,7 @@ Because it can be visually imperfect, fast starting is disabled for remote viewe
 
 Late appearance occurs for viewers that do not have your avatar loaded, or are culling your avatar when the SyncedObject/Control parameter is enabled. They will only see the synced transform after the networking has cycled once. Remote viewers will always see a late start if Fast Start transition is muted.
 
-There is an object at "Synced Object/Solving/World/Culling". For situations where avatar performance rank does not matter, you may want to enable the scale constraint on this object by default, so that you will be unculled as soon as your avatar loads. Ideally you would only do this on a private avatar. This will not circumvent Avatar Distance Hiding.
+There is an object at "Synced Object/World/Culling". For situations where avatar performance rank does not matter, you may want to enable the scale constraint on this object by default, so that you will be unculled as soon as your avatar loads. Ideally you would only do this on a private avatar. This will not circumvent Avatar Distance Hiding.
 
 ## How to use
 
@@ -53,7 +53,7 @@ The "SyncedObject/Control" parameter must be true to start syncing. Changing it 
 
 The "SyncedObject/Show" parameter will indicate when you can show your prop.
 
-Show your world prop and constrain it to the "Synced Object/Solving/World/Result" transform when SyncedObject/Show is True. When SyncedObject/Show is False, switch your world prop's constraint source to something else, or hide the world prop, depending on your intended effect.
+Show your world prop and constrain it to the "Synced Object/World/Result" transform when SyncedObject/Show is True. When SyncedObject/Show is False, switch your world prop's constraint source to something else, or hide the world prop, depending on your intended effect.
 
 ## Notes
 
