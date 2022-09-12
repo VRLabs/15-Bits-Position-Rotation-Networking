@@ -53,7 +53,7 @@ The "SyncedObject/Control" parameter must be true to start syncing. Changing it 
 
 The "SyncedObject/Show" parameter will indicate when you can show your prop.
 
-Show your world prop and constrain it to the "Synced Object/World/Result" transform when SyncedObject/Show is True. When SyncedObject/Show is False, switch your world prop's constraint source to something else, or hide the world prop, depending on your intended effect.
+Show your world prop and constrain it to the "Synced Object/World/Result" transform when SyncedObject/Show is True. When SyncedObject/Show is False, switch your world prop's constraint source to something else, or hide the world prop, depending on your intended effect. Props that are always visible should probably use Fast Start. Always visible props should still probably be hidden until SyncedObject/Show is True if the viewer is a late joiner, since Fast Start is unavailable to them. Late viewers can be detected by checking if "SyncedObject/Loaded" is False while SyncedObject/Control is True.
 
 ## Notes
 
