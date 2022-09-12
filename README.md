@@ -37,9 +37,11 @@ Unpack the prefab by right-clicking it and move the prefab to base of your avata
 
 Locate "Synced Object/Sync Target" and take it out of the prefab hierarchy. Place it somewhere in a world space hierarchy, as you should be trying to sync a world object. I recommend putting the Sync Target inside of a [World Constraint](https://github.com/VRLabs/World-Constraint)/Container and using the "SyncedObject/Control" parameter for transitions.
 
-Place your world object props into the "Synced Object/Container" hierarchy.
+Place your world object props into the "Synced Object/Container" hierarchy, or constrain your props to this Container.
 
-The "SyncedObject/Control" parameter must be true to start syncing. The "SyncedObject/Show" parameter will indicate when you can show your world prop if it is hidden by default.
+The "SyncedObject/Control" parameter must be true to start syncing. Changing it to False will stop syncing. 
+
+If your prop is hidden by default, the "SyncedObject/Show" parameter will indicate when you can show your world prop. Use both SyncedObject/Control and SyncedObject/Show parameters to check for when to hide your prop again. Generally, if either one is False, hide your prop.
 
 ## Option details
 
