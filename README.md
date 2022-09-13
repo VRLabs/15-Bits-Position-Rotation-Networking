@@ -47,7 +47,7 @@ Locate "Synced Object/Sync Target" and take it out of the prefab hierarchy. Plac
 
 "SyncedObject/Hidden" will be True if a player using the Avatar Distance Hider has hidden your avatar.
 
-If SyncedObject/Loaded is True and SyncedObject/Control is False, this player has your avatar loaded and is ready to see you place the world object. Constrain your world prop to the "Synced Object/World/Result" transform when SyncedObject/Finished is True. How your prop appears before networking is finished is up to you. You can show an world drop without networking and switch the constraint when networking is finished, or you can keep your prop hidden until networking is finished. 
+If SyncedObject/Loaded is True and SyncedObject/Control is False, this player has your avatar loaded and is ready to see you place the world object. Constrain your world prop to the "Synced Object/World/Result" transform when SyncedObject/Finished is True. How your prop appears before networking is finished is up to you. You can perform a world drop without networking and switch the constraint when networking is finished, or you can keep your prop hidden until networking is finished. 
 
 If SyncedObject/Loaded is False while SyncedObject/Control is True, it is a late player. For them, your world prop should start off hidden, and then made visible and constrained to Synced Object/World/Result when networking is finished.
 
