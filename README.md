@@ -51,7 +51,7 @@ If SyncedObject/Loaded is True and SyncedObject/Control is False, this player ha
 
 If SyncedObject/Loaded is False while SyncedObject/Control is True, it is a late player. For them, your world prop should start off hidden, and then made visible and constrained to Synced Object/World/Result when networking is finished.
 
-If SyncedObject/Hidden and SyncedObject/Control are True while SyncedObject/Finished is False, this player had not finished networking before your avatar was hidden. Treat this player as late and hide your prop, show it constrained to Synced Object/World/Result when networking is finished.
+If SyncedObject/Hidden and SyncedObject/Control are True while SyncedObject/Finished is False, this player did not finish networking before your avatar was hidden. Treat this player as late and hide your prop until networking is finished.
 
 ## Notes
 
