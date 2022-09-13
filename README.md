@@ -8,7 +8,7 @@ This prefab will allow you to network sync a world-fixed object for late joiners
 
 ## How it works
 
-Proximity receivers find what constraint adjustments need to be made to reach a target position, and physbone angle parameters are used to reach a target rotation. Data is sent over the network in 18 steps. Sync time depends on the FPS of the host and when a remote viewer has joined the instance, relative to the state machine networking cycle. Average times are 6 to 13 seconds.
+Proximity receivers find what constraint adjustments need to be made to reach a target position, and physbone angle parameters are used to reach a target rotation. Data is sent over the network in 18 steps. Sync time depends on the FPS of the host and when a remote viewer has loaded your avatar, relative to the state machine networking cycle. Average times are 6 to 13 seconds.
 
 - 1 Material (For anti-culling)
 - 18 Objects
@@ -39,7 +39,7 @@ The "SyncedObject/Control" parameter must be True to start the system. Changing 
 
 Locate "Synced Object/Sync Target" and take it out of the prefab hierarchy. Place it somewhere that will be in world space by the time you set SyncedObject/Control as True, as you should be trying to sync a world object.
 
-"Active" players will have loaded your avatar before placing the world object. "Late" players loaded your avatar after you've already placed it. There is another kind of player that uses the Avatar Distance Hider and did not finish networking before your avatar was hidden. Try to show the most appropriate effect to the player.
+"Active" players will have loaded your avatar before setting SyncedObject/Control to True. "Late" players loaded your avatar after SyncedObject/Control is True. There is another kind of player that uses the Avatar Distance Hider and did not finish networking before your avatar was hidden. Try to show the most appropriate effect to the player.
 
 "SyncedObject/Finished" will be True when a player has finished networking.
 
@@ -47,13 +47,13 @@ Locate "Synced Object/Sync Target" and take it out of the prefab hierarchy. Plac
 
 "SyncedObject/Hidden" will be True if a player using the Avatar Distance Hider has hidden your avatar.
 
-Constrain your world prop to the "Synced Object/World/Result" transform when SyncedObject/Finished is True.
+If SyncedObject/Loaded is True and SyncedObject/Control is False, this player has your avatar loaded and is ready to see you place the world object. Constrain your world prop to the "Synced Object/World/Result" transform when SyncedObject/Finished is True. How your prop appears before networking is finished is up to you. You can show an world drop without networking and switch the constraint when networking is finished, or you can keep your prop hidden until networking is finished. 
 
-If SyncedObject/Loaded is True and SyncedObject/Control is False, this player has your avatar loaded and is ready to see you place the world object. If you want the placement to be visible, you can show them a normal world object drop, and constrain to Synced Object/World/Result when SyncedObject/Finished is True. Alternatively, keep the world object prop hidden until SyncedObject/Finished is True.
+If SyncedObject/Loaded is False while SyncedObject/Control is True, it is a late player. For them, your world prop should start off hidden, and then made visible and constrained to Synced Object/World/Result when SyncedObject/Finished is True.
 
-If SyncedObject/Loaded is False while SyncedObject/Control is True, it is a late player. Treat this player as if they never saw you place anything. For them, your world prop should be hidden, and then made visible and constrained to Synced Object/World/Result when SyncedObject/Finished is True.
+If SyncedObject/Hidden and SyncedObject/Control are True while SyncedObject/Finished is False, this player hadn't finished networking before your avatar was hidden. Treat this player as late and hide your prop, show it and constrain to Synced Object/World/Result when SyncedObject/Finished is True.
 
-If SyncedObject/Hidden and SyncedObject/Control are True while SyncedObject/Finished is False, show this player as late, because even if they saw you place the world object, they didn't finish networking, and you do not want to play an inappropriate active placement effect for when your avatar becomes shown to them.
+## Notes
 
 If a remote user has _**both**_ self-interaction *and* avatar interaction permission with your avatar blocked, the world prop will never be shown to them. This is because recovering from the Avatar Distance Hiding feature requires a self interaction. Without the ability to recover properly from distance hiding, it's more likely that a user will see incorrect results. Mitigations for this seem make the system worse for everyone else. Since it's exceedingly rare to have both of these options disabled, and users that do have both of these options disabled are probably very careful with what they allow to be shown, I've opted to require these users to enable at least interaction permission for your avatar.
 
