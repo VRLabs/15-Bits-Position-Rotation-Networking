@@ -37015,7 +37015,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: SyncedObject/Finished
+    m_ConditionEvent: SyncedObject/Control
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3540516361854432156}
@@ -37791,6 +37791,9 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: Late Join or Networking Interrupted
   m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Control
+    m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: SyncedObject/Ready
     m_EventTreshold: 0
@@ -47683,6 +47686,9 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: SyncedObject/Control
+    m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: SyncedObject/Ready
     m_EventTreshold: 0
@@ -65325,6 +65331,9 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: SyncedObject/Control
+    m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: SyncedObject/Ready
     m_EventTreshold: 0
