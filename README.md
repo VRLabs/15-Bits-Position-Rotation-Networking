@@ -25,6 +25,8 @@ Proximity receivers find what constraint adjustments need to be made to reach a 
 
 Merge the FX controller to your own FX controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
 
+If you are testing an example controller, merge the example FX instead.
+
 "SyncedObject/Control" is a synced parameter, so click the checkbox within the tool to add it to your avatar's parameter asset.
 
 Everything under "SyncedObject/Send/" is also a synced parameter. There are 7 Booleans and 1 Float that should be synced in total.
@@ -49,16 +51,7 @@ Constrain your world prop to the "Synced Object/World/Result" transform. By defa
 
 "SyncedObject/Finished" will be True when a player has finished networking.
 
-Your world prop should be hidden by default.
-
-If your prop is meant to be visible before leaving it in the world, unhide your prop when SyncedObject/Ready is True.
-
-If your prop is to be hidden by default, you have two ways to show it. Either show it when SyncedObject/Ready and SyncedObject/Control are True, or show it when
-SyncedObject/Finished is True.
-
-If SyncedObject/Ready is False, your prop should be hidden, and reveal your prop constrained to the networked result when SyncedObject/Finished is True.
-
-Hide the prop again when you set SyncedObject/Control as False.
+There are example FX controllers in the Resources folder. You do not have to follow the examples to the letter, but try to understand the logic and use of parameters to show the player the correct effect.
 
 ## Notes
 
