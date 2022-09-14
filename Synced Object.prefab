@@ -176,7 +176,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 517417902842891378}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1195,9 +1195,9 @@ ParentConstraint:
   m_IsLocked: 1
   m_Sources:
   - sourceTransform: {fileID: 517417901752123746}
-    weight: 1
-  - sourceTransform: {fileID: 2210545826362581591}
     weight: 0
+  - sourceTransform: {fileID: 2210545826362581591}
+    weight: 1
 --- !u!33 &249162178059093821
 MeshFilter:
   m_ObjectHideFlags: 0
