@@ -18150,7 +18150,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Finished Late
+  m_Name: Finished
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -18164,7 +18164,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: ed345f17d7efb4d438706ef96583db02, type: 2}
+  m_Motion: {fileID: 7400000, guid: 6ad7d3428be68fc4793f9653028692c4, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -22754,18 +22754,6 @@ MonoBehaviour:
   parameters:
   - type: 0
     name: SyncedObject/Finished
-    source: 
-    value: 1
-    valueMin: 0
-    valueMax: 0
-    chance: 0
-    convertRange: 0
-    sourceMin: 0
-    sourceMax: 0
-    destMin: 0
-    destMax: 0
-  - type: 0
-    name: SyncedObject/Ready
     source: 
     value: 1
     valueMin: 0
