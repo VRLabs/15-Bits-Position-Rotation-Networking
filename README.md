@@ -45,15 +45,15 @@ Your world prop should be hidden by default.
 
 "Ready" players will have loaded your avatar before setting SyncedObject/Control to True. "Late" players loaded your avatar after SyncedObject/Control is True. There is another kind of player that uses the Avatar Distance Hider and did not finish networking before your avatar was hidden. They should be treated as late. Try to show the most appropriate effect to the player.
 
-"SyncedObject/Ready" will be True if a player has loaded your avatar before you have started networking.
+"SyncedObject/Ready" will be True if a player has loaded your avatar before you have started networking. It can go back to False if a player has hidden you during networking.
 
 "SyncedObject/Finished" will be True when a player has finished networking.
 
-If your prop is meant to be always visible, unhide your prop when SyncedObject/Ready is True. Leave Sync Target in world space and set SyncedObject/Control to True. When SyncedObject/Finished is True, networking is done, and Synced Object/World/Result will be synced. Since Synced Object/World/Result switches weight from Sync Target to the networked result, your prop may noticeably shift if the desync of leaving Sync Target in the world is great. Slow and deliberate placements of world objects desync less. You can constrain your prop to Result with a weight over time to make the switch less noticeable.
+If your prop is meant to be always visible, unhide your prop when SyncedObject/Ready is True. Leave Sync Target in world space and set SyncedObject/Control to True. Synced Object/World/Result will switch weight from Sync Target to the networked result. Your prop may noticeably shift if leaving Sync Target in the world had a lot of desync. Slow and deliberate placements of world objects desync less. You can constrain your prop to Result with a long weight over time to make the switch less noticeable.
 
-If your prop is okay to be hidden by default, you can show the prop as you set SyncedObject/Control to True, or if you do not want any visible switching to the networked result, show it when SyncedObject/Finished is True.
+If your prop is okay to be hidden by default, you can show the prop when SyncedObject/Ready and SyncedObject/Control are True, or if you do not want any visible switching to the networked result, show it when SyncedObject/Finished is True.
 
-If SyncedObject/Ready stays at False, show your prop constrained to the networked result when SyncedObject/Finished is True.
+If SyncedObject/Ready is False, your prop should be hidden, and reveal your prop constrained to the networked result when SyncedObject/Finished is True.
 
 Hide the prop again when you set SyncedObject/Control as False.
 
