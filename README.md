@@ -53,6 +53,8 @@ Constrain your world prop to the "Synced Object/World/Result" transform. By defa
 
 There are example FX controllers in the Resources folder. You do not have to follow the examples to the letter, but try to understand the logic and use of parameters to show the player the correct effect.
 
+The examples use a [World Constraint](https://github.com/VRLabs/World-Constraint) and expect the Sync Target to be in the World Constraint Container.
+
 ## Notes
 
 Don't try using a clone in the emulator to test. Test with only the original avatar in the scene. Do remote testing in-game.
