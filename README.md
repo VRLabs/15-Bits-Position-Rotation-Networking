@@ -51,9 +51,10 @@ Constrain your world prop to the "Synced Object/World/Result" transform. By defa
 
 Your world prop should be hidden by default.
 
-If your prop is meant to be always visible, unhide your prop when SyncedObject/Ready is True. Leave Sync Target in world space and set SyncedObject/Control to True. Synced Object/World/Result will switch weight from Sync Target to the networked result. Your prop may noticeably shift if leaving Sync Target in the world had a lot of desync. Slow and deliberate placements of world objects desync less. You can constrain your prop to Result with a long weight over time to make the switch less noticeable.
+If your prop is meant to be visible before leaving it in the world, unhide your prop when SyncedObject/Ready is True.
 
-If your prop is okay to be hidden by default, you can show the prop when SyncedObject/Ready and SyncedObject/Control are True, or if you do not want any visible switching to the networked result, show it when SyncedObject/Finished is True.
+If your prop is to be hidden by default, you have two ways to show it. Either show it when SyncedObject/Ready and SyncedObject/Control are True, or show it when
+SyncedObject/Finished is True.
 
 If SyncedObject/Ready is False, your prop should be hidden, and reveal your prop constrained to the networked result when SyncedObject/Finished is True.
 
