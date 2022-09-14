@@ -39,15 +39,17 @@ The "SyncedObject/Control" parameter must be True to start the system. Changing 
 
 Locate "Synced Object/Sync Target" and take it out of the prefab hierarchy. Place it somewhere that will be in world space by the time you set SyncedObject/Control as True, as you should be trying to sync a world object.
 
-Constrain your world prop to the "Synced Object/World/Result" transform. Synced Object/World/Result will start at Sync Target and when networking is finished, it will switch weight to the synced transforms.
+Constrain your world prop to the "Synced Object/World/Result" transform. By default, Synced Object/Cube is constrained to it. Synced Object/World/Result will start at Sync Target and when networking is finished, it will switch weight to the synced transforms. I recommend testing the prefab like this until you know what to expect.
 
-Your world prop should be hidden by default.
+## Visibility
 
 "Ready" players will have loaded your avatar before setting SyncedObject/Control to True. "Late" players loaded your avatar after SyncedObject/Control is True. There is another kind of player that uses the Avatar Distance Hider and did not finish networking before your avatar was hidden. They should be treated as late. Try to show the most appropriate effect to the player.
 
 "SyncedObject/Ready" will be True if a player has loaded your avatar before you have started networking. It can go back to False if a player has hidden you during networking.
 
 "SyncedObject/Finished" will be True when a player has finished networking.
+
+Your world prop should be hidden by default.
 
 If your prop is meant to be always visible, unhide your prop when SyncedObject/Ready is True. Leave Sync Target in world space and set SyncedObject/Control to True. Synced Object/World/Result will switch weight from Sync Target to the networked result. Your prop may noticeably shift if leaving Sync Target in the world had a lot of desync. Slow and deliberate placements of world objects desync less. You can constrain your prop to Result with a long weight over time to make the switch less noticeable.
 
@@ -58,6 +60,8 @@ If SyncedObject/Ready is False, your prop should be hidden, and reveal your prop
 Hide the prop again when you set SyncedObject/Control as False.
 
 ## Notes
+
+Don't try using a clone in the emulator to test. Test with only the original avatar in the scene. Do remote testing in-game.
 
 If a remote user has _**both**_ self-interaction *and* avatar interaction permission with your avatar blocked, the world prop will never be shown to them. This is because recovering from the Avatar Distance Hiding feature requires a self interaction. Without the ability to recover properly from distance hiding, it's more likely that a user will see incorrect results. Mitigations for this seem make the system worse for everyone else. Since it's exceedingly rare to have both of these options disabled, and users that do have both of these options disabled are probably very careful with what they allow to be shown, I've opted to require these users to enable at least interaction permission for your avatar.
 
