@@ -41,7 +41,7 @@ The "SyncedObject/Control" parameter must be True to start the system. Changing 
 
 Locate "Synced Object/Sync Target" and take it out of the prefab hierarchy. Place it somewhere that will be in world space by the time you set SyncedObject/Control as True, as you should be trying to sync a world object.
 
-Constrain your world prop to the "Synced Object/World/Result" transform. By default, Synced Object/Cube is constrained to it. Synced Object/World/Result will start at Sync Target and when networking is finished, it will switch weight to the synced transforms. I recommend testing the prefab like this until you know what to expect.
+Constrain your world prop to the "Synced Object/World/Result" transform. By default, Synced Object/Cube is constrained to it. Synced Object/World/Result will start at world 0,0,0 and when networking is finished, it will switch weight to the synced transforms. I recommend testing the prefab like this until you know what to expect.
 
 ## Visibility
 
