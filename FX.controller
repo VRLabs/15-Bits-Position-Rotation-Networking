@@ -18130,7 +18130,7 @@ MonoBehaviour:
   - type: 0
     name: SyncedObject/Ready
     source: 
-    value: 0
+    value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
