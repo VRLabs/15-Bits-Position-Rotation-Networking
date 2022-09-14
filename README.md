@@ -39,19 +39,23 @@ The "SyncedObject/Control" parameter must be True to start the system. Changing 
 
 Locate "Synced Object/Sync Target" and take it out of the prefab hierarchy. Place it somewhere that will be in world space by the time you set SyncedObject/Control as True, as you should be trying to sync a world object.
 
-"Active" players will have loaded your avatar before setting SyncedObject/Control to True. "Late" players loaded your avatar after SyncedObject/Control is True. There is another kind of player that uses the Avatar Distance Hider and did not finish networking before your avatar was hidden. Try to show the most appropriate effect to the player.
+Constrain your world prop to the "Synced Object/World/Result" transform. Synced Object/World/Result will start at Sync Target and when networking is finished, it will switch weight to the synced transforms.
+
+Your world prop should be hidden by default.
+
+"Ready" players will have loaded your avatar before setting SyncedObject/Control to True. "Late" players loaded your avatar after SyncedObject/Control is True. There is another kind of player that uses the Avatar Distance Hider and did not finish networking before your avatar was hidden. They should be treated as late. Try to show the most appropriate effect to the player.
+
+"SyncedObject/Ready" will be True if a player has loaded your avatar before you have started networking.
 
 "SyncedObject/Finished" will be True when a player has finished networking.
 
-"SyncedObject/Loaded" will be False for 2 seconds after a player has loaded your avatar, and True after that.
+If your prop is meant to be always visible, unhide your prop when SyncedObject/Ready is True. Leave Sync Target in world space and set SyncedObject/Control to True. When SyncedObject/Finished is True, networking is done, and Synced Object/World/Result will be synced. Since Synced Object/World/Result switches weight from Sync Target to the networked result, your prop may noticeably shift if the desync of leaving Sync Target in the world is great. Slow and deliberate placements of world objects desync less. You can constrain your prop to Result with a weight over time to make the switch less noticeable.
 
-"SyncedObject/Hidden" will be True if a player using the Avatar Distance Hider has hidden your avatar.
+If your prop is okay to be hidden by default, you can show the prop as you set SyncedObject/Control to True, or if you do not want any visible switching to the networked result, show it when SyncedObject/Finished is True.
 
-If SyncedObject/Loaded is True and SyncedObject/Control is False, this player has your avatar loaded and is ready to see you place the world object. Constrain your world prop to the "Synced Object/World/Result" transform when SyncedObject/Finished is True. How your prop appears before networking is finished is up to you. You can perform a world drop without networking and switch the constraint when networking is finished, or you can keep your prop hidden until networking is finished. 
+If SyncedObject/Ready stays at False, show your prop constrained to the networked result when SyncedObject/Finished is True.
 
-If SyncedObject/Loaded is False while SyncedObject/Control is True, it is a late player. For them, your world prop should start off hidden, and then made visible and constrained to Synced Object/World/Result when networking is finished.
-
-If SyncedObject/Hidden and SyncedObject/Control are True while SyncedObject/Finished is False, this player did not finish networking before your avatar was hidden. Treat this player as late and hide your prop until networking is finished.
+Hide the prop again when you set SyncedObject/Control as False.
 
 ## Notes
 
