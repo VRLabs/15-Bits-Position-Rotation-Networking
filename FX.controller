@@ -3601,7 +3601,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
+  - m_ConditionMode: 1
     m_ConditionEvent: SyncedObject/Interact
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
@@ -16810,7 +16810,7 @@ AnimatorStateTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: SyncedObject/Send/Angle
     m_EventTreshold: 0
-  - m_ConditionMode: 2
+  - m_ConditionMode: 1
     m_ConditionEvent: SyncedObject/Interact
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -7936824588511538976}
@@ -18301,7 +18301,7 @@ AnimatorStateTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: SyncedObject/Send/Angle
     m_EventTreshold: 0
-  - m_ConditionMode: 1
+  - m_ConditionMode: 2
     m_ConditionEvent: SyncedObject/Interact
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
@@ -21460,7 +21460,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
-  - m_ConditionMode: 2
+  - m_ConditionMode: 1
     m_ConditionEvent: SyncedObject/Interact
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
