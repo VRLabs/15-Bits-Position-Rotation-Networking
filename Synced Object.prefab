@@ -161,7 +161,6 @@ GameObject:
   - component: {fileID: 517417902842891379}
   - component: {fileID: 3961403226280845022}
   - component: {fileID: 8346325851946183518}
-  - component: {fileID: 6687022270111913588}
   m_Layer: 0
   m_Name: Synced Object
   m_TagString: Untagged
@@ -228,32 +227,6 @@ RotationConstraint:
   - sourceTransform: {fileID: 6081129921729490045, guid: b71942aa3315ab048812e9a8acf23be6,
       type: 3}
     weight: 1
---- !u!114 &6687022270111913588
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 517417902842891378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1450912254, guid: 80f1b8067b0760e4bb45023bc2e9de66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rootTransform: {fileID: 1858847998074535804}
-  shapeType: 0
-  radius: 3
-  height: 2
-  position: {x: 0, y: 0, z: 0}
-  rotation: {x: 0, y: 0, z: 0, w: 1}
-  collisionTags:
-  - SyncedObject
-  allowSelf: 1
-  allowOthers: 0
-  localOnly: 1
-  receiverType: 0
-  parameter: SyncedObject/Range
-  minVelocity: 0.05
 --- !u!1 &844114534570211239
 GameObject:
   m_ObjectHideFlags: 0
@@ -466,8 +439,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1858847998074535804}
   - component: {fileID: 1869570146808288366}
-  - component: {fileID: 5559743231509127963}
-  - component: {fileID: 603352007}
   m_Layer: 0
   m_Name: World
   m_TagString: Untagged
@@ -524,52 +495,6 @@ ParentConstraint:
   - sourceTransform: {fileID: 6081129921729490045, guid: b71942aa3315ab048812e9a8acf23be6,
       type: 3}
     weight: 1
---- !u!114 &5559743231509127963
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1858847998074535805}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1450912254, guid: 80f1b8067b0760e4bb45023bc2e9de66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rootTransform: {fileID: 0}
-  shapeType: 0
-  radius: 3
-  height: 2
-  position: {x: 0, y: 0, z: 0}
-  rotation: {x: 0, y: 0, z: 0, w: 1}
-  collisionTags:
-  - SyncedObject/Interact
-  allowSelf: 1
-  allowOthers: 0
-  localOnly: 0
-  receiverType: 0
-  parameter: SyncedObject/Interact
-  minVelocity: 0.05
---- !u!114 &603352007
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1858847998074535805}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -802764141, guid: 80f1b8067b0760e4bb45023bc2e9de66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rootTransform: {fileID: 0}
-  shapeType: 0
-  radius: 1
-  height: 6
-  position: {x: 0, y: 0, z: 0}
-  rotation: {x: 0, y: 0, z: 0, w: 1}
-  collisionTags:
-  - SyncedObject/Interact
 --- !u!1 &2210545826362581584
 GameObject:
   m_ObjectHideFlags: 0
@@ -581,6 +506,8 @@ GameObject:
   - component: {fileID: 2210545826362581591}
   - component: {fileID: 1172485871082493308}
   - component: {fileID: 1172485871082493309}
+  - component: {fileID: 7447736795183353363}
+  - component: {fileID: 6296207186882994720}
   m_Layer: 0
   m_Name: Result
   m_TagString: Untagged
@@ -640,6 +567,52 @@ RotationConstraint:
   m_Sources:
   - sourceTransform: {fileID: 3030060839547227144}
     weight: 1
+--- !u!114 &7447736795183353363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2210545826362581584}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1450912254, guid: 80f1b8067b0760e4bb45023bc2e9de66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootTransform: {fileID: 1858847998074535804}
+  shapeType: 0
+  radius: 3
+  height: 2
+  position: {x: 0, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: 0, w: 1}
+  collisionTags:
+  - SyncedObject/Interact
+  allowSelf: 1
+  allowOthers: 0
+  localOnly: 0
+  receiverType: 0
+  parameter: SyncedObject/Interact
+  minVelocity: 0.05
+--- !u!114 &6296207186882994720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2210545826362581584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -802764141, guid: 80f1b8067b0760e4bb45023bc2e9de66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootTransform: {fileID: 1858847998074535804}
+  shapeType: 0
+  radius: 1
+  height: 6
+  position: {x: 0, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: 0, w: 1}
+  collisionTags:
+  - SyncedObject/Interact
 --- !u!1 &2210545826431223441
 GameObject:
   m_ObjectHideFlags: 0
@@ -651,6 +624,7 @@ GameObject:
   - component: {fileID: 2210545826431223440}
   - component: {fileID: 2210545826431223447}
   - component: {fileID: 8390917071516156330}
+  - component: {fileID: 5275313059221709745}
   m_Layer: 0
   m_Name: Next
   m_TagString: Untagged
@@ -711,6 +685,32 @@ MonoBehaviour:
   rotation: {x: 0, y: 0, z: 0, w: 1}
   collisionTags:
   - SyncedObject
+--- !u!114 &5275313059221709745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2210545826431223441}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1450912254, guid: 80f1b8067b0760e4bb45023bc2e9de66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rootTransform: {fileID: 1858847998074535804}
+  shapeType: 0
+  radius: 3
+  height: 2
+  position: {x: 0, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: 0, w: 1}
+  collisionTags:
+  - SyncedObject
+  allowSelf: 1
+  allowOthers: 0
+  localOnly: 1
+  receiverType: 0
+  parameter: SyncedObject/Range
+  minVelocity: 0.05
 --- !u!1 &3030060839547227145
 GameObject:
   m_ObjectHideFlags: 0
