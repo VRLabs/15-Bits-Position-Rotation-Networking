@@ -4,7 +4,7 @@
 [![Generic badge](https://img.shields.io/badge/SDK-AvatarSDK3-informational.svg)](https://vrchat.com/home/download)
 [![Generic badge](https://img.shields.io/github/downloads/VRLabs/Synced-Object/total?label=Downloads)](https://github.com/VRLabs/Synced-Object/releases/latest)
 
-This prefab will allow you to network sync a world-fixed object for late joiners. Supports world sizes up to 10000 units.
+This prefab will allow you to network sync a world-fixed object for late joiners. Supports world sizes up to 10,000 meters.
 
 ## How it works
 
