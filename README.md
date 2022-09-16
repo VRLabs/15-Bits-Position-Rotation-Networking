@@ -45,17 +45,19 @@ Constrain your world prop to the "Synced Object/World/Result" transform. By defa
 
 ## Visibility
 
-"Ready" players will have loaded your avatar before setting SyncedObject/Control to True. "Late" players loaded your avatar after SyncedObject/Control is True. There is another kind of player that uses the Avatar Distance Hider and did not finish networking before your avatar was hidden. They should be treated as late. Try to show the most appropriate effect to the player.
-
-"SyncedObject/Ready" will be True if a player has loaded your avatar before you have started networking. It can go back to False if a player has hidden you during networking.
+"Active" players will have loaded your avatar before setting SyncedObject/Control to True. "Late" players loaded your avatar after SyncedObject/Control is True. There is another kind of player that uses the Avatar Distance Hider and did not finish networking before your avatar was hidden. They should be treated as late. Try to show the most appropriate effect to the player.
 
 "SyncedObject/Finished" will be True when a player has finished networking.
+
+"SyncedObject/Interrupted" will be True if a player has distance hidden you during networking, and didn't finish.
 
 There are example FX controllers in the Resources folder. You do not have to follow the examples to the letter, but try to understand the logic and use of parameters to show the player the correct effect.
 
 The examples use a [World Constraint](https://github.com/VRLabs/World-Constraint) and expects the Sync Target to be in World Constraint/Container.
 
 ## Notes
+
+Having a controller reference in your avatar's main animator before you upload can actually cause errors.
 
 Don't try using a clone in the emulator to test. Test with only the original avatar in the scene. Do remote testing in-game.
 
