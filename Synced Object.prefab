@@ -1412,7 +1412,7 @@ ScaleConstraint:
   m_Enabled: 0
   m_Weight: 1
   m_ScaleAtRest: {x: 1, y: 1, z: 1}
-  m_ScaleOffset: {x: 3000, y: 3000, z: 3000}
+  m_ScaleOffset: {x: 10000, y: 10000, z: 10000}
   m_AffectScalingX: 1
   m_AffectScalingY: 1
   m_AffectScalingZ: 1
