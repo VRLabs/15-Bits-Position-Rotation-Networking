@@ -13,7 +13,7 @@ Proximity receivers find what constraint adjustments need to be made to reach a 
 - 1 Material (For anti-culling)
 - 18 Objects
 - 19 Constraints
-- 4 Contact Receivers
+- 3 Contact Receivers
 - 2 Contact Senders
 - 2 PhysBones
 - 1 PhysBone Collider
