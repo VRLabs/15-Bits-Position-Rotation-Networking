@@ -130,7 +130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 517417901752123746}
   m_Layer: 0
-  m_Name: Sync Target
+  m_Name: 15b Position Rotation Network Target
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -162,7 +162,7 @@ GameObject:
   - component: {fileID: 3961403226280845022}
   - component: {fileID: 8346325851946183518}
   m_Layer: 0
-  m_Name: Synced Object
+  m_Name: 15b Position Rotation Network
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -683,7 +683,7 @@ MonoBehaviour:
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   collisionTags:
-  - SyncedObject
+  - 15BitPositionRotationNetwork
 --- !u!1 &3030060839547227145
 GameObject:
   m_ObjectHideFlags: 0
@@ -1289,7 +1289,7 @@ MonoBehaviour:
   position: {x: 3, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   collisionTags:
-  - SyncedObject
+  - 15BitPositionRotationNetwork
   allowSelf: 1
   allowOthers: 0
   localOnly: 1
@@ -1315,7 +1315,7 @@ MonoBehaviour:
   position: {x: -3, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   collisionTags:
-  - SyncedObject
+  - 15BitPositionRotationNetwork
   allowSelf: 1
   allowOthers: 0
   localOnly: 1
