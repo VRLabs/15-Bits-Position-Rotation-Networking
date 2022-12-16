@@ -27,9 +27,9 @@ Merge the FX controller to your own FX controller, using the [Avatars 3.0 Manage
 
 If you are testing an example controller, merge the example FX instead.
 
-"SyncedObject/Control" is a synced parameter, so click the checkbox within the tool to add it to your avatar's parameter asset.
+"15BitPositionRotationNetwork/Control" is a synced parameter, so click the checkbox within the tool to add it to your avatar's parameter asset.
 
-Everything under "SyncedObject/Send/" is also a synced parameter. There are 7 Booleans and 1 Float that should be synced in total.
+Everything under "15BitPositionRotationNetwork/Send/" is also a synced parameter. There are 7 Booleans and 1 Float that should be synced in total.
 
 "Synced Object.prefab" should go to the base of your Unity scene, which will give it base Unity scaling.
 
@@ -37,19 +37,19 @@ Unpack the prefab by right-clicking it and move the prefab to base of your avata
 
 ## How to use
 
-The "SyncedObject/Control" parameter must be True to start the system. Changing it to False will stop and reset the system.
+The "15BitPositionRotationNetwork/Control" parameter must be True to start the system. Changing it to False will stop and reset the system.
 
-Locate "Synced Object/Sync Target" and take it out of the prefab hierarchy. Place it somewhere that will be in world space by the time you set SyncedObject/Control as True, as you should be trying to sync a world object.
+Locate "Synced Object/Sync Target" and take it out of the prefab hierarchy. Place it somewhere that will be in world space by the time you set 15BitPositionRotationNetwork/Control as True, as you should be trying to sync a world object.
 
 Constrain your world prop to the "Synced Object/World/Result" transform. By default, Synced Object/Cube is constrained to it. Synced Object/World/Result will start at world 0,0,0 and when networking is finished, it will move to the synced transforms. I recommend testing the prefab like this until you know what to expect.
 
 ## Visibility
 
-"Active" players will have loaded your avatar before setting SyncedObject/Control to True. "Late" players loaded your avatar after SyncedObject/Control is True. There is another kind of player that uses the Avatar Distance Hider and did not finish networking before your avatar was hidden. They should be treated as late. Try to show the most appropriate effect to the player.
+"Active" players will have loaded your avatar before setting 15BitPositionRotationNetwork/Control to True. "Late" players loaded your avatar after 15BitPositionRotationNetwork/Control is True. There is another kind of player that uses the Avatar Distance Hider and did not finish networking before your avatar was hidden. They should be treated as late. Try to show the most appropriate effect to the player.
 
-"SyncedObject/Finished" will be True when a player has finished networking.
+"15BitPositionRotationNetwork/Finished" will be True when a player has finished networking.
 
-"SyncedObject/Interrupted" will be True if a player has distance hidden you during networking, and didn't finish.
+"15BitPositionRotationNetwork/Interrupted" will be True if a player has distance hidden you during networking, and didn't finish.
 
 There are example FX controllers in the Resources folder. You do not have to follow the examples to the letter, but try to understand the logic and use of parameters to show the player the correct effect.
 
