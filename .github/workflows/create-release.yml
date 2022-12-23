@@ -25,13 +25,13 @@ jobs:
       
       - name: Prepare Folder For Packaging
         run: |
-          mkdir -p "Assets/VRLabs/15 Bit Position Rotation Networking"
-          ls | grep -v "Assets" | xargs -d '\n' mv -t "Assets/VRLabs/15 Bit Position Rotation Networking"
+          mkdir -p "Assets/VRLabs/15 Bits Position Rotation Networking"
+          ls | grep -v "Assets" | xargs -d '\n' mv -t "Assets/VRLabs/15 Bits Position Rotation Networking"
           echo -e "fileFormatVersion: 2\nguid: 652a1ba5b00554143bc9a76307dbc4e8\nfolderAsset: yes\nDefaultImporter:\n  externalObjects: {}\n  userData: \n  assetBundleName: \n  assetBundleVariant: " > "Assets/VRLabs.meta"
-          echo -e "fileFormatVersion: 2\nguid: 31c817c0a8c084d8fbb13bbcab2789fb\nfolderAsset: yes\nDefaultImporter:\n  externalObjects: {}\n  userData: \n  assetBundleName: \n  assetBundleVariant: " > "Assets/VRLabs/15 Bit Position Rotation Networking.meta"
-          cd "Assets/VRLabs/15 Bit Position Rotation Networking"
-          zip -r 15_Bit_Position_Rotation_Networking_${{ env.SOURCE_TAG }}.zip ./
-          mv 15_Bit_Position_Rotation_Networking_${{ env.SOURCE_TAG }}.zip ../../../
+          echo -e "fileFormatVersion: 2\nguid: 31c817c0a8c084d8fbb13bbcab2789fb\nfolderAsset: yes\nDefaultImporter:\n  externalObjects: {}\n  userData: \n  assetBundleName: \n  assetBundleVariant: " > "Assets/VRLabs/15 Bits Position Rotation Networking.meta"
+          cd "Assets/VRLabs/15 Bits Position Rotation Networking"
+          zip -r 15_Bits_Position_Rotation_Networking_${{ env.SOURCE_TAG }}.zip ./
+          mv 15_Bits_Position_Rotation_Networking_${{ env.SOURCE_TAG }}.zip ../../../
           cd ../../../
         env:
           SOURCE_TAG: ${{ steps.branch_name.outputs.SOURCE_TAG }}
@@ -41,17 +41,17 @@ jobs:
           SOURCE_TAG: ${{ steps.branch_name.outputs.SOURCE_TAG }}
         uses: VRLabs/extract-unity-package-action@v1.2.1
         with:
-          outputPackagePath: '15_Bit_Position_Rotation_Networking_${{ env.SOURCE_TAG }}.unitypackage'
+          outputPackagePath: '15_Bits_Position_Rotation_Networking_${{ env.SOURCE_TAG }}.unitypackage'
           unityProjectPath: '.'
           
       - name: Create Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          name: "15 Bit Position Rotation Networking ${{ env.SOURCE_TAG }}"
+          name: "15 Bits Position Rotation Networking ${{ env.SOURCE_TAG }}"
           files: |
-            15_Bit_Position_Rotation_Networking_${{ env.SOURCE_TAG }}.unitypackage
-            15_Bit_Position_Rotation_Networking_${{ env.SOURCE_TAG }}.zip
+            15_Bits_Position_Rotation_Networking_${{ env.SOURCE_TAG }}.unitypackage
+            15_Bits_Position_Rotation_Networking_${{ env.SOURCE_TAG }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SOURCE_TAG: ${{ steps.branch_name.outputs.SOURCE_TAG }}

@@ -130,7 +130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 517417901752123746}
   m_Layer: 0
-  m_Name: 15b Position Rotation Network Target
+  m_Name: 15 Bits Position Rotation Networking Target
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -162,7 +162,7 @@ GameObject:
   - component: {fileID: 3961403226280845022}
   - component: {fileID: 8346325851946183518}
   m_Layer: 0
-  m_Name: 15b Position Rotation Network
+  m_Name: 15 Bits Position Rotation Networking
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -373,7 +373,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   isAnimated: 0
-  parameter: 15BitPositionRotationNetwork/Polar
+  parameter: 15BitsPositionRotationNetworking/Polar
   showGizmos: 1
   boneOpacity: 0.5
   limitOpacity: 0.5
@@ -586,12 +586,12 @@ MonoBehaviour:
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   collisionTags:
-  - 15BitPositionRotationNetwork/Interact
+  - 15BitsPositionRotationNetworking/Interact
   allowSelf: 1
   allowOthers: 0
   localOnly: 0
   receiverType: 0
-  parameter: 15BitPositionRotationNetwork/Interact
+  parameter: 15BitsPositionRotationNetworking/Interact
   minVelocity: 0.05
 --- !u!114 &6296207186882994720
 MonoBehaviour:
@@ -612,7 +612,7 @@ MonoBehaviour:
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   collisionTags:
-  - 15BitPositionRotationNetwork/Interact
+  - 15BitsPositionRotationNetworking/Interact
 --- !u!1 &2210545826431223441
 GameObject:
   m_ObjectHideFlags: 0
@@ -683,7 +683,7 @@ MonoBehaviour:
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   collisionTags:
-  - 15BitPositionRotationNetwork
+  - 15BitsPositionRotationNetworking
 --- !u!1 &3030060839547227145
 GameObject:
   m_ObjectHideFlags: 0
@@ -951,7 +951,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   isAnimated: 0
-  parameter: 15BitPositionRotationNetwork/Measure
+  parameter: 15BitsPositionRotationNetworking/Measure
   showGizmos: 1
   boneOpacity: 0.5
   limitOpacity: 0.5
@@ -1289,12 +1289,12 @@ MonoBehaviour:
   position: {x: 3, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   collisionTags:
-  - 15BitPositionRotationNetwork
+  - 15BitsPositionRotationNetworking
   allowSelf: 1
   allowOthers: 0
   localOnly: 1
   receiverType: 2
-  parameter: 15BitPositionRotationNetwork/Measure+
+  parameter: 15BitsPositionRotationNetworking/Measure+
   minVelocity: 0.05
 --- !u!114 &3520379736693649305
 MonoBehaviour:
@@ -1315,12 +1315,12 @@ MonoBehaviour:
   position: {x: -3, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   collisionTags:
-  - 15BitPositionRotationNetwork
+  - 15BitsPositionRotationNetworking
   allowSelf: 1
   allowOthers: 0
   localOnly: 1
   receiverType: 2
-  parameter: 15BitPositionRotationNetwork/Measure-
+  parameter: 15BitsPositionRotationNetworking/Measure-
   minVelocity: 0.05
 --- !u!1 &6779940122396856878
 GameObject:

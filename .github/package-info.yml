@@ -1,8 +1,8 @@
-package-name: 15_Bit_Position_Rotation_Networking
-visual-name: 15 Bit Position Rotation Networking
-destination-folder: Assets/VRLabs/15 Bit Position Rotation Networking
+package-name: 15_Bits_Position_Rotation_Networking
+visual-name: 15 Bits Position Rotation Networking
+destination-folder: Assets/VRLabs/15 Bits Position Rotation Networking
 extra-generated-meta:
   - path: Assets/VRLabs
     guid: 652a1ba5b00554143bc9a76307dbc4e8
-  - path: Assets/VRLabs/15 Bit Position Rotation Networking
+  - path: Assets/VRLabs/15 Bits Position Rotation Networking
     guid: 31c817c0a8c084d8fbb13bbcab2789fb

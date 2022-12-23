@@ -42,7 +42,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: 15b Position Rotation Network/World/Culling
+    path: 15 Bits Position Rotation Networking/World/Culling
     classID: 1818360610
     script: {fileID: 0}
   - curve:
@@ -70,7 +70,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: 15b Position Rotation Network/World/Result
+    path: 15 Bits Position Rotation Networking/World/Result
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -98,7 +98,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: 15b Position Rotation Network/World/Result
+    path: 15 Bits Position Rotation Networking/World/Result
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -126,7 +126,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: 15b Position Rotation Network/World/Result
+    path: 15 Bits Position Rotation Networking/World/Result
     classID: 114
     script: {fileID: -1450912254, guid: 80f1b8067b0760e4bb45023bc2e9de66, type: 3}
   m_PPtrCurves: []
@@ -212,7 +212,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: 15b Position Rotation Network/World/Culling
+    path: 15 Bits Position Rotation Networking/World/Culling
     classID: 1818360610
     script: {fileID: 0}
   - curve:
@@ -240,7 +240,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: 15b Position Rotation Network/World/Result
+    path: 15 Bits Position Rotation Networking/World/Result
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -268,7 +268,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: 15b Position Rotation Network/World/Result
+    path: 15 Bits Position Rotation Networking/World/Result
     classID: 1818360609
     script: {fileID: 0}
   - curve:
@@ -296,7 +296,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: 15b Position Rotation Network/World/Result
+    path: 15 Bits Position Rotation Networking/World/Result
     classID: 114
     script: {fileID: -1450912254, guid: 80f1b8067b0760e4bb45023bc2e9de66, type: 3}
   m_EulerEditorCurves: []

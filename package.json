@@ -1,6 +1,6 @@
 {
-  "name" : "dev.vrlabs.15-bit-position-rotation-networking",
-  "displayName" : "15 Bit Position Rotation Networking",
+  "name" : "dev.vrlabs.15-bits-position-rotation-networking",
+  "displayName" : "15 Bits Position Rotation Networking",
   "version" : "master",
   "unity" : "2019.4",
   "description" : "Networked position and rotation transforms with 15 Bits of memory.",
@@ -12,8 +12,8 @@
   "vpmDependencies" : {
     "com.vrchat.avatars" : ">=3.1.2"
   },
-  "url" : "https://github.com/VRLabs/15-Bit-Position-Rotation-Networking-Private/releases/download/master/15_Bit_Position_Rotation_Networking_master.zip",
+  "url" : "https://github.com/VRLabs/15-Bits-Position-Rotation-Networking-Private/releases/download/master/15_Bits_Position_Rotation_Networking_master.zip",
   "legacyFolders" : {
-    "Assets\\VRLabs\\15 Bit Position Rotation Network" : "31c817c0a8c084d8fbb13bbcab2789fb"
+    "Assets\\VRLabs\\15 Bits Position Rotation Network" : "31c817c0a8c084d8fbb13bbcab2789fb"
   }
 }

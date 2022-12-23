@@ -10,6 +10,6 @@ let versionNumber = process.argv[2];
 var jsonFile = JSON.parse(fs.readFileSync('package.json'));
 
 jsonFile.version = versionNumber;
-jsonFile.url = "https://github.com/VRLabs/15-Bit-Position-Rotation-Networking-Private/releases/download/"+versionNumber +"/15_Bit_Position_Rotation_Networking_"+versionNumber+".zip"
+jsonFile.url = "https://github.com/VRLabs/15-Bits-Position-Rotation-Networking-Private/releases/download/"+versionNumber +"/15_Bits_Position_Rotation_Networking_"+versionNumber+".zip"
 
 fs.writeFileSync('package.json', JSON.stringify(jsonFile, null, 2));
