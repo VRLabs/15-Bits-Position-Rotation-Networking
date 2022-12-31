@@ -4959,7 +4959,7 @@ AnimatorStateMachine:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 15 Bits Position Rotation Network
+  m_Name: 15 Bits Position Rotation Networking
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 3104157835862880440}
@@ -12469,7 +12469,7 @@ AnimatorController:
     m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
-    m_Name: 15 Bits Position Rotation Network
+    m_Name: 15 Bits Position Rotation Networking
     m_StateMachine: {fileID: -5809007791730710114}
     m_Mask: {fileID: 0}
     m_Motions: []
