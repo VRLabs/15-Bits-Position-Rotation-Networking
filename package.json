@@ -12,7 +12,7 @@
   "vpmDependencies" : {
     "com.vrchat.avatars" : ">=3.1.2"
   },
-  "url" : "https://github.com/VRLabs/15-Bits-Position-Rotation-Networking-Private/releases/download/master/15_Bits_Position_Rotation_Networking_master.zip",
+  "url" : "https://github.com/VRLabs/15-Bits-Position-Rotation-Networking/releases/download/master/15_Bits_Position_Rotation_Networking_master.zip",
   "legacyFolders" : {
     "Assets\\VRLabs\\15 Bits Position Rotation Network" : "31c817c0a8c084d8fbb13bbcab2789fb"
   }
