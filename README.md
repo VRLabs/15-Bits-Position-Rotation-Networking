@@ -2,7 +2,7 @@
   
 [![Generic badge](https://img.shields.io/badge/Unity-2019.4.31f1-informational.svg)](https://unity3d.com/unity/whats-new/2019.4.31)
 [![Generic badge](https://img.shields.io/badge/SDK-AvatarSDK3-informational.svg)](https://vrchat.com/home/download)
-[![Generic badge](https://img.shields.io/github/downloads/VRLabs/15-Bits-Position-Rotation-Networking-Private/total?label=Downloads)](https://github.com/VRLabs/15-Bits-Position-Rotation-Networking-Private/releases/latest)
+[![Generic badge](https://img.shields.io/github/downloads/VRLabs/15-Bits-Position-Rotation-Networking/total?label=Downloads)](https://github.com/VRLabs/15-Bits-Position-Rotation-Networking-Private/releases/latest)
 
 This prefab will allow you to network the position and rotation of a world-fixed object. Supports world sizes up to 10,000 meters.
 
