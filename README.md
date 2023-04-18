@@ -57,7 +57,7 @@ The examples use a [World Constraint](https://github.com/VRLabs/World-Constraint
 
 ## Notes
 
-Having a controller reference in your avatar's main animator before you upload can actually cause errors.
+Having a controller reference in your avatar's main animator before you upload can lead to animations previewing, which can cause errors with this package. Clear your controller reference on your main animator, or ensure you are not in a preview state before you upload.
 
 Don't try using a clone in the emulator to test. Test with only the original avatar in the scene. Do remote testing in-game.
 
