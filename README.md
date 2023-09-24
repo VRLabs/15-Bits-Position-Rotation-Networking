@@ -1,70 +1,116 @@
-# 15 Bits Position Rotation Networking
-  
-[![Generic badge](https://img.shields.io/badge/Unity-2019.4.31f1-informational.svg)](https://unity3d.com/unity/whats-new/2019.4.31)
-[![Generic badge](https://img.shields.io/badge/SDK-AvatarSDK3-informational.svg)](https://vrchat.com/home/download)
-[![Generic badge](https://img.shields.io/github/downloads/VRLabs/15-Bits-Position-Rotation-Networking/total?label=Downloads)](https://github.com/VRLabs/15-Bits-Position-Rotation-Networking-Private/releases/latest)
+<div align="center">
 
-This prefab will allow you to network the position and rotation of a world-fixed object. Supports world sizes up to 10,000 meters.
+# 15 Bit Position Rotation Networking
+
+[![Generic badge](https://img.shields.io/github/downloads/VRLabs/15-Bits-Position-Rotation-Networking/total?label=Downloads)](https://github.com/VRLabs/15-Bits-Position-Rotation-Networking/releases/latest)
+[![Generic badge](https://img.shields.io/badge/License-MIT-informational.svg)](https://github.com/VRLabs/15-Bits-Position-Rotation-Networking/blob/main/LICENSE)
+[![Generic badge](https://img.shields.io/badge/Unity-2019.4.31f1-lightblue.svg)](https://unity3d.com/unity/whats-new/2019.4.31)
+[![Generic badge](https://img.shields.io/badge/SDK-AvatarSDK3-lightblue.svg)](https://vrchat.com/home/download)
+
+[![Generic badge](https://img.shields.io/discord/706913824607043605?color=%237289da&label=DISCORD&logo=Discord&style=for-the-badge)](https://discord.vrlabs.dev/)
+[![Generic badge](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dvrlabs%26type%3Dpatrons&style=for-the-badge)](https://patreon.vrlabs.dev/)
+
+This prefab will allow you to network the position and rotation of a world-fixed object. Supports world sizes up to 10,000 meters
+
+![Alt text]()
+
+### ⬇️ [Download latest Unitypackage](https://github.com/VRLabs/15-Bits-Position-Rotation-Networking/releases/latest)
+
+<!-- 
+### 📦 [Add to VRChat Creator Companion]() -->
+
+</div>
+
+---
 
 ## How it works
 
-Proximity receivers find what constraint adjustments need to be made to reach a target position, and physbone angle parameters are used to reach a target rotation. Data is sent over the network in 18 steps. Sync time depends on the FPS of the host and when a remote viewer has loaded your avatar, relative to the state machine networking cycle. Average times are 6 to 13 seconds.
+* Contact Receivers are used to turn the position of an object into bits, and physbones are used to turn the rotation of an object into bits.
+* This data is transmitted over 6-13 seconds, and when received, turned back into a position and a rotation for the object.
 
-- 1 Material (For anti-culling)
-- 18 Objects
-- 19 Constraints
-- 3 Contact Receivers
-- 2 Contact Senders
-- 2 PhysBones
-- 1 PhysBone Collider
-- 1 Animator Layer
-- 1 Synced Float, 7 Synced Booleans
-- 15 Bits
- 
 ## Install guide
 
-Merge the FX controller to your own FX controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
-
-If you are testing an example controller, merge the example FX instead.
-
-"15BitsPositionRotationNetworking/Control" is a synced parameter, so click the checkbox within the tool to add it to your avatar's parameter asset.
-
-Everything under "15BitsPositionRotationNetworking/Send/" is also a synced parameter. There are 7 Booleans and 1 Float that should be synced in total.
-
-"15 Bits Position Rotation Networking.prefab" should go to the base of your Unity scene, which will give it base Unity scaling.
-
-Unpack the prefab by right-clicking it and move the prefab to base of your avatar.
+* Merge the Animator Controller ``15 Bits Position Rotation Networking FX`` to your own FX Controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
+  * If you want to try one of the examples, you can merge one of the ``FX`` controllers under ``Resources/Examples``.
+  * These are more complete versions of the System, but they require a World Constraint with the ``15 Bits Position Rotation Networking Target`` under the ``World Constraint/Container`` object.
+* Merge the Expression Parameters ``15 Bits Position Rotation Networking Parameters`` to your own Expression Parameters, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
+* Drag & drop the ``15 Bits Position Rotation Networking`` prefab into the base of your Hierarchy.
+* Right click and unpack the prefab, then drag & drop it onto your avatar.
 
 ## How to use
 
-The "15BitsPositionRotationNetworking/Control" parameter must be True to start the system. Changing it to False will stop and reset the system.
+* The ``15BitsPositionRotationNetworking/Control`` parameter controls whether or not the System is syncing.
+* Use a World Constraint to place the ``15 Bits Position Rottation Netorking Target`` in world space, and enable the ``15BitsPositionRotationNetworking/Control`` parameter.
+* After the 6-13 seconds, the ``Result`` object will be placed at the ``15 Bits Position Rottation Netorking Target`` location in world space.
+* You can use the following parameters to decide when to show the object and when to constrain the object to the Result target:
+  * ``15BitsPositionRotationNetworking/Finished`` will be True when a player has finished networking.
+  * ``15BitsPositionRotationNetworking/Interrupted`` will be True if a player has distance hidden you during networking, and didn't finish (and the Result transform is in the wrong place).
 
-Locate "15 Bits Position Rotation Networking/15 Bits Position Rotation Networking Target" and take it out of the prefab hierarchy. Place it somewhere that will be in world space by the time you set 15BitsPositionRotationNetworking/Control as True, as you should be trying to sync a world object.
+## Additional Notes
 
-Constrain your world prop to the "15 Bits Position Rotation Networking/World/Result" transform. By default, 15 Bits Position Rotation Networking/Cube is constrained to it. 15 Bits Position Rotation Networking/World/Result will start at world 0,0,0 and when networking is finished, it will move to the synced transforms. I recommend testing the prefab like this until you know what to expect.
+* If a remote user has _**both**_ self-interaction *and* avatar interaction permission with your avatar blocked, the world prop will never be shown to them.
+* There is an object at "15 Bits Position Rotation Networking/World/Culling". You can enable the scale constraint on this object to be unculled as soon as your avatar loads.
 
-## Visibility
+## Performance stats
 
-"Active" players will have loaded your avatar before setting 15BitsPositionRotationNetworking/Control to True. "Late" players loaded your avatar after 15BitsPositionRotationNetworking/Control is True. There is another kind of player that uses the Avatar Distance Hider and did not finish networking before your avatar was hidden. They should be treated as late. Try to show the most appropriate effect to the player.
+```c++
+Material Slots:     1
+Constraints:        19
+Contact Receivers:  3
+Contact Senders:    2
+PhysBones:          2
+PhysBone Collider:  1
+FX Animator Layers: 1
+Parameter Memory:   15
+```
 
-"15BitsPositionRotationNetworking/Finished" will be True when a player has finished networking.
+## Hierarchy layout
 
-"15BitsPositionRotationNetworking/Interrupted" will be True if a player has distance hidden you during networking, and didn't finish.
+```html
+15 Bits Position Rotation Networking
+|-Copy Angle
+|  |-Plane
+|-Measure Angle
+|  |-Next
+|  |-Polar
+|-World
+|  |-Culling
+|  |-Very Coarse
+|  |-Coarse
+|  |-Fine
+|  |-Very Fine
+|  |  |-Proximity
+|  |  |-Next
+|  |-Position
+|  |-Rotation
+|  |-Result
+|-Cube
+```
 
-There are example FX controllers in the Resources folder. You do not have to follow the examples to the letter, but try to understand the logic and use of parameters to show the player the correct effect.
+## Contributors
 
-The examples use a [World Constraint](https://github.com/VRLabs/World-Constraint) and expects the 15 Bits Position Rotation Networking Target to be in World Constraint/Container.
-
-## Notes
-
-Having a controller reference in your avatar's main animator before you upload can lead to animations previewing, which can cause errors with this package. Clear your controller reference on your main animator, or ensure you are not in a preview state before you upload.
-
-Don't try using a clone in the emulator to test. Test with only the original avatar in the scene. Do remote testing in-game.
-
-If a remote user has _**both**_ self-interaction *and* avatar interaction permission with your avatar blocked, the world prop will never be shown to them. This is because recovering from the Avatar Distance Hiding feature requires a self-interaction. Without the ability to recover properly from distance hiding, it's more likely that a user will see incorrect results. Mitigations for this seem make the system worse for everyone else. Since it's exceedingly rare to have both of these options disabled, and users that do have both of these options disabled are probably very careful with what they allow to be shown, I've opted to require these users to enable at least self-interaction permission.
-
-There is an object at "15 Bits Position Rotation Networking/World/Culling". For situations where avatar performance rank does not matter, you may want to enable the scale constraint on this object by default, so that you will be unculled as soon as your avatar loads. Ideally you would only do this on a private avatar. This will not circumvent Avatar Distance Hiding.
+* [lin](https://github.com/oofdesu)
 
 ## Credits
 
 Thanks to [Razgriz](https://github.com/rrazgriz) for her ideas on syncing rotation. Thanks to [Juzo](https://github.com/JuzoVR) and [ThatFatKidsMom](https://github.com/ThatFatKidsMom) for testing and encouragement.
+
+## License
+
+15 Bits Position Rotation Networking is available as-is under MIT. For more information see [LICENSE](https://github.com/VRLabs/15-Bits-Position-Rotation-Networking/blob/main/LICENSE).
+
+​
+
+<div align="center">
+
+[<img src="https://github.com/VRLabs/Resources/raw/main/Icons/VRLabs.png" width="50" height="50">](https://vrlabs.dev "VRLabs")
+<img src="https://github.com/VRLabs/Resources/raw/main/Icons/Empty.png" width="10">
+[<img src="https://github.com/VRLabs/Resources/raw/main/Icons/Discord.png" width="50" height="50">](https://discord.vrlabs.dev/ "VRLabs")
+<img src="https://github.com/VRLabs/Resources/raw/main/Icons/Empty.png" width="10">
+[<img src="https://github.com/VRLabs/Resources/raw/main/Icons/Patreon.png" width="50" height="50">](https://patreon.vrlabs.dev/ "VRLabs")
+<img src="https://github.com/VRLabs/Resources/raw/main/Icons/Empty.png" width="10">
+[<img src="https://github.com/VRLabs/Resources/raw/main/Icons/Twitter.png" width="50" height="50">](https://twitter.com/vrlabsdev "VRLabs")
+
+</div>
+
+---
