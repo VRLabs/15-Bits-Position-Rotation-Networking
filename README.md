@@ -41,7 +41,7 @@ This prefab will allow you to network the position and rotation of a world-fixed
 
 * The ``15BitsPositionRotationNetworking/Control`` parameter controls whether or not the System is syncing.
 * Use a World Constraint to place the ``15 Bits Position Rottation Netorking Target`` in world space, and enable the ``15BitsPositionRotationNetworking/Control`` parameter.
-* After the 6-13 seconds, the ``Result`` object will be placed at the ``15 Bits Position Rottation Netorking Target`` location in world space.
+* After the 6-13 seconds, the ``Result`` object will be placed at the ``15 Bits Position Rotation Netorking Target`` location in world space.
 * You can use the following parameters to decide when to show the object and when to constrain the object to the Result target:
   * ``15BitsPositionRotationNetworking/Finished`` will be True when a player has finished networking.
   * ``15BitsPositionRotationNetworking/Interrupted`` will be True if a player has distance hidden you during networking, and didn't finish (and the Result transform is in the wrong place).
