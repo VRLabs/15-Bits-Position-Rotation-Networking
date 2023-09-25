@@ -58,10 +58,10 @@ Material Slots:     1
 Constraints:        19
 Contact Receivers:  3
 Contact Senders:    2
-PhysBones:          2
-PhysBone Collider:  1
-FX Animator Layers: 1
 Parameter Memory:   15
+PhysBone Collider:  1
+PhysBones:          2
+FX Animator Layers: 1
 ```
 
 ## Hierarchy layout
