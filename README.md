@@ -30,6 +30,8 @@ This prefab will allow you to network the position and rotation of a world-fixed
 
 ## Install guide
 
+https://github.com/VRLabs/15-Bits-Position-Rotation-Networking/assets/76777936/6ee52010-5fea-4e57-ae4b-d1479d9e8b1b
+
 * Merge the Animator Controller ``15 Bits Position Rotation Networking FX`` to your own FX Controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
   * If you want to try one of the examples, you can merge one of the ``FX`` controllers under ``Resources/Examples``.
   * These are more complete versions of the System, but they require a World Constraint with the ``15 Bits Position Rotation Networking Target`` under the ``World Constraint/Container`` object.
