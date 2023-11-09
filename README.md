@@ -14,7 +14,7 @@ This prefab will allow you to network the position and rotation of a world-fixed
 
 ![Alt text]()
 
-### ⬇️ [Download latest Unitypackage](https://github.com/VRLabs/15-Bits-Position-Rotation-Networking/releases/latest)
+### ⬇️ [Download Latest Version](https://github.com/VRLabs/15-Bits-Position-Rotation-Networking/releases/latest)
 
 <!-- 
 ### 📦 [Add to VRChat Creator Companion]() -->
