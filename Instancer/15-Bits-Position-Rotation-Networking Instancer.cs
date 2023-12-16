@@ -18,7 +18,7 @@ namespace VRLabs.FifteenBitsPositionRotationNetworking
 			"package.json"
 		};
 
-		[MenuItem("VRLabs/15 Bits Position Rotation Networking")]
+		[MenuItem("VRLabs/Create Instance/15 Bits Position Rotation Networking")]
 		public static void FancyPackage()
 		{
 			Type instancerType = AppDomain.CurrentDomain.GetAssemblies()
