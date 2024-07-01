@@ -6,6 +6,9 @@
 
 This prefab will allow you to network the position and rotation of a world-fixed object. Supports world sizes up to 10,000 meters.
 
+## This package is depreated! If you want to sync an object's position and/or rotation, [get the new package here](https://github.com/VRLabs/Custom-Object-Sync)
+
+
 ## How it works
 
 Proximity receivers find what constraint adjustments need to be made to reach a target position, and physbone angle parameters are used to reach a target rotation. Data is sent over the network in 18 steps. Sync time depends on the FPS of the host and when a remote viewer has loaded your avatar, relative to the state machine networking cycle. Average times are 6 to 13 seconds.
