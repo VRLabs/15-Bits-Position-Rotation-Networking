@@ -253,11 +253,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -709,13 +705,8 @@ MonoBehaviour:
     destMin: 0
     destMax: -94.488
   - type: 0
-<<<<<<< Updated upstream
-    name: 15BitsPositionRotationNetworking/Sent
-    source: 15BitsPositionRotationNetworking/Fine/Measure-
-=======
     name: 14BitsPositionRotationNetworking/Sent
     source: 14BitsPositionRotationNetworking/Fine/Measure-
->>>>>>> Stashed changes
     value: 1
     valueMin: 0
     valueMax: 0
@@ -931,13 +922,8 @@ MonoBehaviour:
     destMin: 0
     destMax: -1
   - type: 0
-<<<<<<< Updated upstream
-    name: 15BitsPositionRotationNetworking/Sent
-    source: 15BitsPositionRotationNetworking/Convert
-=======
     name: 14BitsPositionRotationNetworking/Sent
     source: 14BitsPositionRotationNetworking/Convert
->>>>>>> Stashed changes
     value: 1
     valueMin: 0
     valueMax: 0
@@ -1167,11 +1153,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 1
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -1239,11 +1221,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 1
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -1947,11 +1925,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -2481,11 +2455,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 1
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -3199,11 +3169,7 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Control
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Control
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2521523467535278289}
@@ -3907,11 +3873,7 @@ AnimatorTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Step
     m_EventTreshold: 5
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Mode
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Mode
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1436216185982723399}
@@ -4011,13 +3973,8 @@ MonoBehaviour:
     destMin: 0
     destMax: 1
   - type: 0
-<<<<<<< Updated upstream
-    name: 15BitsPositionRotationNetworking/Sent
-    source: 15BitsPositionRotationNetworking/Convert
-=======
     name: 14BitsPositionRotationNetworking/Sent
     source: 14BitsPositionRotationNetworking/Convert
->>>>>>> Stashed changes
     value: 1
     valueMin: 0
     valueMax: 0
@@ -4539,24 +4496,6 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 1
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Coarse
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Fine
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/XY
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Z
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Mode
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Coarse
     m_EventTreshold: 0
   - m_ConditionMode: 2
@@ -4573,7 +4512,6 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Mode
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -4860,17 +4798,10 @@ AnimatorStateMachine:
   m_ChildStateMachines:
   - serializedVersion: 1
     m_StateMachine: {fileID: -5705903737337166728}
-<<<<<<< Updated upstream
-    m_Position: {x: 30, y: 20, z: 0}
-  - serializedVersion: 1
-    m_StateMachine: {fileID: 7379422677303406817}
-    m_Position: {x: -190, y: 20, z: 0}
-=======
     m_Position: {x: 140, y: 30, z: 0}
   - serializedVersion: 1
     m_StateMachine: {fileID: 7379422677303406817}
     m_Position: {x: -80, y: 30, z: 0}
->>>>>>> Stashed changes
   m_AnyStateTransitions:
   - {fileID: -7088441756847896329}
   - {fileID: 7484774430753405760}
@@ -5025,11 +4956,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -5459,18 +5386,6 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 1
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Control
-    m_EventTreshold: 0
-  - m_ConditionMode: 6
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Step
-    m_EventTreshold: 17
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Mode
-    m_EventTreshold: 0
-  - m_ConditionMode: 3
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Range
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Control
     m_EventTreshold: 0
   - m_ConditionMode: 6
@@ -5481,7 +5396,6 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   - m_ConditionMode: 3
     m_ConditionEvent: 14BitsPositionRotationNetworking/Range
->>>>>>> Stashed changes
     m_EventTreshold: 0.9800033
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5378994593626754046}
@@ -6127,11 +6041,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -6332,11 +6242,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -6553,30 +6459,6 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 1
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Control
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Init
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Coarse
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Fine
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/XY
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Z
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Interact
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Control
     m_EventTreshold: 0
   - m_ConditionMode: 1
@@ -6599,7 +6481,6 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: 14BitsPositionRotationNetworking/Interact
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -7936824588511538976}
   m_DstState: {fileID: 0}
@@ -6825,11 +6706,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 1
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -6937,24 +6814,6 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 1
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Coarse
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Fine
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/XY
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Z
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Mode
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Coarse
     m_EventTreshold: 0
   - m_ConditionMode: 2
@@ -6971,7 +6830,6 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Mode
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -7971,11 +7829,7 @@ MonoBehaviour:
     destMin: 0
     destMax: 0
   - type: 0
-<<<<<<< Updated upstream
-    name: 15BitsPositionRotationNetworking/Send/Mode
-=======
     name: 14BitsPositionRotationNetworking/Send/Mode
->>>>>>> Stashed changes
     source: 
     value: 0
     valueMin: 0
@@ -7988,11 +7842,7 @@ MonoBehaviour:
     destMin: 0
     destMax: 0
   - type: 0
-<<<<<<< Updated upstream
-    name: 15BitsPositionRotationNetworking/Send/XY
-=======
     name: 14BitsPositionRotationNetworking/Send/XY
->>>>>>> Stashed changes
     source: 
     value: 1
     valueMin: 0
@@ -8005,11 +7855,7 @@ MonoBehaviour:
     destMin: 0
     destMax: 0
   - type: 0
-<<<<<<< Updated upstream
-    name: 15BitsPositionRotationNetworking/Send/Z
-=======
     name: 14BitsPositionRotationNetworking/Send/Z
->>>>>>> Stashed changes
     source: 
     value: 1
     valueMin: 0
@@ -8022,11 +7868,7 @@ MonoBehaviour:
     destMin: 0
     destMax: 0
   - type: 0
-<<<<<<< Updated upstream
-    name: 15BitsPositionRotationNetworking/Control
-=======
     name: 14BitsPositionRotationNetworking/Control
->>>>>>> Stashed changes
     source: 
     value: 0
     valueMin: 0
@@ -8121,11 +7963,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-<<<<<<< Updated upstream
-  m_TimeParameter: 15BitsPositionRotationNetworking/Measure+
-=======
   m_TimeParameter: 14BitsPositionRotationNetworking/Measure+
->>>>>>> Stashed changes
 --- !u!1102 &-2890465518607094388
 AnimatorState:
   serializedVersion: 6
@@ -8980,17 +8818,10 @@ AnimatorTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Step
-    m_EventTreshold: 11
-  - m_ConditionMode: 1
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Mode
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Step
     m_EventTreshold: 11
   - m_ConditionMode: 1
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Mode
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3668224847268395287}
@@ -9214,11 +9045,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -9351,13 +9178,8 @@ MonoBehaviour:
     destMin: 0
     destMax: -94.488
   - type: 0
-<<<<<<< Updated upstream
-    name: 15BitsPositionRotationNetworking/Sent
-    source: 15BitsPositionRotationNetworking/Fine/Measure-
-=======
     name: 14BitsPositionRotationNetworking/Sent
     source: 14BitsPositionRotationNetworking/Fine/Measure-
->>>>>>> Stashed changes
     value: 1
     valueMin: 0
     valueMax: 0
@@ -9506,11 +9328,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -9669,11 +9487,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 1
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -9937,11 +9751,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-<<<<<<< Updated upstream
-  m_TimeParameter: 15BitsPositionRotationNetworking/Receive+
-=======
   m_TimeParameter: 14BitsPositionRotationNetworking/Receive+
->>>>>>> Stashed changes
 --- !u!1101 &-1453985396183239767
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -9966,11 +9776,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 1
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -10086,11 +9892,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -10130,11 +9932,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -10393,24 +10191,6 @@ AnimatorStateTransition:
     m_ConditionEvent: IsAnimatorEnabled
     m_EventTreshold: 0
   - m_ConditionMode: 1
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Coarse
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Fine
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/XY
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Z
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Mode
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Coarse
     m_EventTreshold: 0
   - m_ConditionMode: 2
@@ -10427,7 +10207,6 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Mode
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -10653,13 +10432,8 @@ MonoBehaviour:
     destMin: 0
     destMax: 1
   - type: 0
-<<<<<<< Updated upstream
-    name: 15BitsPositionRotationNetworking/Sent
-    source: 15BitsPositionRotationNetworking/Convert
-=======
     name: 14BitsPositionRotationNetworking/Sent
     source: 14BitsPositionRotationNetworking/Convert
->>>>>>> Stashed changes
     value: 1
     valueMin: 0
     valueMax: 0
@@ -10684,33 +10458,6 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 1
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Control
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Init
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Coarse
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Fine
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/XY
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Z
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Interact
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Skip
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Control
     m_EventTreshold: 0
   - m_ConditionMode: 1
@@ -10736,7 +10483,6 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: 14BitsPositionRotationNetworking/Skip
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -10837,11 +10583,7 @@ AnimatorTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Step
     m_EventTreshold: 17
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Mode
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Mode
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 9184581909728704128}
@@ -11217,11 +10959,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -11306,11 +11044,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
     m_EventTreshold: 0
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Mode
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Mode
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -11939,11 +11673,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 1
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -12183,33 +11913,17 @@ AnimatorController:
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
   - m_Name: IsAnimatorEnabled
-<<<<<<< Updated upstream
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: 15BitsPositionRotationNetworking/Control
-=======
->>>>>>> Stashed changes
-    m_Type: 4
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 0}
-<<<<<<< Updated upstream
-  - m_Name: 15BitsPositionRotationNetworking/Finished
-=======
   - m_Name: 14BitsPositionRotationNetworking/Control
->>>>>>> Stashed changes
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-<<<<<<< Updated upstream
-  - m_Name: 15BitsPositionRotationNetworking/Measure-
-=======
   - m_Name: 14BitsPositionRotationNetworking/Finished
     m_Type: 4
     m_DefaultFloat: 0
@@ -12217,105 +11931,65 @@ AnimatorController:
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
   - m_Name: 14BitsPositionRotationNetworking/Measure-
->>>>>>> Stashed changes
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-<<<<<<< Updated upstream
-  - m_Name: 15BitsPositionRotationNetworking/Measure+
-=======
   - m_Name: 14BitsPositionRotationNetworking/Measure+
->>>>>>> Stashed changes
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-<<<<<<< Updated upstream
-  - m_Name: 15BitsPositionRotationNetworking/Polar_Angle
-=======
   - m_Name: 14BitsPositionRotationNetworking/Polar_Angle
->>>>>>> Stashed changes
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-<<<<<<< Updated upstream
-  - m_Name: 15BitsPositionRotationNetworking/Measure_Angle
-=======
   - m_Name: 14BitsPositionRotationNetworking/Measure_Angle
->>>>>>> Stashed changes
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-<<<<<<< Updated upstream
-  - m_Name: 15BitsPositionRotationNetworking/Convert
-=======
   - m_Name: 14BitsPositionRotationNetworking/Convert
->>>>>>> Stashed changes
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-<<<<<<< Updated upstream
-  - m_Name: 15BitsPositionRotationNetworking/Converted
-=======
   - m_Name: 14BitsPositionRotationNetworking/Converted
->>>>>>> Stashed changes
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-<<<<<<< Updated upstream
-  - m_Name: 15BitsPositionRotationNetworking/Step
-=======
   - m_Name: 14BitsPositionRotationNetworking/Step
->>>>>>> Stashed changes
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-<<<<<<< Updated upstream
-  - m_Name: 15BitsPositionRotationNetworking/Sent
-=======
   - m_Name: 14BitsPositionRotationNetworking/Sent
->>>>>>> Stashed changes
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-<<<<<<< Updated upstream
-  - m_Name: 15BitsPositionRotationNetworking/Receive-
-=======
   - m_Name: 14BitsPositionRotationNetworking/Receive-
->>>>>>> Stashed changes
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-<<<<<<< Updated upstream
-  - m_Name: 15BitsPositionRotationNetworking/Receive+
-=======
   - m_Name: 14BitsPositionRotationNetworking/Receive+
->>>>>>> Stashed changes
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-<<<<<<< Updated upstream
-  - m_Name: 15BitsPositionRotationNetworking/Send/Coarse
-=======
   - m_Name: 14BitsPositionRotationNetworking/Send/Coarse
     m_Type: 4
     m_DefaultFloat: 0
@@ -12323,73 +11997,42 @@ AnimatorController:
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
   - m_Name: 14BitsPositionRotationNetworking/Send/Fine
->>>>>>> Stashed changes
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-<<<<<<< Updated upstream
-  - m_Name: 15BitsPositionRotationNetworking/Send/Fine
-=======
   - m_Name: 14BitsPositionRotationNetworking/Send/XY
->>>>>>> Stashed changes
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-<<<<<<< Updated upstream
-  - m_Name: 15BitsPositionRotationNetworking/Send/XY
-=======
   - m_Name: 14BitsPositionRotationNetworking/Send/Z
->>>>>>> Stashed changes
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-<<<<<<< Updated upstream
-  - m_Name: 15BitsPositionRotationNetworking/Send/Z
-=======
   - m_Name: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-<<<<<<< Updated upstream
-  - m_Name: 15BitsPositionRotationNetworking/Send/Angle
-=======
   - m_Name: 14BitsPositionRotationNetworking/Send/Mode
->>>>>>> Stashed changes
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-<<<<<<< Updated upstream
-  - m_Name: 15BitsPositionRotationNetworking/Send/Mode
-    m_Type: 4
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 0}
-  - m_Name: 15BitsPositionRotationNetworking/Send/Data
-=======
   - m_Name: 14BitsPositionRotationNetworking/Send/Data
->>>>>>> Stashed changes
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-<<<<<<< Updated upstream
-  - m_Name: 15BitsPositionRotationNetworking/Range
-=======
   - m_Name: 14BitsPositionRotationNetworking/Range
->>>>>>> Stashed changes
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -12860,11 +12503,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -12983,11 +12622,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-<<<<<<< Updated upstream
-  m_TimeParameter: 15BitsPositionRotationNetworking/Measure+
-=======
   m_TimeParameter: 14BitsPositionRotationNetworking/Measure+
->>>>>>> Stashed changes
 --- !u!1101 &312644371020009658
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -13294,13 +12929,8 @@ MonoBehaviour:
     destMin: 0
     destMax: -1
   - type: 0
-<<<<<<< Updated upstream
-    name: 15BitsPositionRotationNetworking/Sent
-    source: 15BitsPositionRotationNetworking/Convert
-=======
     name: 14BitsPositionRotationNetworking/Sent
     source: 14BitsPositionRotationNetworking/Convert
->>>>>>> Stashed changes
     value: 1
     valueMin: 0
     valueMax: 0
@@ -13850,10 +13480,6 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
-<<<<<<< Updated upstream
-  - {fileID: 9078745908550842038}
-=======
->>>>>>> Stashed changes
   - {fileID: 7455924105722178884}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
@@ -13936,11 +13562,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -14169,13 +13791,8 @@ MonoBehaviour:
     destMin: 0
     destMax: 94.488
   - type: 0
-<<<<<<< Updated upstream
-    name: 15BitsPositionRotationNetworking/Sent
-    source: 15BitsPositionRotationNetworking/Fine/Measure+
-=======
     name: 14BitsPositionRotationNetworking/Sent
     source: 14BitsPositionRotationNetworking/Fine/Measure+
->>>>>>> Stashed changes
     value: 1
     valueMin: 0
     valueMax: 0
@@ -14283,11 +13900,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Mode
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Mode
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 7379422677303406817}
   m_DstState: {fileID: 0}
@@ -14327,11 +13940,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -14439,13 +14048,8 @@ MonoBehaviour:
     destMin: 0
     destMax: 1
   - type: 0
-<<<<<<< Updated upstream
-    name: 15BitsPositionRotationNetworking/Sent
-    source: 15BitsPositionRotationNetworking/Convert
-=======
     name: 14BitsPositionRotationNetworking/Sent
     source: 14BitsPositionRotationNetworking/Convert
->>>>>>> Stashed changes
     value: 1
     valueMin: 0
     valueMax: 0
@@ -14594,11 +14198,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
     m_EventTreshold: 0
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Mode
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Mode
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -15109,11 +14709,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 1
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -15357,13 +14953,8 @@ MonoBehaviour:
     destMin: 0
     destMax: 94.488
   - type: 0
-<<<<<<< Updated upstream
-    name: 15BitsPositionRotationNetworking/Sent
-    source: 15BitsPositionRotationNetworking/Fine/Measure+
-=======
     name: 14BitsPositionRotationNetworking/Sent
     source: 14BitsPositionRotationNetworking/Fine/Measure+
->>>>>>> Stashed changes
     value: 1
     valueMin: 0
     valueMax: 0
@@ -15840,11 +15431,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 1
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -16207,11 +15794,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-<<<<<<< Updated upstream
-  m_TimeParameter: 15BitsPositionRotationNetworking/Measure+
-=======
   m_TimeParameter: 14BitsPositionRotationNetworking/Measure+
->>>>>>> Stashed changes
 --- !u!1102 &3134570588394691437
 AnimatorState:
   serializedVersion: 6
@@ -16413,11 +15996,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -17073,18 +16652,6 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 1
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Coarse
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Fine
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/XY
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Z
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Coarse
     m_EventTreshold: 0
   - m_ConditionMode: 2
@@ -17092,7 +16659,6 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/XY
->>>>>>> Stashed changes
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
@@ -17101,11 +16667,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
     m_EventTreshold: 0
   - m_ConditionMode: 1
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Mode
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Mode
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -17333,11 +16895,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -17434,11 +16992,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-<<<<<<< Updated upstream
-  m_TimeParameter: 15BitsPositionRotationNetworking/Measure+
-=======
   m_TimeParameter: 14BitsPositionRotationNetworking/Measure+
->>>>>>> Stashed changes
 --- !u!1102 &4288525579404198412
 AnimatorState:
   serializedVersion: 6
@@ -17648,11 +17202,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -17811,11 +17361,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
     m_EventTreshold: 0
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Mode
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Mode
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -17884,11 +17430,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-<<<<<<< Updated upstream
-  m_TimeParameter: 15BitsPositionRotationNetworking/Receive+
-=======
   m_TimeParameter: 14BitsPositionRotationNetworking/Receive+
->>>>>>> Stashed changes
 --- !u!1109 &4935277400837498740
 AnimatorTransition:
   m_ObjectHideFlags: 1
@@ -18213,13 +17755,8 @@ MonoBehaviour:
     destMin: 0
     destMax: -1
   - type: 0
-<<<<<<< Updated upstream
-    name: 15BitsPositionRotationNetworking/Sent
-    source: 15BitsPositionRotationNetworking/Convert
-=======
     name: 14BitsPositionRotationNetworking/Sent
     source: 14BitsPositionRotationNetworking/Convert
->>>>>>> Stashed changes
     value: 1
     valueMin: 0
     valueMax: 0
@@ -18960,17 +18497,10 @@ AnimatorTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Step
-    m_EventTreshold: 17
-  - m_ConditionMode: 1
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Mode
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Step
     m_EventTreshold: 17
   - m_ConditionMode: 1
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Mode
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2162236975823999974}
@@ -19050,17 +18580,10 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Step
     m_EventTreshold: 17
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Mode
-    m_EventTreshold: 0
-  - m_ConditionMode: 3
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Range
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Mode
     m_EventTreshold: 0
   - m_ConditionMode: 3
     m_ConditionEvent: 14BitsPositionRotationNetworking/Range
->>>>>>> Stashed changes
     m_EventTreshold: 0.8
   m_DstStateMachine: {fileID: 7379422677303406817}
   m_DstState: {fileID: 0}
@@ -19249,11 +18772,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 1
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -19456,13 +18975,8 @@ MonoBehaviour:
     destMin: 0
     destMax: -100
   - type: 0
-<<<<<<< Updated upstream
-    name: 15BitsPositionRotationNetworking/Sent
-    source: 15BitsPositionRotationNetworking/Measure_Angle
-=======
     name: 14BitsPositionRotationNetworking/Sent
     source: 14BitsPositionRotationNetworking/Measure_Angle
->>>>>>> Stashed changes
     value: 1
     valueMin: 0
     valueMax: 0
@@ -19503,11 +19017,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-<<<<<<< Updated upstream
-  m_TimeParameter: 15BitsPositionRotationNetworking/Receive-
-=======
   m_TimeParameter: 14BitsPositionRotationNetworking/Receive-
->>>>>>> Stashed changes
 --- !u!1101 &5741796899210966980
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -19520,17 +19030,10 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 1
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Control
-    m_EventTreshold: 0
-  - m_ConditionMode: 6
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Step
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Control
     m_EventTreshold: 0
   - m_ConditionMode: 6
     m_ConditionEvent: 14BitsPositionRotationNetworking/Step
->>>>>>> Stashed changes
     m_EventTreshold: 17
   m_DstStateMachine: {fileID: 7379422677303406817}
   m_DstState: {fileID: 0}
@@ -19624,17 +19127,10 @@ AnimatorTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Step
-    m_EventTreshold: 5
-  - m_ConditionMode: 1
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Mode
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Step
     m_EventTreshold: 5
   - m_ConditionMode: 1
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Mode
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7879908843550155832}
@@ -19952,11 +19448,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-<<<<<<< Updated upstream
-  m_TimeParameter: 15BitsPositionRotationNetworking/Receive-
-=======
   m_TimeParameter: 14BitsPositionRotationNetworking/Receive-
->>>>>>> Stashed changes
 --- !u!1101 &6152513213224597183
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -20298,11 +19790,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
     m_EventTreshold: 0
   - m_ConditionMode: 1
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Mode
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Mode
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -20452,13 +19940,8 @@ MonoBehaviour:
     destMin: 0
     destMax: 1
   - type: 0
-<<<<<<< Updated upstream
-    name: 15BitsPositionRotationNetworking/Sent
-    source: 15BitsPositionRotationNetworking/Convert
-=======
     name: 14BitsPositionRotationNetworking/Sent
     source: 14BitsPositionRotationNetworking/Convert
->>>>>>> Stashed changes
     value: 1
     valueMin: 0
     valueMax: 0
@@ -20764,11 +20247,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-<<<<<<< Updated upstream
-  m_TimeParameter: 15BitsPositionRotationNetworking/Measure+
-=======
   m_TimeParameter: 14BitsPositionRotationNetworking/Measure+
->>>>>>> Stashed changes
 --- !u!1101 &6697407706263933842
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -20936,13 +20415,8 @@ MonoBehaviour:
     destMin: 0
     destMax: 100
   - type: 0
-<<<<<<< Updated upstream
-    name: 15BitsPositionRotationNetworking/Sent
-    source: 15BitsPositionRotationNetworking/Measure_Angle
-=======
     name: 14BitsPositionRotationNetworking/Sent
     source: 14BitsPositionRotationNetworking/Measure_Angle
->>>>>>> Stashed changes
     value: 1
     valueMin: 0
     valueMax: 0
@@ -20979,11 +20453,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 1
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -21169,13 +20639,8 @@ MonoBehaviour:
     destMin: 0
     destMax: -94.488
   - type: 0
-<<<<<<< Updated upstream
-    name: 15BitsPositionRotationNetworking/Sent
-    source: 15BitsPositionRotationNetworking/Fine/Measure-
-=======
     name: 14BitsPositionRotationNetworking/Sent
     source: 14BitsPositionRotationNetworking/Fine/Measure-
->>>>>>> Stashed changes
     value: 1
     valueMin: 0
     valueMax: 0
@@ -21335,11 +20800,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
     m_EventTreshold: 0
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Mode
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Mode
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -21379,11 +20840,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 1
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -21615,11 +21072,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -21647,17 +21100,10 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 1
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/XY
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Z
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/XY
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2521523467535278289}
@@ -22082,11 +21528,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parameters:
   - type: 0
-<<<<<<< Updated upstream
-    name: 15BitsPositionRotationNetworking/Send/Mode
-=======
     name: 14BitsPositionRotationNetworking/Send/Mode
->>>>>>> Stashed changes
     source: 
     value: 1
     valueMin: 0
@@ -22256,11 +21698,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-<<<<<<< Updated upstream
-  m_TimeParameter: 15BitsPositionRotationNetworking/Measure+
-=======
   m_TimeParameter: 14BitsPositionRotationNetworking/Measure+
->>>>>>> Stashed changes
 --- !u!114 &8030038116728903581
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -22801,11 +22239,7 @@ AnimatorTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Step
     m_EventTreshold: 11
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Mode
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Mode
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 8741062763785045553}
@@ -22893,11 +22327,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Z
     m_EventTreshold: 0
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -22925,27 +22355,6 @@ AnimatorStateTransition:
     m_ConditionEvent: IsLocal
     m_EventTreshold: 0
   - m_ConditionMode: 1
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Control
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Init
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Coarse
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Fine
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/XY
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Z
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Control
     m_EventTreshold: 0
   - m_ConditionMode: 1
@@ -22953,15 +22362,10 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Coarse
->>>>>>> Stashed changes
     m_EventTreshold: 0
   - m_ConditionMode: 2
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Fine
     m_EventTreshold: 0
-<<<<<<< Updated upstream
-  - m_ConditionMode: 1
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Skip
-=======
   - m_ConditionMode: 2
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/XY
     m_EventTreshold: 0
@@ -22976,7 +22380,6 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: 14BitsPositionRotationNetworking/Skip
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -23184,13 +22587,8 @@ MonoBehaviour:
     destMin: 0
     destMax: -1
   - type: 0
-<<<<<<< Updated upstream
-    name: 15BitsPositionRotationNetworking/Sent
-    source: 15BitsPositionRotationNetworking/Convert
-=======
     name: 14BitsPositionRotationNetworking/Sent
     source: 14BitsPositionRotationNetworking/Convert
->>>>>>> Stashed changes
     value: 1
     valueMin: 0
     valueMax: 0
@@ -23664,11 +23062,7 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Angle
     m_EventTreshold: 0
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Mode
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Mode
->>>>>>> Stashed changes
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: -5705903737337166728}
   m_DstState: {fileID: 0}
@@ -23853,13 +23247,8 @@ MonoBehaviour:
     destMin: 0
     destMax: 94.488
   - type: 0
-<<<<<<< Updated upstream
-    name: 15BitsPositionRotationNetworking/Sent
-    source: 15BitsPositionRotationNetworking/Fine/Measure+
-=======
     name: 14BitsPositionRotationNetworking/Sent
     source: 14BitsPositionRotationNetworking/Fine/Measure+
->>>>>>> Stashed changes
     value: 1
     valueMin: 0
     valueMax: 0
@@ -23999,25 +23388,11 @@ AnimatorStateTransition:
     m_ConditionEvent: 14BitsPositionRotationNetworking/Step
     m_EventTreshold: 17
   - m_ConditionMode: 2
-<<<<<<< Updated upstream
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Fine
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/XY
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Z
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Angle
-    m_EventTreshold: 0
-=======
     m_ConditionEvent: 14BitsPositionRotationNetworking/Send/Mode
     m_EventTreshold: 0
   - m_ConditionMode: 4
     m_ConditionEvent: 14BitsPositionRotationNetworking/Range
     m_EventTreshold: 0.8
->>>>>>> Stashed changes
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2521523467535278289}
   m_Solo: 0
@@ -24030,46 +23405,6 @@ AnimatorStateTransition:
   m_HasExitTime: 1
   m_HasFixedDuration: 0
   m_InterruptionSource: 0
-<<<<<<< Updated upstream
-  m_OrderedInterruption: 0
-  m_CanTransitionToSelf: 0
---- !u!1101 &9094932481864453068
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions:
-  - m_ConditionMode: 1
-    m_ConditionEvent: IsLocal
-    m_EventTreshold: 0
-  - m_ConditionMode: 1
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Control
-    m_EventTreshold: 0
-  - m_ConditionMode: 6
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Step
-    m_EventTreshold: 17
-  - m_ConditionMode: 2
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Send/Mode
-    m_EventTreshold: 0
-  - m_ConditionMode: 4
-    m_ConditionEvent: 15BitsPositionRotationNetworking/Range
-    m_EventTreshold: 0.8
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: -2521523467535278289}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0
-  m_TransitionOffset: 0
-  m_ExitTime: 1
-  m_HasExitTime: 1
-  m_HasFixedDuration: 0
-  m_InterruptionSource: 0
-=======
->>>>>>> Stashed changes
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
 --- !u!1102 &9136300390048993328
