@@ -25,11 +25,11 @@ jobs:
       
       - name: Prepare Folder For Packaging
         run: |
-          mkdir -p "Assets/VRLabs/15 Bits Position Rotation Networking"
-          ls | grep -v "Assets" | xargs -d '\n' mv -t "Assets/VRLabs/15 Bits Position Rotation Networking"
+          mkdir -p "Assets/VRLabs/14 Bits Position Rotation Networking"
+          ls | grep -v "Assets" | xargs -d '\n' mv -t "Assets/VRLabs/14 Bits Position Rotation Networking"
           echo -e "fileFormatVersion: 2\nguid: 652a1ba5b00554143bc9a76307dbc4e8\nfolderAsset: yes\nDefaultImporter:\n  externalObjects: {}\n  userData: \n  assetBundleName: \n  assetBundleVariant: " > "Assets/VRLabs.meta"
-          echo -e "fileFormatVersion: 2\nguid: 31c817c0a8c084d8fbb13bbcab2789fb\nfolderAsset: yes\nDefaultImporter:\n  externalObjects: {}\n  userData: \n  assetBundleName: \n  assetBundleVariant: " > "Assets/VRLabs/15 Bits Position Rotation Networking.meta"
-          cd "Assets/VRLabs/15 Bits Position Rotation Networking"
+          echo -e "fileFormatVersion: 2\nguid: 31c817c0a8c084d8fbb13bbcab2789fb\nfolderAsset: yes\nDefaultImporter:\n  externalObjects: {}\n  userData: \n  assetBundleName: \n  assetBundleVariant: " > "Assets/VRLabs/14 Bits Position Rotation Networking.meta"
+          cd "Assets/VRLabs/14 Bits Position Rotation Networking"
           zip -r 15_Bits_Position_Rotation_Networking_${{ env.SOURCE_TAG }}.zip ./
           mv 15_Bits_Position_Rotation_Networking_${{ env.SOURCE_TAG }}.zip ../../../
           cd ../../../
@@ -48,7 +48,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          name: "15 Bits Position Rotation Networking ${{ env.SOURCE_TAG }}"
+          name: "14 Bits Position Rotation Networking ${{ env.SOURCE_TAG }}"
           files: |
             15_Bits_Position_Rotation_Networking_${{ env.SOURCE_TAG }}.unitypackage
             15_Bits_Position_Rotation_Networking_${{ env.SOURCE_TAG }}.zip

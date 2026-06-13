@@ -43,7 +43,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: 15 Bits Position Rotation Networking/World/Result
+    path: 14 Bits Position Rotation Networking/World/Result
     classID: 114
     script: {fileID: -1450912254, guid: 80f1b8067b0760e4bb45023bc2e9de66, type: 3}
     flags: 16
@@ -73,7 +73,11 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
+<<<<<<< Updated upstream
     path: 15 Bits Position Rotation Networking/World/Culling
+=======
+    path: 14 Bits Position Rotation Networking/World/Culling
+>>>>>>> Stashed changes
     classID: 114
     script: {fileID: 41250163, guid: 58e2f01a24261a14cb82e6d3399e8b16, type: 3}
     flags: 16
@@ -103,7 +107,11 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
+<<<<<<< Updated upstream
     path: 15 Bits Position Rotation Networking/World/Result
+=======
+    path: 14 Bits Position Rotation Networking/World/Result
+>>>>>>> Stashed changes
     classID: 114
     script: {fileID: 1116338486, guid: 58e2f01a24261a14cb82e6d3399e8b16, type: 3}
     flags: 16
@@ -133,7 +141,11 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
+<<<<<<< Updated upstream
     path: 15 Bits Position Rotation Networking/World/Result
+=======
+    path: 14 Bits Position Rotation Networking/World/Result
+>>>>>>> Stashed changes
     classID: 114
     script: {fileID: 1788371120, guid: 58e2f01a24261a14cb82e6d3399e8b16, type: 3}
     flags: 16
@@ -163,7 +175,11 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: AffectsRotationX
+<<<<<<< Updated upstream
     path: 15 Bits Position Rotation Networking/World/Rotation
+=======
+    path: 14 Bits Position Rotation Networking/World/Rotation
+>>>>>>> Stashed changes
     classID: 114
     script: {fileID: 1788371120, guid: 58e2f01a24261a14cb82e6d3399e8b16, type: 3}
     flags: 16
@@ -193,7 +209,11 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: AffectsRotationY
+<<<<<<< Updated upstream
     path: 15 Bits Position Rotation Networking/World/Rotation
+=======
+    path: 14 Bits Position Rotation Networking/World/Rotation
+>>>>>>> Stashed changes
     classID: 114
     script: {fileID: 1788371120, guid: 58e2f01a24261a14cb82e6d3399e8b16, type: 3}
     flags: 16
@@ -223,7 +243,11 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: AffectsRotationZ
+<<<<<<< Updated upstream
     path: 15 Bits Position Rotation Networking/World/Rotation
+=======
+    path: 14 Bits Position Rotation Networking/World/Rotation
+>>>>>>> Stashed changes
     classID: 114
     script: {fileID: 1788371120, guid: 58e2f01a24261a14cb82e6d3399e8b16, type: 3}
     flags: 16
@@ -253,7 +277,11 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: Sources.source0.Weight
+<<<<<<< Updated upstream
     path: 15 Bits Position Rotation Networking/World/Rotation
+=======
+    path: 14 Bits Position Rotation Networking/World/Rotation
+>>>>>>> Stashed changes
     classID: 114
     script: {fileID: 1788371120, guid: 58e2f01a24261a14cb82e6d3399e8b16, type: 3}
     flags: 16
@@ -283,7 +311,11 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: FreezeToWorld
+<<<<<<< Updated upstream
     path: 15 Bits Position Rotation Networking/World/Target
+=======
+    path: 14 Bits Position Rotation Networking/World/Target
+>>>>>>> Stashed changes
     classID: 114
     script: {fileID: 575728033, guid: 58e2f01a24261a14cb82e6d3399e8b16, type: 3}
     flags: 0
@@ -424,7 +456,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: 15 Bits Position Rotation Networking/World/Result
+    path: 14 Bits Position Rotation Networking/World/Result
     classID: 114
     script: {fileID: -1450912254, guid: 80f1b8067b0760e4bb45023bc2e9de66, type: 3}
     flags: 16
@@ -454,7 +486,11 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
+<<<<<<< Updated upstream
     path: 15 Bits Position Rotation Networking/World/Culling
+=======
+    path: 14 Bits Position Rotation Networking/World/Culling
+>>>>>>> Stashed changes
     classID: 114
     script: {fileID: 41250163, guid: 58e2f01a24261a14cb82e6d3399e8b16, type: 3}
     flags: 16
@@ -484,7 +520,11 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
+<<<<<<< Updated upstream
     path: 15 Bits Position Rotation Networking/World/Result
+=======
+    path: 14 Bits Position Rotation Networking/World/Result
+>>>>>>> Stashed changes
     classID: 114
     script: {fileID: 1116338486, guid: 58e2f01a24261a14cb82e6d3399e8b16, type: 3}
     flags: 16
@@ -514,7 +554,11 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
+<<<<<<< Updated upstream
     path: 15 Bits Position Rotation Networking/World/Result
+=======
+    path: 14 Bits Position Rotation Networking/World/Result
+>>>>>>> Stashed changes
     classID: 114
     script: {fileID: 1788371120, guid: 58e2f01a24261a14cb82e6d3399e8b16, type: 3}
     flags: 16
@@ -544,7 +588,11 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: AffectsRotationX
+<<<<<<< Updated upstream
     path: 15 Bits Position Rotation Networking/World/Rotation
+=======
+    path: 14 Bits Position Rotation Networking/World/Rotation
+>>>>>>> Stashed changes
     classID: 114
     script: {fileID: 1788371120, guid: 58e2f01a24261a14cb82e6d3399e8b16, type: 3}
     flags: 16
@@ -574,7 +622,11 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: AffectsRotationY
+<<<<<<< Updated upstream
     path: 15 Bits Position Rotation Networking/World/Rotation
+=======
+    path: 14 Bits Position Rotation Networking/World/Rotation
+>>>>>>> Stashed changes
     classID: 114
     script: {fileID: 1788371120, guid: 58e2f01a24261a14cb82e6d3399e8b16, type: 3}
     flags: 16
@@ -604,7 +656,11 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: AffectsRotationZ
+<<<<<<< Updated upstream
     path: 15 Bits Position Rotation Networking/World/Rotation
+=======
+    path: 14 Bits Position Rotation Networking/World/Rotation
+>>>>>>> Stashed changes
     classID: 114
     script: {fileID: 1788371120, guid: 58e2f01a24261a14cb82e6d3399e8b16, type: 3}
     flags: 16
@@ -634,7 +690,11 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: Sources.source0.Weight
+<<<<<<< Updated upstream
     path: 15 Bits Position Rotation Networking/World/Rotation
+=======
+    path: 14 Bits Position Rotation Networking/World/Rotation
+>>>>>>> Stashed changes
     classID: 114
     script: {fileID: 1788371120, guid: 58e2f01a24261a14cb82e6d3399e8b16, type: 3}
     flags: 16
@@ -664,7 +724,11 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: FreezeToWorld
+<<<<<<< Updated upstream
     path: 15 Bits Position Rotation Networking/World/Target
+=======
+    path: 14 Bits Position Rotation Networking/World/Target
+>>>>>>> Stashed changes
     classID: 114
     script: {fileID: 575728033, guid: 58e2f01a24261a14cb82e6d3399e8b16, type: 3}
     flags: 0
