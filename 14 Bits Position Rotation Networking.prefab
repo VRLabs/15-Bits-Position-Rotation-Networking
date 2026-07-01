@@ -733,7 +733,7 @@ MonoBehaviour:
   foldout_grabpose: 1
   foldout_options: 1
   foldout_gizmos: 0
-  version: 0
+  version: 1
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
@@ -1465,7 +1465,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rootTransform: {fileID: 0}
   shapeType: 0
-  radius: 0.00001
+  radius: 0.000001
   height: 6
   size: {x: 1, y: 1, z: 1}
   position: {x: 0, y: 0, z: 0}
@@ -1939,7 +1939,7 @@ MonoBehaviour:
   foldout_grabpose: 1
   foldout_options: 1
   foldout_gizmos: 0
-  version: 0
+  version: 1
   integrationType: 1
   rootTransform: {fileID: 0}
   ignoreTransforms: []
